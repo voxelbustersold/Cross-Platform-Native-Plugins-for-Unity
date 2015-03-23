@@ -32,10 +32,11 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
+
 a {
   color:#39c;
-  font-weight:400;
-  text-decoration:none;
+  font-weight:lighter;
+  text-decoration : none;
 }
 
 a small {
@@ -45,8 +46,17 @@ a small {
   display:block;
 }
 
+a strong {
+  color:#39c;
+  font-weight:lighter;
+  font-size:300%;
+  text-decoration : none;
+}
+
+
+
 .wrapper {
-  width:860px;
+  width:50%%;
   margin:0 auto;
 }
 
@@ -160,8 +170,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width:100%%;
+  float:none;
   padding-bottom:50px;
 }
 
@@ -178,7 +188,7 @@ hr {
 
 footer {
   width:270px;
-  float:left;
+  float:none;
   position:fixed;
   bottom:50px;
 }

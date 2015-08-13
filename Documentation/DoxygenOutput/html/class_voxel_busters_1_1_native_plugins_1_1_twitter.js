@@ -1,5 +1,6 @@
 var class_voxel_busters_1_1_native_plugins_1_1_twitter =
 [
+    [ "Initialise", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4e3c5461c1a4a09efc1e31540d4c1faa", null ],
     [ "Login", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a9949714add72302695128d30d824f7a7", null ],
     [ "Logout", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a49f9678ea9f85d72d78bdd288d989d8e", null ],
     [ "IsLoggedIn", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#aefcb0d34ecb87897b685fc737f64b68c", null ],

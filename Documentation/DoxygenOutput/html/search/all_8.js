@@ -1,10 +1,12 @@
 var searchData=
 [
   ['imagepath',['ImagePath',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#ad3eaaa2080aad3470dce85656e011ed9',1,'VoxelBusters::NativePlugins::AddressBookContact']]],
+  ['initialise',['Initialise',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html#a864d3e4b669ca870d582e14261f7b91b',1,'VoxelBusters.NativePlugins.NetworkConnectivity.Initialise()'],['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4e3c5461c1a4a09efc1e31540d4c1faa',1,'VoxelBusters.NativePlugins.Twitter.Initialise()']]],
   ['ios',['iOS',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings.html#a3bf35f819c6fe2c2806c637c02127ff8',1,'VoxelBusters.NativePlugins.BillingSettings.iOS()'],['../class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings.html#a3bf35f819c6fe2c2806c637c02127ff8',1,'VoxelBusters.NativePlugins.NotificationServiceSettings.iOS()']]],
   ['iosproperties',['iOSProperties',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#abd422ec8f4bd9c46e8b4ce7ea5d80a9d',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
   ['iossettings',['iOSSettings',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1i_o_s_settings.html',1,'VoxelBusters::NativePlugins::NotificationServiceSettings']]],
   ['iossettings',['iOSSettings',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings_1_1i_o_s_settings.html',1,'VoxelBusters::NativePlugins::BillingSettings']]],
+  ['ipaddress',['IPAddress',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity_settings.html#a7d95a07d68f081c6363697469e1c117f',1,'VoxelBusters::NativePlugins::NetworkConnectivitySettings']]],
   ['iscamerasupported',['IsCameraSupported',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#af2368db810c73e2f4cb13ba65484c420',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
   ['isconnected',['IsConnected',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html#abac0113ff571c017320394966a1ae6d5',1,'VoxelBusters::NativePlugins::NetworkConnectivity']]],
   ['isconsumable',['IsConsumable',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a53a97d6cef9b971855e7ac9fe437fec9',1,'VoxelBusters::NativePlugins::BillingProduct']]],

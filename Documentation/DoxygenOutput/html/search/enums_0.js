@@ -4,6 +4,7 @@ var searchData=
   ['ebillingtransactionstate',['eBillingTransactionState',['../namespace_voxel_busters_1_1_native_plugins.html#a1b545f54cd8f7e04410c379e01ff27f2',1,'VoxelBusters::NativePlugins']]],
   ['ebillingtransactionverificationstate',['eBillingTransactionVerificationState',['../namespace_voxel_busters_1_1_native_plugins.html#adebe7e13622c835cd0cd075be41b2003',1,'VoxelBusters::NativePlugins']]],
   ['eimagesource',['eImageSource',['../namespace_voxel_busters_1_1_native_plugins.html#a7c22ee0fa98a425137dcfc6463ddfc2c',1,'VoxelBusters::NativePlugins']]],
+  ['enotificationrepeatinterval',['eNotificationRepeatInterval',['../namespace_voxel_busters_1_1_native_plugins.html#aa9dbee12f45fc7d893f34b320bc7025c',1,'VoxelBusters::NativePlugins']]],
   ['epickimagefinishreason',['ePickImageFinishReason',['../namespace_voxel_busters_1_1_native_plugins.html#a827272a4a290f79aec1c1634fcb15ab0',1,'VoxelBusters::NativePlugins']]],
   ['epickvideofinishreason',['ePickVideoFinishReason',['../namespace_voxel_busters_1_1_native_plugins.html#a461fe22d94c9553cd71a869b628c698d',1,'VoxelBusters::NativePlugins']]],
   ['eplayvideofinishreason',['ePlayVideoFinishReason',['../namespace_voxel_busters_1_1_native_plugins.html#a1573f15aadb41505f5f0c0ae33abe7e1',1,'VoxelBusters::NativePlugins']]],

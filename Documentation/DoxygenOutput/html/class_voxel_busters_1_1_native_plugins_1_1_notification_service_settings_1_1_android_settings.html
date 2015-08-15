@@ -122,9 +122,12 @@ Properties</h2></td></tr>
 <tr class="memitem:a1f15bc21669f091d1513000272b9c137"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html#a1f15bc21669f091d1513000272b9c137">SenderIDList</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a1f15bc21669f091d1513000272b9c137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the sender identifier list.  <a href="#a1f15bc21669f091d1513000272b9c137">More...</a><br /></td></tr>
 <tr class="separator:a1f15bc21669f091d1513000272b9c137"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac29fd462e0962c7af298777073636fa5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html#ac29fd462e0962c7af298777073636fa5">AllowCustomIcon</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ac29fd462e0962c7af298777073636fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects if custom icon needs to be considered for notification icon.  <a href="#ac29fd462e0962c7af298777073636fa5">More...</a><br /></td></tr>
-<tr class="separator:ac29fd462e0962c7af298777073636fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac644a4fd27c2be6f30d2f9badd5b61c9"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html#ac644a4fd27c2be6f30d2f9badd5b61c9">WhiteSmallIcon</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac644a4fd27c2be6f30d2f9badd5b61c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This texture will be used for showing small icon in notification.  <a href="#ac644a4fd27c2be6f30d2f9badd5b61c9">More...</a><br /></td></tr>
+<tr class="separator:ac644a4fd27c2be6f30d2f9badd5b61c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc04dd5d8def39bcf53ad7f0628cf4c"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html#afbc04dd5d8def39bcf53ad7f0628cf4c">ColouredSmallIcon</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:afbc04dd5d8def39bcf53ad7f0628cf4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This texture will be used for showing small icon in notification.  <a href="#afbc04dd5d8def39bcf53ad7f0628cf4c">More...</a><br /></td></tr>
+<tr class="separator:afbc04dd5d8def39bcf53ad7f0628cf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fa7d8c826b9a9ed9549bf8ef8668e6c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html#a4fa7d8c826b9a9ed9549bf8ef8668e6c">TickerTextKey</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a4fa7d8c826b9a9ed9549bf8ef8668e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the ticker text key.  <a href="#a4fa7d8c826b9a9ed9549bf8ef8668e6c">More...</a><br /></td></tr>
 <tr class="separator:a4fa7d8c826b9a9ed9549bf8ef8668e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +170,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac29fd462e0962c7af298777073636fa5"></a>
+<a class="anchor" id="ac644a4fd27c2be6f30d2f9badd5b61c9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -175,7 +178,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AllowCustomIcon</td>
+          <td class="memname">Texture2D WhiteSmallIcon</td>
         </tr>
       </table>
   </td>
@@ -185,9 +188,31 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Selects if custom icon needs to be considered for notification icon. </p>
-<dl class="section note"><dt>Note</dt><dd>: You need to update the icon in drawable folder {Assets/Plugins/Android/native-plugins_lib/res/Drawable/[app_icon_custom_white.png/app_icon_custom_coloured.png] </dd></dl>
-<p>If true selects the custom icon, else uses the app icon for drawing.</p>
+<p>This texture will be used for showing small icon in notification. </p>
+<p>Android L devices will use this as icon in notifications.</p>
+
+</div>
+</div>
+<a class="anchor" id="afbc04dd5d8def39bcf53ad7f0628cf4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture2D ColouredSmallIcon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This texture will be used for showing small icon in notification. </p>
+<p>Android L devices will use this as icon in notifications.</p>
 
 </div>
 </div>
@@ -312,7 +337,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings.html">NotificationServiceSettings</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html">AndroidSettings</a></li>
-    <li class="footer">Generated on Mon Jul 6 2015 19:01:09 for Native Plugins Api by
+    <li class="footer">Generated on Sat Aug 15 2015 19:01:21 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

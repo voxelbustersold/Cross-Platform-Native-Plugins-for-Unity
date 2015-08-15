@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name',['Name',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a7ee9065718e6628dc7791b756fa6c0f9',1,'VoxelBusters.NativePlugins.BillingProduct.Name()'],['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html#a7ee9065718e6628dc7791b756fa6c0f9',1,'VoxelBusters.NativePlugins.TwitterUser.Name()']]]
+  ['maxretrycount',['MaxRetryCount',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity_settings_1_1_editor_settings.html#af1774f57b5887760a799da4e3962d1a3',1,'VoxelBusters.NativePlugins.NetworkConnectivitySettings.EditorSettings.MaxRetryCount()'],['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity_settings_1_1_android_settings.html#af1774f57b5887760a799da4e3962d1a3',1,'VoxelBusters.NativePlugins.NetworkConnectivitySettings.AndroidSettings.MaxRetryCount()']]]
 ];

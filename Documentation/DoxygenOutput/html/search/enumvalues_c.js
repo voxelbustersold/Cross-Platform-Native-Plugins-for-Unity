@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['whatsapp',['WHATSAPP',['../namespace_voxel_busters_1_1_native_plugins.html#a96ecd12080e18bce52fed6a15bee7367abc885f758a01c807e3af0c750d060f9f',1,'VoxelBusters::NativePlugins']]]
+  ['user_5fexited',['USER_EXITED',['../namespace_voxel_busters_1_1_native_plugins.html#a1573f15aadb41505f5f0c0ae33abe7e1ac7d299d5e54076985008113a55f8817a',1,'VoxelBusters::NativePlugins']]]
 ];

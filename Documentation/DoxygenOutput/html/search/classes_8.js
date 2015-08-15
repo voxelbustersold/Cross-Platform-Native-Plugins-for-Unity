@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['twitter',['Twitter',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html',1,'VoxelBusters::NativePlugins']]],
-  ['twittersession',['TwitterSession',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html',1,'VoxelBusters::NativePlugins']]],
-  ['twittersettings',['TwitterSettings',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_settings.html',1,'VoxelBusters::NativePlugins']]],
-  ['twitteruser',['TwitterUser',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html',1,'VoxelBusters::NativePlugins']]]
+  ['ratemyapp',['RateMyApp',['../class_voxel_busters_1_1_native_plugins_1_1_rate_my_app.html',1,'VoxelBusters::NativePlugins']]]
 ];

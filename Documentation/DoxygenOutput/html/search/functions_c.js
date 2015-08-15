@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['tostring',['ToString',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#aa73e7c4dd1df5fd5fbf81c7764ee1533',1,'VoxelBusters.NativePlugins.AddressBookContact.ToString()'],['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#aa73e7c4dd1df5fd5fbf81c7764ee1533',1,'VoxelBusters.NativePlugins.BillingProduct.ToString()'],['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#aa73e7c4dd1df5fd5fbf81c7764ee1533',1,'VoxelBusters.NativePlugins.CrossPlatformNotification.ToString()'],['../class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html#aa73e7c4dd1df5fd5fbf81c7764ee1533',1,'VoxelBusters.NativePlugins.TwitterSession.ToString()'],['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html#aa73e7c4dd1df5fd5fbf81c7764ee1533',1,'VoxelBusters.NativePlugins.TwitterUser.ToString()']]],
-  ['transactioncompletion',['TransactionCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a699955fbb88fca96d0c7cda1d3c4b736',1,'VoxelBusters::NativePlugins::Billing']]],
-  ['twtraccountdetailscompletion',['TWTRAccountDetailsCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a547ee925356415ce1472068ed1011ce3',1,'VoxelBusters::NativePlugins::Twitter']]],
-  ['twtremailaccesscompletion',['TWTREmailAccessCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ae65acbb90b23780b10cc2881d1739bb7',1,'VoxelBusters::NativePlugins::Twitter']]],
-  ['twtrlogincompletion',['TWTRLoginCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a34f959f59508d1442e3d921bbfe45cd5',1,'VoxelBusters::NativePlugins::Twitter']]],
-  ['twtrresonse',['TWTRResonse',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a75983752eed2d648d967943ca91eb9aa',1,'VoxelBusters::NativePlugins::Twitter']]],
-  ['twtrtweetcompletion',['TWTRTweetCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986',1,'VoxelBusters::NativePlugins::Twitter']]]
+  ['readcontacts',['ReadContacts',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a4915a0fd5a78ea9aa35c251b763cd5fb',1,'VoxelBusters::NativePlugins::AddressBook']]],
+  ['readcontactscompletion',['ReadContactsCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1',1,'VoxelBusters::NativePlugins::AddressBook']]],
+  ['receivednotificationresponse',['ReceivedNotificationResponse',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#abbbb745d69a5113b081d85f4b4660890',1,'VoxelBusters::NativePlugins::NotificationService']]],
+  ['registerforremotenotificationcompletion',['RegisterForRemoteNotificationCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ae68c46f5013c239b682e24ec68638aa6',1,'VoxelBusters::NativePlugins::NotificationService']]],
+  ['registerforremotenotifications',['RegisterForRemoteNotifications',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534',1,'VoxelBusters::NativePlugins::NotificationService']]],
+  ['registernotificationtypes',['RegisterNotificationTypes',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a83e1d708241a024ce3994443c3d30d78',1,'VoxelBusters::NativePlugins::NotificationService']]],
+  ['reload',['Reload',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a7c6d9cfe80065438024b2055c8cf0a04',1,'VoxelBusters::NativePlugins::WebView']]],
+  ['requestaccountdetails',['RequestAccountDetails',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ac8b89da6d5f00af4292bcab518f3a33f',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['requestemailaccess',['RequestEmailAccess',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a791224d4484a3d54d96092c3f91d8404',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['requestforbillingproducts',['RequestForBillingProducts',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#ab2d39b35e76f33981cbc4e5261290ebc',1,'VoxelBusters::NativePlugins::Billing']]],
+  ['restorecompletedtransactions',['RestoreCompletedTransactions',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a2897cb978428d90065b0c9b1fbf36200',1,'VoxelBusters::NativePlugins::Billing']]]
 ];

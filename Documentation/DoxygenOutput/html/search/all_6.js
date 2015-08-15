@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gameservicessettings',['GameServicesSettings',['../class_voxel_busters_1_1_native_plugins_1_1_game_services_settings.html',1,'VoxelBusters::NativePlugins']]],
   ['getauthorizationstatus',['GetAuthorizationStatus',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a76826c6a87e64027cc829fb333a494cb',1,'VoxelBusters::NativePlugins::AddressBook']]],
   ['getauthtoken',['GetAuthToken',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#af1adce748fac02f3ccaea0ee1f104e6c',1,'VoxelBusters::NativePlugins::Twitter']]],
   ['getauthtokensecret',['GetAuthTokenSecret',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4f0e464281e402f2aeecdf542ec1cb68',1,'VoxelBusters::NativePlugins::Twitter']]],

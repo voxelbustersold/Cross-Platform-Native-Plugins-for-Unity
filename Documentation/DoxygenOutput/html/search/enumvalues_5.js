@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hour',['HOUR',['../namespace_voxel_busters_1_1_native_plugins.html#aa9dbee12f45fc7d893f34b320bc7025cadd3f965174e8bb2f64523981626ced1a',1,'VoxelBusters::NativePlugins']]]
+  ['global',['GLOBAL',['../namespace_voxel_busters_1_1_native_plugins.html#a974c9f9d33030d6a8583b8e2c3da82f0a6eecfba72d12922ee1dead07a0ef3334',1,'VoxelBusters::NativePlugins']]]
 ];

@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="NativePlugins_Icon_mini.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Native Plugins Api
-   &#160;<span id="projectnumber">1.04</span>
+   &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Unified interface for iOS and Android</div>
   </td>
@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -136,6 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae801ac65a3179cc1e27814e6b4529d26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#ae801ac65a3179cc1e27814e6b4529d26">ShareImageOnSocialNetwork</a> (string _message, string _imagePath, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a> _onCompletion)</td></tr>
 <tr class="memdesc:ae801ac65a3179cc1e27814e6b4529d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shares the image on social network.  <a href="#ae801ac65a3179cc1e27814e6b4529d26">More...</a><br /></td></tr>
 <tr class="separator:ae801ac65a3179cc1e27814e6b4529d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4bc8c1bfc0fb77f42766f60e3a6d3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a5a4bc8c1bfc0fb77f42766f60e3a6d3d">ShareImageOnSocialNetwork</a> (string _message, byte[] _imageByteArray, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a> _onCompletion)</td></tr>
+<tr class="memdesc:a5a4bc8c1bfc0fb77f42766f60e3a6d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shares the image on social network.  <a href="#a5a4bc8c1bfc0fb77f42766f60e3a6d3d">More...</a><br /></td></tr>
+<tr class="separator:a5a4bc8c1bfc0fb77f42766f60e3a6d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27fc65c3d7fd64eb632c4e942e0a24a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a27fc65c3d7fd64eb632c4e942e0a24a3">ShareMessage</a> (string _message, <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a96ecd12080e18bce52fed6a15bee7367">eShareOptions</a>[] _excludedOptions, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a> _onCompletion)</td></tr>
 <tr class="memdesc:a27fc65c3d7fd64eb632c4e942e0a24a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shares the message.  <a href="#a27fc65c3d7fd64eb632c4e942e0a24a3">More...</a><br /></td></tr>
 <tr class="separator:a27fc65c3d7fd64eb632c4e942e0a24a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -395,6 +399,48 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">_message</td><td>Message to share.</td></tr>
     <tr><td class="paramname">_imagePath</td><td>Path where image exists that needs to be shared.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback to be triggered when sharing action completes.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5a4bc8c1bfc0fb77f42766f60e3a6d3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShareImageOnSocialNetwork </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>_imageByteArray</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a>&#160;</td>
+          <td class="paramname"><em>_onCompletion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shares the image on social network. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_message</td><td>Message to share.</td></tr>
+    <tr><td class="paramname">_imageByteArray</td><td>image byte array to create the image from.</td></tr>
     <tr><td class="paramname">_onCompletion</td><td>Callback to be triggered when sharing action completes.</td></tr>
   </table>
   </dd>
@@ -1399,7 +1445,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html">Sharing</a></li>
-    <li class="footer">Generated on Sat Aug 15 2015 19:01:21 for Native Plugins Api by
+    <li class="footer">Generated on Fri Aug 21 2015 12:53:39 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

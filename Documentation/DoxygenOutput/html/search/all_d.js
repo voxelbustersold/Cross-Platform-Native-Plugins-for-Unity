@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['percentagecompleted',['PercentageCompleted',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#a62cc84150c25c16ab8aef45c366e60b9',1,'VoxelBusters::NativePlugins::Achievement']]],
   ['phonenumberlist',['PhoneNumberList',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a10e2edd4d7358f326d18c45a76805cc2',1,'VoxelBusters::NativePlugins::AddressBookContact']]],
   ['pickimage',['PickImage',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#abbccbd69133420708fd4d61d720e2a71',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
   ['pickimagecompletion',['PickImageCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a95dd54d80020c5ba3c14361984b098c7',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
@@ -12,7 +13,9 @@ var searchData=
   ['playvideofromgallery',['PlayVideoFromGallery',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#aa2544dbf89d6b643672a8439e0b21566',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
   ['playvideofromurl',['PlayVideoFromURL',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a73aa1ce9546df342b6b407e762d10d98',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
   ['playyoutubevideo',['PlayYoutubeVideo',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a34913dd531622ffa0eeb8a41c610844f',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['pointsscored',['PointsScored',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#adf52862c881338b462e5c30e0ad494f5',1,'VoxelBusters::NativePlugins::Achievement']]],
   ['posturlrequest',['PostURLRequest',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a24e6281b9778b4dcfb6b35b5522013ad',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['previous',['PREVIOUS',['../namespace_voxel_busters_1_1_native_plugins.html#ab683d5911c440800eab753bb77b2039ea315ba7a868d45a9cb131c8dca3166b51',1,'VoxelBusters::NativePlugins']]],
   ['price',['Price',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#af97474bf51c3b45301f3e01271baef3b',1,'VoxelBusters::NativePlugins::BillingProduct']]],
   ['productidentifier',['ProductIdentifier',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a318cd56e0b5431348b89762286588f95',1,'VoxelBusters.NativePlugins.BillingProduct.ProductIdentifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a318cd56e0b5431348b89762286588f95',1,'VoxelBusters.NativePlugins.BillingTransaction.ProductIdentifier()']]],
   ['products',['Products',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings.html#ac3ca62c39e6f658ca360887a90293209',1,'VoxelBusters::NativePlugins::BillingSettings']]],

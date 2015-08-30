@@ -5,6 +5,7 @@ var class_voxel_busters_1_1_native_plugins_1_1_sharing =
     [ "ShareScreenShotOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a39af8f3cc39f56532ebff16fb8ca280a", null ],
     [ "ShareImageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a35821886e7759f0685e000010dbb9708", null ],
     [ "ShareImageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#ae801ac65a3179cc1e27814e6b4529d26", null ],
+    [ "ShareImageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a5a4bc8c1bfc0fb77f42766f60e3a6d3d", null ],
     [ "ShareMessage", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a27fc65c3d7fd64eb632c4e942e0a24a3", null ],
     [ "ShareURL", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#adcc0d02bd75da42ca155860dfac6911e", null ],
     [ "ShareScreenShot", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#afdfce5bec0137c0070523edeef924140", null ],

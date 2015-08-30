@@ -4,5 +4,8 @@ var searchData=
   ['fb',['FB',['../namespace_voxel_busters_1_1_native_plugins.html#a96ecd12080e18bce52fed6a15bee7367a30781f1fc2f9342ceb1ad2f6f35a51db',1,'VoxelBusters::NativePlugins']]],
   ['firedate',['FireDate',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a1ec556b2f3aeeebdccfa617f4c9d2471',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
   ['firstname',['FirstName',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a46bbdda148e2dc15aaa4ffb8d0015430',1,'VoxelBusters::NativePlugins::AddressBookContact']]],
-  ['frame',['Frame',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#ad03438824971ed536106ae7685a30d6e',1,'VoxelBusters::NativePlugins::WebView']]]
+  ['formattedvalue',['FormattedValue',['../class_voxel_busters_1_1_native_plugins_1_1_score.html#a32953a26d6f7ae0f29f7c3fb48bf0083',1,'VoxelBusters::NativePlugins::Score']]],
+  ['frame',['Frame',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#ad03438824971ed536106ae7685a30d6e',1,'VoxelBusters::NativePlugins::WebView']]],
+  ['friends',['Friends',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html#acce00fbaf6ec34f02004ef4de1b85837',1,'VoxelBusters::NativePlugins::LocalUser']]],
+  ['friends_5fonly',['FRIENDS_ONLY',['../namespace_voxel_busters_1_1_native_plugins.html#a974c9f9d33030d6a8583b8e2c3da82f0aa33c7ec9ef55f2c2d0142d0fceca371b',1,'VoxelBusters::NativePlugins']]]
 ];

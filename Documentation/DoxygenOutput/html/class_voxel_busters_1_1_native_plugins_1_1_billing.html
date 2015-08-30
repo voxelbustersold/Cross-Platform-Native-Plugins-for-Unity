@@ -34,7 +34,7 @@
   <td id="projectlogo"><img alt="Logo" src="NativePlugins_Icon_mini.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Native Plugins Api
-   &#160;<span id="projectnumber">1.04</span>
+   &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Unified interface for iOS and Android</div>
   </td>
@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -279,6 +280,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Restores the previous non-consumable/Managed billing products that were purchased previously, if any. </p>
+<dl class="section note"><dt>Note</dt><dd>On Android, It internally sends consumable list at the start of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html" title="Billing provides an unique interface to provide in-app purchases from with in the application...">Billing</a> initialisation, but if you are initializing your products runtime(not form NPSettings), make sure you call RequestBillingProdicts prior to this call. As, billing internally needs consumable list to be updated first for proper functionality. </dd></dl>
 
 </div>
 </div>
@@ -425,7 +427,7 @@ Events</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html">Billing</a></li>
-    <li class="footer">Generated on Sat Aug 15 2015 19:01:21 for Native Plugins Api by
+    <li class="footer">Generated on Fri Aug 21 2015 12:53:39 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -14,7 +14,7 @@ var searchData=
   ['transactionresponse',['TransactionResponse',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a263ef3b7aa6a0b632739ba2f2cbb6dd5',1,'VoxelBusters::NativePlugins::Billing']]],
   ['transactionstate',['TransactionState',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a19bbd3b049d8d17a9ce4336540931e84',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
   ['twitter',['Twitter',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html',1,'VoxelBusters::NativePlugins']]],
-  ['twitter',['TWITTER',['../namespace_voxel_busters_1_1_native_plugins.html#a96ecd12080e18bce52fed6a15bee7367a86581d12931346ccfd9ac5ee5eb9e98b',1,'VoxelBusters::NativePlugins']]],
+  ['twitter',['TWITTER',['../namespace_voxel_busters_1_1_native_plugins.html#a96ecd12080e18bce52fed6a15bee7367a86581d12931346ccfd9ac5ee5eb9e98b',1,'VoxelBusters.NativePlugins.TWITTER()'],['../namespace_voxel_busters_1_1_native_plugins_1_1_internal.html#a2fb9328d9c994a850708c56e3be8b595a86581d12931346ccfd9ac5ee5eb9e98b',1,'VoxelBusters.NativePlugins.Internal.TWITTER()']]],
   ['twittersession',['TwitterSession',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html',1,'VoxelBusters::NativePlugins']]],
   ['twittersharecomposer',['TwitterShareComposer',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer.html',1,'VoxelBusters::NativePlugins']]],
   ['twitteruser',['TwitterUser',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html',1,'VoxelBusters::NativePlugins']]],

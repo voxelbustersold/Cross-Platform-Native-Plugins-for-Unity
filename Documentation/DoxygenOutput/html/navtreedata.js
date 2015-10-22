@@ -24,7 +24,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"functions_n.html"
+"class_voxel_busters_1_1_native_plugins_1_1_u_i.html#adcae2e29200b139b6148839c4f59d05e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

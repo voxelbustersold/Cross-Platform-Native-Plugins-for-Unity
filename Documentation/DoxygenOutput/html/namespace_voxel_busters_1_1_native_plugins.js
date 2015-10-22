@@ -9,10 +9,13 @@ var namespace_voxel_busters_1_1_native_plugins =
     [ "BillingProduct", "class_voxel_busters_1_1_native_plugins_1_1_billing_product.html", "class_voxel_busters_1_1_native_plugins_1_1_billing_product" ],
     [ "BillingTransaction", "class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html", "class_voxel_busters_1_1_native_plugins_1_1_billing_transaction" ],
     [ "CrossPlatformNotification", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification" ],
+    [ "FBShareComposer", "class_voxel_busters_1_1_native_plugins_1_1_f_b_share_composer.html", "class_voxel_busters_1_1_native_plugins_1_1_f_b_share_composer" ],
     [ "GameServices", "class_voxel_busters_1_1_native_plugins_1_1_game_services.html", "class_voxel_busters_1_1_native_plugins_1_1_game_services" ],
     [ "Leaderboard", "class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html", "class_voxel_busters_1_1_native_plugins_1_1_leaderboard" ],
     [ "LocalUser", "class_voxel_busters_1_1_native_plugins_1_1_local_user.html", "class_voxel_busters_1_1_native_plugins_1_1_local_user" ],
+    [ "MailShareComposer", "class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html", "class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer" ],
     [ "MediaLibrary", "class_voxel_busters_1_1_native_plugins_1_1_media_library.html", "class_voxel_busters_1_1_native_plugins_1_1_media_library" ],
+    [ "MessageShareComposer", "class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html", "class_voxel_busters_1_1_native_plugins_1_1_message_share_composer" ],
     [ "NetworkConnectivity", "class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html", "class_voxel_busters_1_1_native_plugins_1_1_network_connectivity" ],
     [ "NotificationService", "class_voxel_busters_1_1_native_plugins_1_1_notification_service.html", "class_voxel_busters_1_1_native_plugins_1_1_notification_service" ],
     [ "RateMyApp", "class_voxel_busters_1_1_native_plugins_1_1_rate_my_app.html", "class_voxel_busters_1_1_native_plugins_1_1_rate_my_app" ],
@@ -20,10 +23,12 @@ var namespace_voxel_busters_1_1_native_plugins =
     [ "Sharing", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html", "class_voxel_busters_1_1_native_plugins_1_1_sharing" ],
     [ "Twitter", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html", "class_voxel_busters_1_1_native_plugins_1_1_twitter" ],
     [ "TwitterSession", "class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html", "class_voxel_busters_1_1_native_plugins_1_1_twitter_session" ],
+    [ "TwitterShareComposer", "class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer.html", "class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer" ],
     [ "TwitterUser", "class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html", "class_voxel_busters_1_1_native_plugins_1_1_twitter_user" ],
     [ "UI", "class_voxel_busters_1_1_native_plugins_1_1_u_i.html", "class_voxel_busters_1_1_native_plugins_1_1_u_i" ],
     [ "User", "class_voxel_busters_1_1_native_plugins_1_1_user.html", "class_voxel_busters_1_1_native_plugins_1_1_user" ],
     [ "Utility", "class_voxel_busters_1_1_native_plugins_1_1_utility.html", "class_voxel_busters_1_1_native_plugins_1_1_utility" ],
     [ "WebView", "class_voxel_busters_1_1_native_plugins_1_1_web_view.html", null ],
-    [ "WebViewMessage", "class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html", "class_voxel_busters_1_1_native_plugins_1_1_web_view_message" ]
+    [ "WebViewMessage", "class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html", "class_voxel_busters_1_1_native_plugins_1_1_web_view_message" ],
+    [ "WhatsAppShareComposer", "class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html", "class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer" ]
 ];

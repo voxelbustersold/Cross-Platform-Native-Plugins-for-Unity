@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['completed',['Completed',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#af4267b6df32c1da3e79ccd7392225a75',1,'VoxelBusters::NativePlugins::Achievement']]],
-  ['currencycode',['CurrencyCode',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#abe822cd9f8d3e3a1be28a5cc4d43a5a5',1,'VoxelBusters::NativePlugins::BillingProduct']]],
-  ['currencysymbol',['CurrencySymbol',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a8d7ecbc6e3a28a321a1d94f130dca0a8',1,'VoxelBusters::NativePlugins::BillingProduct']]]
+  ['bccrecipients',['BCCRecipients',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#ae14eeb895998bf897ef9d4fed6125220',1,'VoxelBusters::NativePlugins::MailShareComposer']]],
+  ['body',['Body',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308',1,'VoxelBusters.NativePlugins.MailShareComposer.Body()'],['../class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308',1,'VoxelBusters.NativePlugins.MessageShareComposer.Body()']]]
 ];

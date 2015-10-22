@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['timescope',['TimeScope',['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#a0b4c0b78f67e4f7e8e952bdc53b22bbe',1,'VoxelBusters::NativePlugins::Leaderboard']]],
-  ['title',['Title',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#ab0fb263eb63b65394de9a19297401d6a',1,'VoxelBusters.NativePlugins.AchievementDescription.Title()'],['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#ab0fb263eb63b65394de9a19297401d6a',1,'VoxelBusters.NativePlugins.Leaderboard.Title()']]],
-  ['transactiondatelocal',['TransactionDateLocal',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a0c921c1ebad1e4660a034dfd05b33baa',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
-  ['transactiondateutc',['TransactionDateUTC',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#aafb5a2bf337c66d069096a9b575b70b0',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
-  ['transactionidentifier',['TransactionIdentifier',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#aa4e1d3a040d4acf83bf860c79d34c05b',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
-  ['transactionreceipt',['TransactionReceipt',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#ad0f9bdbf147f11815849a829035b6378',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
-  ['transactionstate',['TransactionState',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a19bbd3b049d8d17a9ce4336540931e84',1,'VoxelBusters::NativePlugins::BillingTransaction']]]
+  ['schemename',['SchemeName',['../class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#a81484dfa953b028480e92f49ae8b1680',1,'VoxelBusters::NativePlugins::WebViewMessage']]],
+  ['scores',['Scores',['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#a094ba4149c01be1ab733b57c75e5b3e1',1,'VoxelBusters::NativePlugins::Leaderboard']]],
+  ['soundname',['SoundName',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a6ec4c4ff0dbd81ceb43e371d41352935',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
+  ['storeidentifier',['StoreIdentifier',['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html#a00067aa45ff98cb1819721e941561956',1,'VoxelBusters::NativePlugins::ApplicationSettings']]],
+  ['subject',['Subject',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a00533685efc8eefd6feeae97dd0cc491',1,'VoxelBusters::NativePlugins::MailShareComposer']]]
 ];

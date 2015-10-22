@@ -41,5 +41,6 @@ var searchData=
   ['soundname',['SoundName',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a6ec4c4ff0dbd81ceb43e371d41352935',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
   ['stoploading',['StopLoading',['../namespace_voxel_busters_1_1_native_plugins.html#a27590b57d42f1b58b6046282ee6e4be5',1,'VoxelBusters::NativePlugins']]],
   ['storeidentifier',['StoreIdentifier',['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html#a00067aa45ff98cb1819721e941561956',1,'VoxelBusters::NativePlugins::ApplicationSettings']]],
+  ['subject',['Subject',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a00533685efc8eefd6feeae97dd0cc491',1,'VoxelBusters::NativePlugins::MailShareComposer']]],
   ['success',['SUCCESS',['../namespace_voxel_busters_1_1_native_plugins.html#adebe7e13622c835cd0cd075be41b2003ad0749aaba8b833466dfcbb0428e4f89c',1,'VoxelBusters::NativePlugins']]]
 ];

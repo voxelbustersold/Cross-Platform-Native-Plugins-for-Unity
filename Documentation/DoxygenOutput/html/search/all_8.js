@@ -1,6 +1,7 @@
 var searchData=
 [
   ['identifier',['Identifier',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.Achievement.Identifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.AchievementDescription.Identifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.Leaderboard.Identifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_user.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.User.Identifier()']]],
+  ['imagedata',['ImageData',['../class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#ad3ad9636ddcec5bcf35d2915632c25b0',1,'VoxelBusters::NativePlugins::WhatsAppShareComposer']]],
   ['initialise',['Initialise',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html#a864d3e4b669ca870d582e14261f7b91b',1,'VoxelBusters.NativePlugins.NetworkConnectivity.Initialise()'],['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4e3c5461c1a4a09efc1e31540d4c1faa',1,'VoxelBusters.NativePlugins.Twitter.Initialise()']]],
   ['instanceid',['InstanceID',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#a732a99d8e3f6e631b6173514be4a8de3',1,'VoxelBusters::NativePlugins::AchievementDescription']]],
   ['ios',['IOS',['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html#aef5832a8bf7fd17734c7ab808d5d4ccf',1,'VoxelBusters::NativePlugins::ApplicationSettings']]],
@@ -12,6 +13,7 @@ var searchData=
   ['isconsumable',['IsConsumable',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a53a97d6cef9b971855e7ac9fe437fec9',1,'VoxelBusters::NativePlugins::BillingProduct']]],
   ['isdebugmode',['IsDebugMode',['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html#a6da012a642fd4c181e1796c215debf80',1,'VoxelBusters::NativePlugins::ApplicationSettings']]],
   ['ishidden',['IsHidden',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#a786809b72aab3c4854fe9610d70afbee',1,'VoxelBusters::NativePlugins::AchievementDescription']]],
+  ['ishtmlbody',['IsHTMLBody',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a1e5cb621025f2b4319dd1459bbde8209',1,'VoxelBusters::NativePlugins::MailShareComposer']]],
   ['isloggedin',['IsLoggedIn',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#aefcb0d34ecb87897b685fc737f64b68c',1,'VoxelBusters::NativePlugins::Twitter']]],
   ['ismailserviceavailable',['IsMailServiceAvailable',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a11331ae5597cbc82719936e8f37fbd1e',1,'VoxelBusters::NativePlugins::Sharing']]],
   ['ismessagingserviceavailable',['IsMessagingServiceAvailable',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a3cb0c12e4ab7e9a69abc6ed91655390b',1,'VoxelBusters::NativePlugins::Sharing']]],

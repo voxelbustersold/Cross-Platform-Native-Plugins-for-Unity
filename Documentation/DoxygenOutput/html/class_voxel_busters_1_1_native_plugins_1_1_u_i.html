@@ -130,6 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13f3f1e52779c188248ff0f1db247fb5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a13f3f1e52779c188248ff0f1db247fb5">AlertDialogCompletion</a> (string _buttonPressed)</td></tr>
 <tr class="memdesc:a13f3f1e52779c188248ff0f1db247fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the user clicks a button on an alert dialog.  <a href="#a13f3f1e52779c188248ff0f1db247fb5">More...</a><br /></td></tr>
 <tr class="separator:a13f3f1e52779c188248ff0f1db247fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcae2e29200b139b6148839c4f59d05e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#adcae2e29200b139b6148839c4f59d05e">ShowToast</a> (string _message, <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#aa7419c122761ca00a86f0dbb0cba8379">eToastMessageLength</a> _length)</td></tr>
+<tr class="memdesc:adcae2e29200b139b6148839c4f59d05e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the toast. A toast is a view containing a quick little message for the user.  <a href="#adcae2e29200b139b6148839c4f59d05e">More...</a><br /></td></tr>
+<tr class="separator:adcae2e29200b139b6148839c4f59d05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeae37ed3111f972cab7cc2f95fe8020a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#aeae37ed3111f972cab7cc2f95fe8020a">SetPopoverPoint</a> (Vector2 _position)</td></tr>
 <tr class="memdesc:aeae37ed3111f972cab7cc2f95fe8020a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets position of popover controller to given position. Popover controllers are used to Pick Media and to present Share options in iPad. Default position is set to (0.0, 0.0). Note that this is iOS only feature. On Android this call has no effect.  <a href="#aeae37ed3111f972cab7cc2f95fe8020a">More...</a><br /></td></tr>
 <tr class="separator:aeae37ed3111f972cab7cc2f95fe8020a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,6 +274,49 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_buttonPressed</td><td>Title of the button that was pressed.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adcae2e29200b139b6148839c4f59d05e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ShowToast </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#aa7419c122761ca00a86f0dbb0cba8379">eToastMessageLength</a>&#160;</td>
+          <td class="paramname"><em>_length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows the toast. A toast is a view containing a quick little message for the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_message</td><td>The text message in a Toast view.</td></tr>
+    <tr><td class="paramname">_length</td><td>Toast view show duration time length.</td></tr>
   </table>
   </dd>
 </dl>
@@ -592,7 +638,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html">UI</a></li>
-    <li class="footer">Generated on Mon Aug 31 2015 21:10:44 for Native Plugins Api by
+    <li class="footer">Generated on Fri Oct 23 2015 01:45:30 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

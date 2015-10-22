@@ -23,5 +23,5 @@ var class_voxel_busters_1_1_native_plugins_1_1_twitter =
     [ "TWTRTweetCompletion", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986", null ],
     [ "TWTRAccountDetailsCompletion", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a547ee925356415ce1472068ed1011ce3", null ],
     [ "TWTREmailAccessCompletion", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ae65acbb90b23780b10cc2881d1739bb7", null ],
-    [ "TWTRResonse", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a75983752eed2d648d967943ca91eb9aa", null ]
+    [ "TWTRResonse", "class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65", null ]
 ];

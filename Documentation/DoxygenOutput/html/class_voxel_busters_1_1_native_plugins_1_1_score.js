@@ -1,6 +1,8 @@
 var class_voxel_busters_1_1_native_plugins_1_1_score =
 [
-    [ "ReportScore", "class_voxel_busters_1_1_native_plugins_1_1_score.html#a272b41bf3c6d6a04397c3a8e02e69cd7", null ],
+    [ "ReportScoreCompletion", "class_voxel_busters_1_1_native_plugins_1_1_score.html#ac7167d274bac6b424779fc7931b1e60b", null ],
+    [ "ReportScore", "class_voxel_busters_1_1_native_plugins_1_1_score.html#a56c6cca84528fa1eea918a884eb33e78", null ],
+    [ "LeaderboardGlobalID", "class_voxel_busters_1_1_native_plugins_1_1_score.html#a2d0cf2d4274a1ef6f4fbe028c6eb3e42", null ],
     [ "LeaderboardID", "class_voxel_busters_1_1_native_plugins_1_1_score.html#a36a005e757d1f0289afefc7da74ce4d7", null ],
     [ "User", "class_voxel_busters_1_1_native_plugins_1_1_score.html#a3c11c747b154176eeb2b6fd091db8410", null ],
     [ "Value", "class_voxel_busters_1_1_native_plugins_1_1_score.html#a90126868659f1ca3cff71f1fd3ecbd7d", null ],

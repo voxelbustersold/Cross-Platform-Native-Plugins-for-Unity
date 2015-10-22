@@ -6,7 +6,6 @@ var class_voxel_busters_1_1_native_plugins_1_1_address_book_contact =
     [ "ToString", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
     [ "FirstName", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a46bbdda148e2dc15aaa4ffb8d0015430", null ],
     [ "LastName", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#afe43a1e86c660582c37e3b84039ca83c", null ],
-    [ "ImagePath", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#ad3eaaa2080aad3470dce85656e011ed9", null ],
-    [ "PhoneNumberList", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a10e2edd4d7358f326d18c45a76805cc2", null ],
-    [ "EmailIDList", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a2e7fa1b601f13706722ab0d5811bc7b5", null ]
+    [ "PhoneNumberList", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#af957c44b9e1fce49500bed07a1d0687d", null ],
+    [ "EmailIDList", "class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#ad8552892de2cbc7d4a9f112dd136f577", null ]
 ];

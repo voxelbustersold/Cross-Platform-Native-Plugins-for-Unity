@@ -111,23 +111,31 @@ $(document).ready(function(){initNavTree('class_voxel_busters_1_1_native_plugins
 <a href="#properties">Properties</a> &#124;
 <a href="class_voxel_busters_1_1_native_plugins_1_1_score-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Score<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Score</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html" title="VoxelBusters.NativePlugins.Score class holds information for a score that was earned by the VoxelBust...">VoxelBusters.NativePlugins.Score</a> class holds information for a score that was earned by the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="VoxelBusters.NativePlugins.User class provides information about a user playing your game...">VoxelBusters.NativePlugins.User</a>.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_score.html#details">More...</a></p>
+
+<p>Inherits NPObject.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a272b41bf3c6d6a04397c3a8e02e69cd7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#a272b41bf3c6d6a04397c3a8e02e69cd7">ReportScore</a> (Action&lt; bool &gt; _onCompletion)</td></tr>
-<tr class="memdesc:a272b41bf3c6d6a04397c3a8e02e69cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports the score to game service server.  <a href="#a272b41bf3c6d6a04397c3a8e02e69cd7">More...</a><br /></td></tr>
-<tr class="separator:a272b41bf3c6d6a04397c3a8e02e69cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7167d274bac6b424779fc7931b1e60b"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#ac7167d274bac6b424779fc7931b1e60b">ReportScoreCompletion</a> (bool _success, string _error)</td></tr>
+<tr class="memdesc:ac7167d274bac6b424779fc7931b1e60b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback delegate used when report see cref="VoxelBusters.NativePlugins.Score"/&gt; request completes.  <a href="#ac7167d274bac6b424779fc7931b1e60b">More...</a><br /></td></tr>
+<tr class="separator:ac7167d274bac6b424779fc7931b1e60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c6cca84528fa1eea918a884eb33e78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#a56c6cca84528fa1eea918a884eb33e78">ReportScore</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#ac7167d274bac6b424779fc7931b1e60b">ReportScoreCompletion</a> _onCompletion)</td></tr>
+<tr class="memdesc:a56c6cca84528fa1eea918a884eb33e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports the score to game service server.  <a href="#a56c6cca84528fa1eea918a884eb33e78">More...</a><br /></td></tr>
+<tr class="separator:a56c6cca84528fa1eea918a884eb33e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a2d0cf2d4274a1ef6f4fbe028c6eb3e42"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#a2d0cf2d4274a1ef6f4fbe028c6eb3e42">LeaderboardGlobalID</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a2d0cf2d4274a1ef6f4fbe028c6eb3e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the unique identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html" title="VoxelBusters.NativePlugins.Leaderboard object is used to read data from a leaderboard stored on game ...">VoxelBusters.NativePlugins.Leaderboard</a> which is common for all supported platforms.  <a href="#a2d0cf2d4274a1ef6f4fbe028c6eb3e42">More...</a><br /></td></tr>
+<tr class="separator:a2d0cf2d4274a1ef6f4fbe028c6eb3e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a005e757d1f0289afefc7da74ce4d7"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#a36a005e757d1f0289afefc7da74ce4d7">LeaderboardID</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a36a005e757d1f0289afefc7da74ce4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the identifier of the leaderboard that the score is being sent to.  <a href="#a36a005e757d1f0289afefc7da74ce4d7">More...</a><br /></td></tr>
+<tr class="memdesc:a36a005e757d1f0289afefc7da74ce4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html" title="VoxelBusters.NativePlugins.Leaderboard object is used to read data from a leaderboard stored on game ...">VoxelBusters.NativePlugins.Leaderboard</a> specific to current platform.  <a href="#a36a005e757d1f0289afefc7da74ce4d7">More...</a><br /></td></tr>
 <tr class="separator:a36a005e757d1f0289afefc7da74ce4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c11c747b154176eeb2b6fd091db8410"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#a3c11c747b154176eeb2b6fd091db8410">User</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a3c11c747b154176eeb2b6fd091db8410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="VoxelBusters.NativePlugins.User class provides information about a user playing your game...">VoxelBusters.NativePlugins.User</a> that earned the score.  <a href="#a3c11c747b154176eeb2b6fd091db8410">More...</a><br /></td></tr>
@@ -148,7 +156,42 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html" title="VoxelBusters.NativePlugins.Score class holds information for a score that was earned by the VoxelBust...">VoxelBusters.NativePlugins.Score</a> class holds information for a score that was earned by the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="VoxelBusters.NativePlugins.User class provides information about a user playing your game...">VoxelBusters.NativePlugins.User</a>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a272b41bf3c6d6a04397c3a8e02e69cd7"></a>
+<a class="anchor" id="ac7167d274bac6b424779fc7931b1e60b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void ReportScoreCompletion </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_success</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The callback delegate used when report see cref="VoxelBusters.NativePlugins.Score"/&gt; request completes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_success</td><td>The operation completion status.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a56c6cca84528fa1eea918a884eb33e78"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -156,16 +199,16 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void ReportScore </td>
+          <td class="memname">virtual void ReportScore </td>
           <td>(</td>
-          <td class="paramtype">Action&lt; bool &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html#ac7167d274bac6b424779fc7931b1e60b">ReportScoreCompletion</a>&#160;</td>
           <td class="paramname"><em>_onCompletion</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -181,6 +224,29 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a2d0cf2d4274a1ef6f4fbe028c6eb3e42"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string LeaderboardGlobalID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the unique identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html" title="VoxelBusters.NativePlugins.Leaderboard object is used to read data from a leaderboard stored on game ...">VoxelBusters.NativePlugins.Leaderboard</a> which is common for all supported platforms. </p>
+<p>A string used to uniquely identify <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html" title="VoxelBusters.NativePlugins.Leaderboard object is used to read data from a leaderboard stored on game ...">VoxelBusters.NativePlugins.Leaderboard</a> across all supported platforms.</p>
+
+</div>
+</div>
 <a class="anchor" id="a36a005e757d1f0289afefc7da74ce4d7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -199,8 +265,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the identifier of the leaderboard that the score is being sent to. </p>
-<p>Identifies the leaderboard that the score is being sent to.</p>
+<p>Gets the identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html" title="VoxelBusters.NativePlugins.Leaderboard object is used to read data from a leaderboard stored on game ...">VoxelBusters.NativePlugins.Leaderboard</a> specific to current platform. </p>
+<p>A string used to uniquely identify <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html" title="VoxelBusters.NativePlugins.Leaderboard object is used to read data from a leaderboard stored on game ...">VoxelBusters.NativePlugins.Leaderboard</a> specific to current platform.</p>
 
 </div>
 </div>
@@ -325,7 +391,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_score.html">Score</a></li>
-    <li class="footer">Generated on Mon Aug 31 2015 21:10:44 for Native Plugins Api by
+    <li class="footer">Generated on Fri Oct 23 2015 01:45:30 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

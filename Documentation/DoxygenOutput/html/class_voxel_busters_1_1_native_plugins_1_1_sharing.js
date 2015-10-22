@@ -1,31 +1,7 @@
 var class_voxel_busters_1_1_native_plugins_1_1_sharing =
 [
-    [ "ShareTextMessageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a80ecaed1c891f9531a50bfad127a8a64", null ],
-    [ "ShareURLOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#ac6302fd4f28ed86d64a59981e60649ee", null ],
-    [ "ShareScreenShotOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a39af8f3cc39f56532ebff16fb8ca280a", null ],
-    [ "ShareImageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a35821886e7759f0685e000010dbb9708", null ],
-    [ "ShareImageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#ae801ac65a3179cc1e27814e6b4529d26", null ],
-    [ "ShareImageOnSocialNetwork", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a5a4bc8c1bfc0fb77f42766f60e3a6d3d", null ],
-    [ "ShareMessage", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a27fc65c3d7fd64eb632c4e942e0a24a3", null ],
-    [ "ShareURL", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#adcc0d02bd75da42ca155860dfac6911e", null ],
-    [ "ShareScreenShot", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#afdfce5bec0137c0070523edeef924140", null ],
-    [ "ShareImage", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#ac734668e539da5d0a45c45b7997e5a31", null ],
-    [ "ShareImageAtPath", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a24968208e8fc70ce2cb1e2a5c7226166", null ],
-    [ "Share", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a3818a27b9dba216cbcbe749d03a1cfec", null ],
     [ "SharingCompletion", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555", null ],
     [ "IsMailServiceAvailable", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a11331ae5597cbc82719936e8f37fbd1e", null ],
-    [ "SendPlainTextMail", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a68a3fb078986ea5f71119f416c366697", null ],
-    [ "SendHTMLTextMail", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a6f3de8d5bce52dbee8e1f9f837da46b3", null ],
-    [ "SendMailWithScreenshot", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a796846192e8722927b48912c9a116490", null ],
-    [ "SendMailWithTexture", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a009ff4ad8bf14ee001f690c30f6befe4", null ],
-    [ "SendMailWithAttachment", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#abf6aae8f21b460f1d6a0192f634db78e", null ],
-    [ "SendMail", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a1496ade3df6459558df6af74b7720586", null ],
     [ "IsMessagingServiceAvailable", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a3cb0c12e4ab7e9a69abc6ed91655390b", null ],
-    [ "SendTextMessage", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a29e06cab4855b89d410aa764d155e7c6", null ],
-    [ "IsWhatsAppServiceAvailable", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a26a9c7408fead70cecf3a383d8fec9ae", null ],
-    [ "ShareTextMessageOnWhatsApp", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a426c8b69ba0df9aca3741678abe7882a", null ],
-    [ "ShareScreenshotOnWhatsApp", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a796873b90275f6f6d82a3a54a4749b70", null ],
-    [ "ShareImageOnWhatsApp", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#adc1c0476ec01d117a27d48f29309474d", null ],
-    [ "ShareImageOnWhatsApp", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a7a4e07d1c6db017fba76c3fd90906890", null ],
-    [ "ShareImageOnWhatsApp", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a91ff529bec29867cd922b77ab19dc7dc", null ]
+    [ "IsWhatsAppServiceAvailable", "class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a26a9c7408fead70cecf3a383d8fec9ae", null ]
 ];

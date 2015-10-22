@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['webviewevent',['WebViewEvent',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a194c0b6818c2f92e406b404d0a73cb3b',1,'VoxelBusters::NativePlugins::WebView']]],
-  ['webviewfailedload',['WebViewFailedLoad',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a9b28999df4113da8c9a3d8c5e34dcb7d',1,'VoxelBusters::NativePlugins::WebView']]],
-  ['webviewfinishedevaluatingjs',['WebViewFinishedEvaluatingJS',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#ac79d0508d69f4bdee22756364ef79687',1,'VoxelBusters::NativePlugins::WebView']]],
-  ['webviewreceivedmessage',['WebViewReceivedMessage',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#aca15d6ddba84fd4f8f41f4506aef25d8',1,'VoxelBusters::NativePlugins::WebView']]]
+  ['webviewevent',['WebViewEvent',['../namespace_voxel_busters_1_1_native_plugins.html#a3063e85cf014b311504ec3d920ae9960',1,'VoxelBusters::NativePlugins']]],
+  ['webviewfailedload',['WebViewFailedLoad',['../namespace_voxel_busters_1_1_native_plugins.html#ab6873529cd29a88d07a94f6bab7d0165',1,'VoxelBusters::NativePlugins']]],
+  ['webviewfinishedevaluatingjs',['WebViewFinishedEvaluatingJS',['../namespace_voxel_busters_1_1_native_plugins.html#aa5b9bb6ad3b6589c5b4a3f5d813e8145',1,'VoxelBusters::NativePlugins']]],
+  ['webviewreceivedmessage',['WebViewReceivedMessage',['../namespace_voxel_busters_1_1_native_plugins.html#ae184fc8a8937cab50a0f5a6368c70623',1,'VoxelBusters::NativePlugins']]]
 ];

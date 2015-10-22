@@ -5,6 +5,7 @@ var class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification =
     [ "FireDate", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a1ec556b2f3aeeebdccfa617f4c9d2471", null ],
     [ "RepeatInterval", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a3f23477f0ca5fd86e166c2a9a9fa965f", null ],
     [ "UserInfo", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#afe57e84d9a5251e7f2146537692c4e11", null ],
+    [ "SoundName", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a6ec4c4ff0dbd81ceb43e371d41352935", null ],
     [ "iOSProperties", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#abd422ec8f4bd9c46e8b4ce7ea5d80a9d", null ],
     [ "AndroidProperties", "class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a98a9f3e1981f5d4d3cff4067a9e0ce9a", null ]
 ];

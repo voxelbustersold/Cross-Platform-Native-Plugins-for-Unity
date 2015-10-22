@@ -117,17 +117,28 @@ $(document).ready(function(){initNavTree('class_voxel_busters_1_1_native_plugins
 
 <p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> object provides interface to communicate with game server about <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="The VoxelBusters.NativePlugins.LocalUser class is a special subclass of VoxelBusters.NativePlugins.User that represents the authenticated user running your game on the device. At any given time, only one user may be authenticated on the device. ">VoxelBusters.NativePlugins.LocalUser</a> progress towards completing achievement.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#details">More...</a></p>
+
+<p>Inherits NPObject.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6a77e5ce8b2afac2eb2de08ace3159f7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#a6a77e5ce8b2afac2eb2de08ace3159f7">ReportProgress</a> (Action&lt; bool &gt; _onCompletion)</td></tr>
-<tr class="memdesc:a6a77e5ce8b2afac2eb2de08ace3159f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports the player’s progress of this <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a>.  <a href="#a6a77e5ce8b2afac2eb2de08ace3159f7">More...</a><br /></td></tr>
-<tr class="separator:a6a77e5ce8b2afac2eb2de08ace3159f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacfccef70ccc48caf2e90263643c01b2"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#aacfccef70ccc48caf2e90263643c01b2">LoadAchievementsCompletion</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html">Achievement</a>[] _achievements, string _error)</td></tr>
+<tr class="memdesc:aacfccef70ccc48caf2e90263643c01b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback delegate used when load <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> request completes.  <a href="#aacfccef70ccc48caf2e90263643c01b2">More...</a><br /></td></tr>
+<tr class="separator:aacfccef70ccc48caf2e90263643c01b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabd8ce9b46fa9fe6e0eb8f679022910f"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#aabd8ce9b46fa9fe6e0eb8f679022910f">ReportProgressCompletion</a> (bool _success, string _error)</td></tr>
+<tr class="memdesc:aabd8ce9b46fa9fe6e0eb8f679022910f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback delegate used when report see cref="VoxelBusters.NativePlugins.Achievement"/&gt; progress request completes.  <a href="#aabd8ce9b46fa9fe6e0eb8f679022910f">More...</a><br /></td></tr>
+<tr class="separator:aabd8ce9b46fa9fe6e0eb8f679022910f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80ef9b0aeaa8ebc1a3deb1f66fa9441"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#ac80ef9b0aeaa8ebc1a3deb1f66fa9441">ReportProgress</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#aabd8ce9b46fa9fe6e0eb8f679022910f">ReportProgressCompletion</a> _onCompletion)</td></tr>
+<tr class="memdesc:ac80ef9b0aeaa8ebc1a3deb1f66fa9441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports the player’s progress of this <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a>.  <a href="#ac80ef9b0aeaa8ebc1a3deb1f66fa9441">More...</a><br /></td></tr>
+<tr class="separator:ac80ef9b0aeaa8ebc1a3deb1f66fa9441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a06a8fee192c24dd839690a985b8c71a6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#a06a8fee192c24dd839690a985b8c71a6">GlobalIdentifier</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a06a8fee192c24dd839690a985b8c71a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the unique identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> which is common for all supported platforms.  <a href="#a06a8fee192c24dd839690a985b8c71a6">More...</a><br /></td></tr>
+<tr class="separator:a06a8fee192c24dd839690a985b8c71a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e44d1bd1025981aab25479699e04c41"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#a3e44d1bd1025981aab25479699e04c41">Identifier</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a3e44d1bd1025981aab25479699e04c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a>.  <a href="#a3e44d1bd1025981aab25479699e04c41">More...</a><br /></td></tr>
+<tr class="memdesc:a3e44d1bd1025981aab25479699e04c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> specific to current platform.  <a href="#a3e44d1bd1025981aab25479699e04c41">More...</a><br /></td></tr>
 <tr class="separator:a3e44d1bd1025981aab25479699e04c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf52862c881338b462e5c30e0ad494f5"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#adf52862c881338b462e5c30e0ad494f5">PointsScored</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:adf52862c881338b462e5c30e0ad494f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or set the value indicating points scored for <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a>.  <a href="#adf52862c881338b462e5c30e0ad494f5">More...</a><br /></td></tr>
@@ -145,7 +156,77 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> object provides interface to communicate with game server about <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="The VoxelBusters.NativePlugins.LocalUser class is a special subclass of VoxelBusters.NativePlugins.User that represents the authenticated user running your game on the device. At any given time, only one user may be authenticated on the device. ">VoxelBusters.NativePlugins.LocalUser</a> progress towards completing achievement. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a6a77e5ce8b2afac2eb2de08ace3159f7"></a>
+<a class="anchor" id="aacfccef70ccc48caf2e90263643c01b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void LoadAchievementsCompletion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html">Achievement</a>[]&#160;</td>
+          <td class="paramname"><em>_achievements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The callback delegate used when load <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> request completes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_achievements</td><td>An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> objects that represents all progress reported to Server for the local user.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aabd8ce9b46fa9fe6e0eb8f679022910f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void ReportProgressCompletion </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_success</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The callback delegate used when report see cref="VoxelBusters.NativePlugins.Achievement"/&gt; progress request completes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_success</td><td>The operation completion status.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac80ef9b0aeaa8ebc1a3deb1f66fa9441"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -155,7 +236,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">virtual void ReportProgress </td>
           <td>(</td>
-          <td class="paramtype">Action&lt; bool &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html#aabd8ce9b46fa9fe6e0eb8f679022910f">ReportProgressCompletion</a>&#160;</td>
           <td class="paramname"><em>_onCompletion</em></td><td>)</td>
           <td></td>
         </tr>
@@ -178,6 +259,29 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a06a8fee192c24dd839690a985b8c71a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string GlobalIdentifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the unique identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> which is common for all supported platforms. </p>
+<p>A string used to uniquely identify <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> across all supported platforms.</p>
+
+</div>
+</div>
 <a class="anchor" id="a3e44d1bd1025981aab25479699e04c41"></a>
 <div class="memitem">
 <div class="memproto">
@@ -196,8 +300,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a>. </p>
-<p>A string used to uniquely identify the specific <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> object refers to.</p>
+<p>Gets the identifier of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> specific to current platform. </p>
+<p>A string used to uniquely identify <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html" title="VoxelBusters.NativePlugins.Achievement object provides interface to communicate with game server abou...">VoxelBusters.NativePlugins.Achievement</a> specific to current platform.</p>
 
 </div>
 </div>
@@ -299,7 +403,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_achievement.html">Achievement</a></li>
-    <li class="footer">Generated on Mon Aug 31 2015 21:10:44 for Native Plugins Api by
+    <li class="footer">Generated on Fri Oct 23 2015 01:45:30 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

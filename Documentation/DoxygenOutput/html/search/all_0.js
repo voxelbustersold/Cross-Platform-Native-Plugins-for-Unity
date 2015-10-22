@@ -1,10 +1,9 @@
 var searchData=
 [
   ['achieveddescription',['AchievedDescription',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#ac66a61c8931ce9bae7c05868f2006ddd',1,'VoxelBusters::NativePlugins::AchievementDescription']]],
-  ['achieveddescriptionformats',['AchievedDescriptionFormats',['../class_voxel_busters_1_1_native_plugins_1_1_game_services_settings_1_1_android_settings.html#a4a129b23313dc7009597b029e0402f9d',1,'VoxelBusters::NativePlugins::GameServicesSettings::AndroidSettings']]],
   ['achievement',['Achievement',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html',1,'VoxelBusters::NativePlugins']]],
   ['achievementdescription',['AchievementDescription',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html',1,'VoxelBusters::NativePlugins']]],
-  ['addnewurlschemename',['AddNewURLSchemeName',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a5c932feb4051efbaae21ac57f7024555',1,'VoxelBusters::NativePlugins::WebView']]],
+  ['addnewurlschemename',['AddNewURLSchemeName',['../namespace_voxel_busters_1_1_native_plugins.html#ad493e7f5602547a7286378052ed69c2b',1,'VoxelBusters::NativePlugins']]],
   ['addressbook',['AddressBook',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html',1,'VoxelBusters::NativePlugins']]],
   ['addressbookcontact',['AddressBookContact',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html',1,'VoxelBusters::NativePlugins']]],
   ['addressbookcontact',['AddressBookContact',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a4653f7f23dc37f9a4ef3b39db14bd63b',1,'VoxelBusters.NativePlugins.AddressBookContact.AddressBookContact()'],['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#a78f6a98ad437213a29670ecffdfef9ef',1,'VoxelBusters.NativePlugins.AddressBookContact.AddressBookContact(AddressBookContact _source)']]],
@@ -13,20 +12,16 @@ var searchData=
   ['alertbody',['AlertBody',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#ade308ee127438f612b377e8045a4e120',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
   ['alertdialogcompletion',['AlertDialogCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a13f3f1e52779c188248ff0f1db247fb5',1,'VoxelBusters::NativePlugins::UI']]],
   ['all_5ftime',['ALL_TIME',['../namespace_voxel_busters_1_1_native_plugins.html#ae5c129a8ead001eb046f6eec1ef277cda919af16dc4f99f63940cfda1b9567410',1,'VoxelBusters::NativePlugins']]],
-  ['android',['Android',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters.NativePlugins.BillingSettings.Android()'],['../class_voxel_busters_1_1_native_plugins_1_1_game_services_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters.NativePlugins.GameServicesSettings.Android()'],['../class_voxel_busters_1_1_native_plugins_1_1_media_library_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters.NativePlugins.MediaLibrarySettings.Android()'],['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters.NativePlugins.NetworkConnectivitySettings.Android()'],['../class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters.NativePlugins.NotificationServiceSettings.Android()'],['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters.NativePlugins.ApplicationSettings.Android()']]],
+  ['android',['Android',['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html#a1c2d6ed884eda0a6f3e7bb4913332b0a',1,'VoxelBusters::NativePlugins::ApplicationSettings']]],
   ['androidproperties',['AndroidProperties',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a98a9f3e1981f5d4d3cff4067a9e0ce9a',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
-  ['androidsettings',['AndroidSettings',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity_settings_1_1_android_settings.html',1,'VoxelBusters::NativePlugins::NetworkConnectivitySettings']]],
-  ['androidsettings',['AndroidSettings',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service_settings_1_1_android_settings.html',1,'VoxelBusters::NativePlugins::NotificationServiceSettings']]],
-  ['androidsettings',['AndroidSettings',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings_1_1_android_settings.html',1,'VoxelBusters::NativePlugins::BillingSettings']]],
-  ['androidsettings',['AndroidSettings',['../class_voxel_busters_1_1_native_plugins_1_1_game_services_settings_1_1_android_settings.html',1,'VoxelBusters::NativePlugins::GameServicesSettings']]],
-  ['androidsettings',['AndroidSettings',['../class_voxel_busters_1_1_native_plugins_1_1_media_library_settings_1_1_android_settings.html',1,'VoxelBusters::NativePlugins::MediaLibrarySettings']]],
   ['applicationsettings',['ApplicationSettings',['../class_voxel_busters_1_1_native_plugins_1_1_application_settings.html',1,'VoxelBusters::NativePlugins']]],
   ['arguments',['Arguments',['../class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#a77915caf0a62515434e69449dd74cb8a',1,'VoxelBusters::NativePlugins::WebViewMessage']]],
   ['askforreview',['AskForReview',['../class_voxel_busters_1_1_native_plugins_1_1_rate_my_app.html#a8e95595fd50d5bf90329196928c106df',1,'VoxelBusters::NativePlugins::RateMyApp']]],
   ['askforreviewnow',['AskForReviewNow',['../class_voxel_busters_1_1_native_plugins_1_1_rate_my_app.html#a8a48143a466171cb1bdf9f50c4c4c6a9',1,'VoxelBusters::NativePlugins::RateMyApp']]],
-  ['authenticate',['Authenticate',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html#a59ac59f5215cce8696b282dcbbbca132',1,'VoxelBusters::NativePlugins::LocalUser']]],
+  ['authenticate',['Authenticate',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html#ae6efe75be481a8f20a72d5012f4115bf',1,'VoxelBusters::NativePlugins::LocalUser']]],
+  ['authenticationcompletion',['AuthenticationCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html#ab5617f4e9a13d0b1ebe46c8ba6ba9af5',1,'VoxelBusters::NativePlugins::LocalUser']]],
   ['authorized',['AUTHORIZED',['../namespace_voxel_busters_1_1_native_plugins.html#a52e7845cde15260bea7e2d269fd8711cac62575d93ceab8ef551cb3fe0a3aea63',1,'VoxelBusters::NativePlugins']]],
   ['authtoken',['AuthToken',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html#a426b30fd1f024173621de046d1e108cd',1,'VoxelBusters::NativePlugins::TwitterSession']]],
   ['authtokensecret',['AuthTokenSecret',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html#a03e0793e8ed6eb3c164c61c0b6728a1f',1,'VoxelBusters::NativePlugins::TwitterSession']]],
-  ['autoshowonloadfinish',['AutoShowOnLoadFinish',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#ae97e49c45c345ebaedbf6b26e567ea70',1,'VoxelBusters::NativePlugins::WebView']]]
+  ['autoshowonloadfinish',['AutoShowOnLoadFinish',['../namespace_voxel_busters_1_1_native_plugins.html#ae97e49c45c345ebaedbf6b26e567ea70',1,'VoxelBusters::NativePlugins']]]
 ];

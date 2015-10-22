@@ -124,11 +124,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76826c6a87e64027cc829fb333a494cb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a52e7845cde15260bea7e2d269fd8711c">eABAuthorizationStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a76826c6a87e64027cc829fb333a494cb">GetAuthorizationStatus</a> ()</td></tr>
 <tr class="memdesc:a76826c6a87e64027cc829fb333a494cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get status of the app's access to contact data.  <a href="#a76826c6a87e64027cc829fb333a494cb">More...</a><br /></td></tr>
 <tr class="separator:a76826c6a87e64027cc829fb333a494cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4915a0fd5a78ea9aa35c251b763cd5fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a4915a0fd5a78ea9aa35c251b763cd5fb">ReadContacts</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1">ReadContactsCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a4915a0fd5a78ea9aa35c251b763cd5fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request to fetch the contacts.  <a href="#a4915a0fd5a78ea9aa35c251b763cd5fb">More...</a><br /></td></tr>
-<tr class="separator:a4915a0fd5a78ea9aa35c251b763cd5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef1504d298308659d62e9e7ffd7bdfd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#aef1504d298308659d62e9e7ffd7bdfd4">ReadContacts</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1">ReadContactsCompletion</a> _onCompletion)</td></tr>
+<tr class="memdesc:aef1504d298308659d62e9e7ffd7bdfd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request to fetch the contacts.  <a href="#aef1504d298308659d62e9e7ffd7bdfd4">More...</a><br /></td></tr>
+<tr class="separator:aef1504d298308659d62e9e7ffd7bdfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0556c7cb8692eea8cedddd0ff11108c1"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1">ReadContactsCompletion</a> (<a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a52e7845cde15260bea7e2d269fd8711c">eABAuthorizationStatus</a> _authorizationStatus, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html">AddressBookContact</a>[] _contactList)</td></tr>
-<tr class="memdesc:a0556c7cb8692eea8cedddd0ff11108c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when reading contacts information completes.  <a href="#a0556c7cb8692eea8cedddd0ff11108c1">More...</a><br /></td></tr>
+<tr class="memdesc:a0556c7cb8692eea8cedddd0ff11108c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback delegate used when reading contacts information completes.  <a href="#a0556c7cb8692eea8cedddd0ff11108c1">More...</a><br /></td></tr>
 <tr class="separator:a0556c7cb8692eea8cedddd0ff11108c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -161,26 +161,18 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4915a0fd5a78ea9aa35c251b763cd5fb"></a>
+<a class="anchor" id="aef1504d298308659d62e9e7ffd7bdfd4"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ReadContacts </td>
+          <td class="memname">void ReadContacts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1">ReadContactsCompletion</a>&#160;</td>
           <td class="paramname"><em>_onCompletion</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Request to fetch the contacts. </p>
@@ -217,11 +209,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when reading contacts information completes. </p>
+<p>The callback delegate used when reading contacts information completes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_authorizationStatus</td><td>Authorization status for address book access .</td></tr>
-    <tr><td class="paramname">_contactList</td><td>List of contacts read from address book database.</td></tr>
+    <tr><td class="paramname">_authorizationStatus</td><td>Authorization status for address book access.</td></tr>
+    <tr><td class="paramname">_contactList</td><td>List of contacts retrieved from address book database.</td></tr>
   </table>
   </dd>
 </dl>
@@ -234,7 +226,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_address_book.html">AddressBook</a></li>
-    <li class="footer">Generated on Mon Aug 31 2015 21:10:44 for Native Plugins Api by
+    <li class="footer">Generated on Fri Oct 23 2015 01:45:30 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

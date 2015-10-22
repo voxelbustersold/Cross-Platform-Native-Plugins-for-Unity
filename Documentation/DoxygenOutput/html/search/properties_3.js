@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['date',['Date',['../class_voxel_busters_1_1_native_plugins_1_1_score.html#a9ff90f7a615a2c81fa0318ed6860f143',1,'VoxelBusters::NativePlugins::Score']]],
-  ['description',['Description',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a34409fed9d39281ada2d7ec172a52f9b',1,'VoxelBusters::NativePlugins::BillingProduct']]]
+  ['emailidlist',['EmailIDList',['../class_voxel_busters_1_1_native_plugins_1_1_address_book_contact.html#ad8552892de2cbc7d4a9f112dd136f577',1,'VoxelBusters::NativePlugins::AddressBookContact']]],
+  ['error',['Error',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a103401a9be7315c9eb92e30c9946b296',1,'VoxelBusters::NativePlugins::BillingTransaction']]]
 ];

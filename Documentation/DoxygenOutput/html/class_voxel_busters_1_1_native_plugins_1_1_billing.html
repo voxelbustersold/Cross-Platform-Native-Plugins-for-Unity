@@ -122,9 +122,9 @@ $(document).ready(function(){initNavTree('class_voxel_busters_1_1_native_plugins
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab2d39b35e76f33981cbc4e5261290ebc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#ab2d39b35e76f33981cbc4e5261290ebc">RequestForBillingProducts</a> (List&lt; <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a> &gt; _billingProducts)</td></tr>
-<tr class="memdesc:ab2d39b35e76f33981cbc4e5261290ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request details for given list of billing products.  <a href="#ab2d39b35e76f33981cbc4e5261290ebc">More...</a><br /></td></tr>
-<tr class="separator:ab2d39b35e76f33981cbc4e5261290ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec0bef0d6595c14494c402420678428"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a9ec0bef0d6595c14494c402420678428">RequestForBillingProducts</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a>[] _billingProducts)</td></tr>
+<tr class="memdesc:a9ec0bef0d6595c14494c402420678428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request details for given list of billing products.  <a href="#a9ec0bef0d6595c14494c402420678428">More...</a><br /></td></tr>
+<tr class="separator:a9ec0bef0d6595c14494c402420678428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f4b9e824b45e38980b0e6e3cb1faa3d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a9f4b9e824b45e38980b0e6e3cb1faa3d">IsProductPurchased</a> (string _productID)</td></tr>
 <tr class="memdesc:a9f4b9e824b45e38980b0e6e3cb1faa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check purchase status of specified billing product.  <a href="#a9f4b9e824b45e38980b0e6e3cb1faa3d">More...</a><br /></td></tr>
 <tr class="separator:a9f4b9e824b45e38980b0e6e3cb1faa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,27 +137,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afcce8e38d572018183652ee39623d3bd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#afcce8e38d572018183652ee39623d3bd">CustomVerificationFinished</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html">BillingTransaction</a> _transaction)</td></tr>
 <tr class="memdesc:afcce8e38d572018183652ee39623d3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This adds the specified billing transaction to the inventory of purchased products.  <a href="#afcce8e38d572018183652ee39623d3bd">More...</a><br /></td></tr>
 <tr class="separator:afcce8e38d572018183652ee39623d3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d14c1fff02f8bbf1946415f81b77f0"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a59d14c1fff02f8bbf1946415f81b77f0">BillingProductsRequestCompletion</a> (List&lt; <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a> &gt; _regProductsList, string _error)</td></tr>
-<tr class="memdesc:a59d14c1fff02f8bbf1946415f81b77f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when products request is finished.  <a href="#a59d14c1fff02f8bbf1946415f81b77f0">More...</a><br /></td></tr>
-<tr class="separator:a59d14c1fff02f8bbf1946415f81b77f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a699955fbb88fca96d0c7cda1d3c4b736"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a699955fbb88fca96d0c7cda1d3c4b736">TransactionCompletion</a> (List&lt; <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html">BillingTransaction</a> &gt; _finishedTransactions)</td></tr>
-<tr class="memdesc:a699955fbb88fca96d0c7cda1d3c4b736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when any transaction gets finished.  <a href="#a699955fbb88fca96d0c7cda1d3c4b736">More...</a><br /></td></tr>
-<tr class="separator:a699955fbb88fca96d0c7cda1d3c4b736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b89ec8e48c1dc0d5f67becce240981"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a78b89ec8e48c1dc0d5f67becce240981">ProductsRequestCompletion</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a>[] _regProductsList, string _error)</td></tr>
+<tr class="memdesc:a78b89ec8e48c1dc0d5f67becce240981"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback delegate used when products request finishes.  <a href="#a78b89ec8e48c1dc0d5f67becce240981">More...</a><br /></td></tr>
+<tr class="separator:a78b89ec8e48c1dc0d5f67becce240981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263ef3b7aa6a0b632739ba2f2cbb6dd5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a263ef3b7aa6a0b632739ba2f2cbb6dd5">TransactionResponse</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html">BillingTransaction</a>[] _finishedTransactions, string _error)</td></tr>
+<tr class="memdesc:a263ef3b7aa6a0b632739ba2f2cbb6dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback delegate used when transaction is finished.  <a href="#a263ef3b7aa6a0b632739ba2f2cbb6dd5">More...</a><br /></td></tr>
+<tr class="separator:a263ef3b7aa6a0b632739ba2f2cbb6dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:a2b73687297c706b0cf67bd0aaa64a782"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a59d14c1fff02f8bbf1946415f81b77f0">BillingProductsRequestCompletion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a2b73687297c706b0cf67bd0aaa64a782">BillingProductsRequestFinishedEvent</a></td></tr>
-<tr class="memdesc:a2b73687297c706b0cf67bd0aaa64a782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when billing products request finished.  <a href="#a2b73687297c706b0cf67bd0aaa64a782">More...</a><br /></td></tr>
-<tr class="separator:a2b73687297c706b0cf67bd0aaa64a782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad59cc097e59a8605d00c8a0b9a1743cb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a699955fbb88fca96d0c7cda1d3c4b736">TransactionCompletion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#ad59cc097e59a8605d00c8a0b9a1743cb">TransactionFinishedEvent</a></td></tr>
-<tr class="memdesc:ad59cc097e59a8605d00c8a0b9a1743cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when transaction is finished and ready with a result. See <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a1b545f54cd8f7e04410c379e01ff27f2" title="State of purchased transaction ">eBillingTransactionState</a> for the status of the transaction.  <a href="#ad59cc097e59a8605d00c8a0b9a1743cb">More...</a><br /></td></tr>
-<tr class="separator:ad59cc097e59a8605d00c8a0b9a1743cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78215f6f13d46f5d95789b60f4f61ac"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a78b89ec8e48c1dc0d5f67becce240981">ProductsRequestCompletion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#aa78215f6f13d46f5d95789b60f4f61ac">DidFinishProductsRequestEvent</a></td></tr>
+<tr class="memdesc:aa78215f6f13d46f5d95789b60f4f61ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when billing products request finished.  <a href="#aa78215f6f13d46f5d95789b60f4f61ac">More...</a><br /></td></tr>
+<tr class="separator:aa78215f6f13d46f5d95789b60f4f61ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf553efbb9a105dc48aa14f55c13b9f5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a263ef3b7aa6a0b632739ba2f2cbb6dd5">TransactionResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#aaf553efbb9a105dc48aa14f55c13b9f5">DidReceiveTransactionInfoEvent</a></td></tr>
+<tr class="memdesc:aaf553efbb9a105dc48aa14f55c13b9f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when transaction is finished. See <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a1b545f54cd8f7e04410c379e01ff27f2" title="State of purchased transaction ">eBillingTransactionState</a> for the status of the transaction.  <a href="#aaf553efbb9a105dc48aa14f55c13b9f5">More...</a><br /></td></tr>
+<tr class="separator:aaf553efbb9a105dc48aa14f55c13b9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html" title="Billing provides an unique interface to provide in-app purchases from with in the application...">Billing</a> provides an unique interface to provide in-app purchases from with in the application. </p>
 <p>You can set the list of billing products you will use for billing in the NPSettings editor utility or can provide details of the products runtime.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab2d39b35e76f33981cbc4e5261290ebc"></a>
+<a class="anchor" id="a9ec0bef0d6595c14494c402420678428"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -167,7 +167,7 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">virtual void RequestForBillingProducts </td>
           <td>(</td>
-          <td class="paramtype">List&lt; <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a> &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a>[]&#160;</td>
           <td class="paramname"><em>_billingProducts</em></td><td>)</td>
           <td></td>
         </tr>
@@ -180,7 +180,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Request details for given list of billing products. </p>
-<dl class="section warning"><dt>Warning</dt><dd>Details of billing products needs to be fetched first with this method before purchasing any product. </dd></dl>
+<p>Details of billing products needs to be fetched first with this method before purchasing any product. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_billingProducts</td><td>List of billing products which needs details.</td></tr>
@@ -247,7 +247,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Buy the specified billing product. </p>
-<dl class="section note"><dt>Note</dt><dd>_productID should already have billing product details ahead. see <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#ab2d39b35e76f33981cbc4e5261290ebc" title="Request details for given list of billing products. ">RequestForBillingProducts</a> for getting the details. </dd></dl>
+<p>Product ID should already have billing product details ahead. see <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a9ec0bef0d6595c14494c402420678428" title="Request details for given list of billing products. ">RequestForBillingProducts</a> for getting the details. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_productID</td><td>product identifier that needs to be purchased.</td></tr>
@@ -279,7 +279,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Restores the previous non-consumable/Managed billing products that were purchased previously, if any. </p>
-<dl class="section note"><dt>Note</dt><dd>On Android, It internally sends consumable list at the start of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html" title="Billing provides an unique interface to provide in-app purchases from with in the application...">Billing</a> initialisation, but if you are initializing your products runtime(not form NPSettings), make sure you call RequestBillingProdicts prior to this call. As, billing internally needs consumable list to be updated first for proper functionality. </dd></dl>
+<p>On Android, It internally sends consumable list at the start of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html" title="Billing provides an unique interface to provide in-app purchases from with in the application...">Billing</a> initialisation, but if you are initializing your products runtime(not form NPSettings), make sure you call RequestBillingProdicts prior to this call. As, billing internally needs consumable list to be updated first for proper functionality. </p>
 
 </div>
 </div>
@@ -306,7 +306,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This adds the specified billing transaction to the inventory of purchased products. </p>
-<dl class="section note"><dt>Note</dt><dd>iOS has external validation option. So once external validation is done, this should be called with the transaction details. On Android this call has no effect as the products are internally verified and products will be updated internally right after the purchase. </dd></dl>
+<p>On iOS, custom validation option is available. So once custom validation is finished, this method should be called along with the transaction details. On Android this call has no effect as the products are internally verified and products will be updated internally right after the purchase. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_transaction</td><td>Transaction instance thats updated with verification state after custom verification.</td></tr>
@@ -316,14 +316,14 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a59d14c1fff02f8bbf1946415f81b77f0"></a>
+<a class="anchor" id="a78b89ec8e48c1dc0d5f67becce240981"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">delegate void BillingProductsRequestCompletion </td>
+          <td class="memname">delegate void ProductsRequestCompletion </td>
           <td>(</td>
-          <td class="paramtype">List&lt; <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a> &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_product.html">BillingProduct</a>[]&#160;</td>
           <td class="paramname"><em>_regProductsList</em>, </td>
         </tr>
         <tr>
@@ -340,35 +340,46 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when products request is finished. </p>
+<p>The callback delegate used when products request finishes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_regProductsList</td><td>List of billing products with detailed information.</td></tr>
-    <tr><td class="paramname">_error</td><td>Error description if request billing products fail.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a699955fbb88fca96d0c7cda1d3c4b736"></a>
+<a class="anchor" id="a263ef3b7aa6a0b632739ba2f2cbb6dd5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">delegate void TransactionCompletion </td>
+          <td class="memname">delegate void TransactionResponse </td>
           <td>(</td>
-          <td class="paramtype">List&lt; <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html">BillingTransaction</a> &gt;&#160;</td>
-          <td class="paramname"><em>_finishedTransactions</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html">BillingTransaction</a>[]&#160;</td>
+          <td class="paramname"><em>_finishedTransactions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>_error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when any transaction gets finished. </p>
+<p>The callback delegate used when transaction is finished. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_finishedTransactions</td><td>List of billing transactions. This can be multiple for restore purchases. Rest of the times it will be a single transaction.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
 </dl>
@@ -376,7 +387,7 @@ Events</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
-<a class="anchor" id="a2b73687297c706b0cf67bd0aaa64a782"></a>
+<a class="anchor" id="aa78215f6f13d46f5d95789b60f4f61ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -384,7 +395,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a59d14c1fff02f8bbf1946415f81b77f0">BillingProductsRequestCompletion</a> BillingProductsRequestFinishedEvent</td>
+          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a78b89ec8e48c1dc0d5f67becce240981">ProductsRequestCompletion</a> DidFinishProductsRequestEvent</td>
         </tr>
       </table>
   </td>
@@ -394,11 +405,11 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Occurs when billing products request finished. </p>
+<p>Called when billing products request finished. </p>
 
 </div>
 </div>
-<a class="anchor" id="ad59cc097e59a8605d00c8a0b9a1743cb"></a>
+<a class="anchor" id="aaf553efbb9a105dc48aa14f55c13b9f5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -406,7 +417,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a699955fbb88fca96d0c7cda1d3c4b736">TransactionCompletion</a> TransactionFinishedEvent</td>
+          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#a263ef3b7aa6a0b632739ba2f2cbb6dd5">TransactionResponse</a> DidReceiveTransactionInfoEvent</td>
         </tr>
       </table>
   </td>
@@ -416,7 +427,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Occurs when transaction is finished and ready with a result. See <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a1b545f54cd8f7e04410c379e01ff27f2" title="State of purchased transaction ">eBillingTransactionState</a> for the status of the transaction. </p>
+<p>Called when transaction is finished. See <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a1b545f54cd8f7e04410c379e01ff27f2" title="State of purchased transaction ">eBillingTransactionState</a> for the status of the transaction. </p>
 
 </div>
 </div>
@@ -426,7 +437,7 @@ Events</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html">Billing</a></li>
-    <li class="footer">Generated on Mon Aug 31 2015 21:10:44 for Native Plugins Api by
+    <li class="footer">Generated on Fri Oct 23 2015 01:45:30 for Native Plugins Api by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

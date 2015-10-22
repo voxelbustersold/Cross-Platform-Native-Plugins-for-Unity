@@ -3,6 +3,7 @@ var NAVTREE =
   [ "Native Plugins Api", "index.html", [
     [ "Package Functions", "namespacemembers.html", [
       [ "All", "namespacemembers.html", null ],
+      [ "Functions", "namespacemembers_func.html", null ],
       [ "Enumerations", "namespacemembers_enum.html", null ],
       [ "Enumerator", "namespacemembers_eval.html", null ]
     ] ],
@@ -23,7 +24,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html"
+"functions_n.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

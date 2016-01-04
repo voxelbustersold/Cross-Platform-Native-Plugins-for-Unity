@@ -1,6 +1,8 @@
 var searchData=
 [
+  ['tag',['Tag',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#a121d9cb485fa9e23380cb8c883e46c9c',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]],
   ['text',['Text',['../class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#ab4726c7c06ae41233e679361293b4173',1,'VoxelBusters::NativePlugins::WhatsAppShareComposer']]],
+  ['tickertext',['TickerText',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#a6d4fb03d4d91f7e3745ed7835cae3439',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]],
   ['timescope',['TimeScope',['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#a0b4c0b78f67e4f7e8e952bdc53b22bbe',1,'VoxelBusters::NativePlugins::Leaderboard']]],
   ['title',['Title',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#ab0fb263eb63b65394de9a19297401d6a',1,'VoxelBusters.NativePlugins.AchievementDescription.Title()'],['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#ab0fb263eb63b65394de9a19297401d6a',1,'VoxelBusters.NativePlugins.Leaderboard.Title()']]],
   ['torecipients',['ToRecipients',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#adb36e9811a694031f029f59458af532b',1,'VoxelBusters.NativePlugins.MailShareComposer.ToRecipients()'],['../class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#adb36e9811a694031f029f59458af532b',1,'VoxelBusters.NativePlugins.MessageShareComposer.ToRecipients()']]],

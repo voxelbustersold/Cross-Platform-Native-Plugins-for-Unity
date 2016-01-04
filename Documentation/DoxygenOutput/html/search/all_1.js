@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['backgroundcolor',['BackgroundColor',['../namespace_voxel_busters_1_1_native_plugins.html#a34ba57954db00b68526dfc733ff9b8c3',1,'VoxelBusters::NativePlugins']]],
+  ['backgroundcolor',['BackgroundColor',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a34ba57954db00b68526dfc733ff9b8c3',1,'VoxelBusters::NativePlugins::WebView']]],
   ['badge',['Badge',['../namespace_voxel_busters_1_1_native_plugins.html#a25a31a4bdc02a0d0adb743e26dd14ba9a454a5c95c970c24b3d747b01001fd13a',1,'VoxelBusters::NativePlugins']]],
+  ['badgecount',['BadgeCount',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1i_o_s_specific_properties.html#a1db893a671706e3d1916708a5c4ad62d',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::iOSSpecificProperties']]],
   ['bccrecipients',['BCCRecipients',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#ae14eeb895998bf897ef9d4fed6125220',1,'VoxelBusters::NativePlugins::MailShareComposer']]],
   ['billing',['Billing',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html',1,'VoxelBusters::NativePlugins']]],
   ['billingproduct',['BillingProduct',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html',1,'VoxelBusters::NativePlugins']]],

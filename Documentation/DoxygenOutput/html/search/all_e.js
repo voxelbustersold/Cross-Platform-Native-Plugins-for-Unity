@@ -10,7 +10,7 @@ var searchData=
   ['registerforremotenotificationcompletion',['RegisterForRemoteNotificationCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ae68c46f5013c239b682e24ec68638aa6',1,'VoxelBusters::NativePlugins::NotificationService']]],
   ['registerforremotenotifications',['RegisterForRemoteNotifications',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534',1,'VoxelBusters::NativePlugins::NotificationService']]],
   ['registernotificationtypes',['RegisterNotificationTypes',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a83e1d708241a024ce3994443c3d30d78',1,'VoxelBusters::NativePlugins::NotificationService']]],
-  ['reload',['Reload',['../namespace_voxel_busters_1_1_native_plugins.html#aee7a3a41d97ab17dfb01ca77ab31ca7d',1,'VoxelBusters::NativePlugins']]],
+  ['reload',['Reload',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a7c6d9cfe80065438024b2055c8cf0a04',1,'VoxelBusters::NativePlugins::WebView']]],
   ['repeatinterval',['RepeatInterval',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#a3f23477f0ca5fd86e166c2a9a9fa965f',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
   ['reportprogress',['ReportProgress',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#ac80ef9b0aeaa8ebc1a3deb1f66fa9441',1,'VoxelBusters::NativePlugins::Achievement']]],
   ['reportprogresscompletion',['ReportProgressCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#aabd8ce9b46fa9fe6e0eb8f679022910f',1,'VoxelBusters::NativePlugins::Achievement']]],

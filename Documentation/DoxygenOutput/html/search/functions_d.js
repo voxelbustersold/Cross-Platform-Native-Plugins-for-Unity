@@ -6,12 +6,12 @@ var searchData=
   ['schedulelocalnotification',['ScheduleLocalNotification',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab8eaf2bbfef786a88b9556e881c61ecd',1,'VoxelBusters::NativePlugins::NotificationService']]],
   ['setachievementidcollection',['SetAchievementIDCollection',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#a3ce2549fe2c1246ddf7ed42620cb5a7b',1,'VoxelBusters::NativePlugins::GameServices']]],
   ['setapplicationiconbadgenumber',['SetApplicationIconBadgeNumber',['../class_voxel_busters_1_1_native_plugins_1_1_utility.html#a38e9d705af1cf352fa2032f46caf7389',1,'VoxelBusters::NativePlugins::Utility']]],
-  ['setfullscreenframe',['SetFullScreenFrame',['../namespace_voxel_busters_1_1_native_plugins.html#a536906fd91ef930bb93e93e73704b387',1,'VoxelBusters::NativePlugins']]],
+  ['setfullscreenframe',['SetFullScreenFrame',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#ac9bf4da324b9b4e939ab17434cef1666',1,'VoxelBusters::NativePlugins::WebView']]],
   ['setleaderboardidcollection',['SetLeaderboardIDCollection',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#a5f7452156380fd883033476c1084c3da',1,'VoxelBusters::NativePlugins::GameServices']]],
   ['setpopoverpoint',['SetPopoverPoint',['../class_voxel_busters_1_1_native_plugins_1_1_u_i.html#aeae37ed3111f972cab7cc2f95fe8020a',1,'VoxelBusters::NativePlugins::UI']]],
   ['setpopoverpointatlasttouchposition',['SetPopoverPointAtLastTouchPosition',['../class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a6bd0bc0253cdf398318892a9bc72e156',1,'VoxelBusters::NativePlugins::UI']]],
   ['sharingcompletion',['SharingCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555',1,'VoxelBusters::NativePlugins::Sharing']]],
-  ['show',['Show',['../namespace_voxel_busters_1_1_native_plugins.html#a7601027cb6347fafb6c3275a99e9434b',1,'VoxelBusters::NativePlugins']]],
+  ['show',['Show',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#ace79e5f49885e486e8e1d48ff0666476',1,'VoxelBusters::NativePlugins::WebView']]],
   ['showachievementsui',['ShowAchievementsUI',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#abcf8d7a2a60660788134728c7dd45762',1,'VoxelBusters::NativePlugins::GameServices']]],
   ['showalertdialogwithmultiplebuttons',['ShowAlertDialogWithMultipleButtons',['../class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a7c3d280e08154cd2348e104392a24af9',1,'VoxelBusters::NativePlugins::UI']]],
   ['showalertdialogwithsinglebutton',['ShowAlertDialogWithSingleButton',['../class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a640efb5f4583b0e5a104ea26dff47c26',1,'VoxelBusters::NativePlugins::UI']]],
@@ -29,5 +29,5 @@ var searchData=
   ['signout',['SignOut',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html#a17d4d4ebcd63a10284b0dcf8d73ddfd5',1,'VoxelBusters::NativePlugins::LocalUser']]],
   ['signoutcompletion',['SignOutCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html#a14ca33cfdb07ec5aef86ac37bff2e959',1,'VoxelBusters::NativePlugins::LocalUser']]],
   ['singlefieldpromptcompletion',['SingleFieldPromptCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ab0a0d009b7dbdc669cedc932da72e0ea',1,'VoxelBusters::NativePlugins::UI']]],
-  ['stoploading',['StopLoading',['../namespace_voxel_busters_1_1_native_plugins.html#a27590b57d42f1b58b6046282ee6e4be5',1,'VoxelBusters::NativePlugins']]]
+  ['stoploading',['StopLoading',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a55ba6d9d9191b3677653da99caf2dfa5',1,'VoxelBusters::NativePlugins::WebView']]]
 ];

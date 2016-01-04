@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['leaderboard',['Leaderboard',['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html',1,'VoxelBusters::NativePlugins']]],
-  ['localuser',['LocalUser',['../class_voxel_busters_1_1_native_plugins_1_1_local_user.html',1,'VoxelBusters::NativePlugins']]]
+  ['iossettings',['iOSSettings',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings_1_1i_o_s_settings.html',1,'VoxelBusters::NativePlugins::BillingSettings']]],
+  ['iosspecificproperties',['iOSSpecificProperties',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1i_o_s_specific_properties.html',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]]
 ];

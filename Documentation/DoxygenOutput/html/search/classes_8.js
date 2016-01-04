@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ratemyapp',['RateMyApp',['../class_voxel_busters_1_1_native_plugins_1_1_rate_my_app.html',1,'VoxelBusters::NativePlugins']]]
+  ['networkconnectivity',['NetworkConnectivity',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html',1,'VoxelBusters::NativePlugins']]],
+  ['notificationservice',['NotificationService',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html',1,'VoxelBusters::NativePlugins']]]
 ];

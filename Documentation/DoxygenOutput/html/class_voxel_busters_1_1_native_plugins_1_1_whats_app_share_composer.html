@@ -101,6 +101,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:acfd298a5f48a82ad180ad03ed7245d3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#acfd298a5f48a82ad180ad03ed7245d3d">WhatsAppShareComposer</a> ()</td></tr>
+<tr class="memdesc:acfd298a5f48a82ad180ad03ed7245d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html" title="Provides an interface to share contents on WhatsApp. ">WhatsAppShareComposer</a> class.  <a href="#acfd298a5f48a82ad180ad03ed7245d3d">More...</a><br /></td></tr>
+<tr class="separator:acfd298a5f48a82ad180ad03ed7245d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#a3174a5d8db3f28935760bf7bdb2c35b3">AttachImage</a> (Texture2D _texture)</td></tr>
 <tr class="memdesc:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the specified image to the post.  <a href="#a3174a5d8db3f28935760bf7bdb2c35b3">More...</a><br /></td></tr>
 <tr class="separator:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,8 +123,53 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an interface to share contents on WhatsApp. </p>
-<dl class="section note"><dt>Note</dt><dd>At this point, WhatsApp allows external applications to share either text message or image, but not both. </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p>The following code example shows how to share message on WhatsApp. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaWhatsApp ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsWhatsAppServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#acfd298a5f48a82ad180ad03ed7245d3d">WhatsAppShareComposer</a> _composer = <span class="keyword">new</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#acfd298a5f48a82ad180ad03ed7245d3d">WhatsAppShareComposer</a>();</div>
+<div class="line">            _composer.Text                  = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, FinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support sharing on WhatsApp</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>At this point, WhatsApp allows external applications to share either text message or image, but not both. </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="acfd298a5f48a82ad180ad03ed7245d3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html">WhatsAppShareComposer</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes a new instance of the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html" title="Provides an interface to share contents on WhatsApp. ">WhatsAppShareComposer</a> class. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a3174a5d8db3f28935760bf7bdb2c35b3"></a>
 <div class="memitem">
 <div class="memproto">

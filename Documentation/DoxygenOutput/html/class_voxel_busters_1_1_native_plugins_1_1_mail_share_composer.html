@@ -101,6 +101,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:abecd05eedf7ea5983b0bf3001d1f4ee2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#abecd05eedf7ea5983b0bf3001d1f4ee2">MailShareComposer</a> ()</td></tr>
+<tr class="memdesc:abecd05eedf7ea5983b0bf3001d1f4ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html" title="Provides an interface to compose and send email messages. ">MailShareComposer</a> class.  <a href="#abecd05eedf7ea5983b0bf3001d1f4ee2">More...</a><br /></td></tr>
+<tr class="separator:abecd05eedf7ea5983b0bf3001d1f4ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a3174a5d8db3f28935760bf7bdb2c35b3">AttachImage</a> (Texture2D _texture)</td></tr>
 <tr class="memdesc:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds specified image as an attachment of the email.  <a href="#a3174a5d8db3f28935760bf7bdb2c35b3">More...</a><br /></td></tr>
 <tr class="separator:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +151,55 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an interface to compose and send email messages. </p>
 <p>You can present this view with prepopulated fields such as subject, body, recipients, attachments etc. The user can edit the initial contents you specify and choose to send the email or cancel the operation.  </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p>The following code example shows how to compose mail with screenshot as attachment. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaEmail ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsMailServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#abecd05eedf7ea5983b0bf3001d1f4ee2">MailShareComposer</a>   _composer   = <span class="keyword">new</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#abecd05eedf7ea5983b0bf3001d1f4ee2">MailShareComposer</a>();</div>
+<div class="line">            _composer.Subject               = <span class="stringliteral">&quot;Sample email&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Adding screenshot as attachment</span></div>
+<div class="line">            _composer.AttachScreenShot();</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, OnFinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support sending emails</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="abecd05eedf7ea5983b0bf3001d1f4ee2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html">MailShareComposer</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes a new instance of the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html" title="Provides an interface to compose and send email messages. ">MailShareComposer</a> class. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a3174a5d8db3f28935760bf7bdb2c35b3"></a>
 <div class="memitem">
 <div class="memproto">

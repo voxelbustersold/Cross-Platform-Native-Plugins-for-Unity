@@ -127,7 +127,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an interface to compose a post and share it on Facebook. </p>
-<dl class="section note"><dt>Note</dt><dd>As per FB guidelines, the message field of the composer has to be manually entered by the user. Prefilling the text message parameter, even if they can edit or delete that content before sharing is not supported anymore. </dd></dl>
+<p>The following code example shows how to post URL on FB wall. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaFB ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsFBShareServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_f_b_share_composer.html#a32bf75291a3bb1f3b62dea09d0f2ace9">FBShareComposer</a> _composer   = <span class="keyword">new</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_f_b_share_composer.html#a32bf75291a3bb1f3b62dea09d0f2ace9">FBShareComposer</a>();</div>
+<div class="line">            _composer.URL               = <span class="stringliteral">&quot;www.voxelbusters.com&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, FinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support posting on FB</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>As per FB guidelines, the message field of the composer has to be manually entered by the user. Prefilling the text message parameter, even if they can edit or delete that content before sharing is not supported anymore. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a32bf75291a3bb1f3b62dea09d0f2ace9"></a>
 <div class="memitem">

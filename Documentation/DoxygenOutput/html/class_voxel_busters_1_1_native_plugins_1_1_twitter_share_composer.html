@@ -127,7 +127,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an interface to compose a post and publish it on Twitter. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>The following code example shows how to tweet message. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaTwitter ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsTwitterShareServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer.html#af87797cbf3520e61c4b9e83df4778b98">TwitterShareComposer</a> _composer  = <span class="keyword">new</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer.html#af87797cbf3520e61c4b9e83df4778b98">TwitterShareComposer</a>();</div>
+<div class="line">            _composer.Text                  = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, FinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support posting on Twitter</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af87797cbf3520e61c4b9e83df4778b98"></a>
 <div class="memitem">
 <div class="memproto">

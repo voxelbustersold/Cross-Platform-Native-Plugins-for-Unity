@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,6 +99,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Provides an interface to compose and send text messages.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:afa948b4d63672387ea846d668f3143f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#afa948b4d63672387ea846d668f3143f7">MessageShareComposer</a> ()</td></tr>
+<tr class="memdesc:afa948b4d63672387ea846d668f3143f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html" title="Provides an interface to compose and send text messages. ">MessageShareComposer</a> class.  <a href="#afa948b4d63672387ea846d668f3143f7">More...</a><br /></td></tr>
+<tr class="separator:afa948b4d63672387ea846d668f3143f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa22a174fd7f5d080c4e4714fd0dde308"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308">Body</a><code> [get, set]</code></td></tr>
@@ -113,7 +120,52 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an interface to compose and send text messages. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
+<p>The following code example shows how to compose text message. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaMessage ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsMessagingServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#afa948b4d63672387ea846d668f3143f7">MessageShareComposer</a>    _composer   = <span class="keyword">new</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#afa948b4d63672387ea846d668f3143f7">MessageShareComposer</a>();</div>
+<div class="line">            _composer.Body                      = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, OnFinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support sending messages</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="afa948b4d63672387ea846d668f3143f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html">MessageShareComposer</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes a new instance of the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html" title="Provides an interface to compose and send text messages. ">MessageShareComposer</a> class. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="aa22a174fd7f5d080c4e4714fd0dde308"></a>
 <div class="memitem">
 <div class="memproto">

@@ -130,7 +130,30 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an interface to display native view with various share services that your users can choose to use from your application. </p>
 <p>It provides several share services such as posting content to social media sites, sending items via email or SMS, and more.  </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>The following code example demonstrates how to use share sheet. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaShareSheet ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">        <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_share_sheet.html#a1703a7cec50c3b7deb74bdc4664fbe12">ShareSheet</a> _shareSheet  = <span class="keyword">new</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_share_sheet.html#a1703a7cec50c3b7deb74bdc4664fbe12">ShareSheet</a>(); </div>
+<div class="line">        _shareSheet.Text        = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// On iPad, popover view is used to show share sheet. So we need to set its position</span></div>
+<div class="line">        NPBinding.UI.SetPopoverPointAtLastTouchPosition();</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// Show composer</span></div>
+<div class="line">        NPBinding.Sharing.ShowView(_shareSheet, FinishedSharing);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1703a7cec50c3b7deb74bdc4664fbe12"></a>
 <div class="memitem">
 <div class="memproto">

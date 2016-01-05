@@ -1,7 +1,7 @@
 var searchData=
 [
   ['identifier',['Identifier',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.Achievement.Identifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.AchievementDescription.Identifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.Leaderboard.Identifier()'],['../class_voxel_busters_1_1_native_plugins_1_1_user.html#a3e44d1bd1025981aab25479699e04c41',1,'VoxelBusters.NativePlugins.User.Identifier()']]],
-  ['imagedata',['ImageData',['../class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#ad3ad9636ddcec5bcf35d2915632c25b0',1,'VoxelBusters::NativePlugins::WhatsAppShareComposer']]],
+  ['imagedata',['ImageData',['../class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#ad3ad9636ddcec5bcf35d2915632c25b0',1,'VoxelBusters.NativePlugins.SocialShareComposerBase.ImageData()'],['../class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#ad3ad9636ddcec5bcf35d2915632c25b0',1,'VoxelBusters.NativePlugins.WhatsAppShareComposer.ImageData()'],['../class_voxel_busters_1_1_native_plugins_1_1_share_sheet.html#ad3ad9636ddcec5bcf35d2915632c25b0',1,'VoxelBusters.NativePlugins.ShareSheet.ImageData()']]],
   ['initialise',['Initialise',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html#a864d3e4b669ca870d582e14261f7b91b',1,'VoxelBusters.NativePlugins.NetworkConnectivity.Initialise()'],['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4e3c5461c1a4a09efc1e31540d4c1faa',1,'VoxelBusters.NativePlugins.Twitter.Initialise()']]],
   ['iosproperties',['iOSProperties',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html#abd422ec8f4bd9c46e8b4ce7ea5d80a9d',1,'VoxelBusters::NativePlugins::CrossPlatformNotification']]],
   ['iossettings',['iOSSettings',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings_1_1i_o_s_settings.html',1,'VoxelBusters::NativePlugins::BillingSettings']]],
@@ -12,6 +12,8 @@ var searchData=
   ['iscamerasupported',['IsCameraSupported',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#af2368db810c73e2f4cb13ba65484c420',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
   ['isconnected',['IsConnected',['../class_voxel_busters_1_1_native_plugins_1_1_network_connectivity.html#abac0113ff571c017320394966a1ae6d5',1,'VoxelBusters::NativePlugins::NetworkConnectivity']]],
   ['isconsumable',['IsConsumable',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a53a97d6cef9b971855e7ac9fe437fec9',1,'VoxelBusters::NativePlugins::BillingProduct']]],
+  ['isfbshareserviceavailable',['IsFBShareServiceAvailable',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a552df48dd3f3ca5bfc75fc32c42625cb',1,'VoxelBusters::NativePlugins::Sharing']]],
+  ['ishareview',['IShareView',['../interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html',1,'VoxelBusters::NativePlugins']]],
   ['ishidden',['IsHidden',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#a786809b72aab3c4854fe9610d70afbee',1,'VoxelBusters::NativePlugins::AchievementDescription']]],
   ['ishtmlbody',['IsHTMLBody',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a1e5cb621025f2b4319dd1459bbde8209',1,'VoxelBusters::NativePlugins::MailShareComposer']]],
   ['isloggedin',['IsLoggedIn',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#aefcb0d34ecb87897b685fc737f64b68c',1,'VoxelBusters::NativePlugins::Twitter']]],
@@ -19,7 +21,9 @@ var searchData=
   ['ismessagingserviceavailable',['IsMessagingServiceAvailable',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a3cb0c12e4ab7e9a69abc6ed91655390b',1,'VoxelBusters::NativePlugins::Sharing']]],
   ['isproductpurchased',['IsProductPurchased',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a9f4b9e824b45e38980b0e6e3cb1faa3d',1,'VoxelBusters::NativePlugins::Billing']]],
   ['isprotected',['IsProtected',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html#a230cd87f736815fe5dfe96ba6adf3b5e',1,'VoxelBusters::NativePlugins::TwitterUser']]],
+  ['isreadytoshowview',['IsReadyToShowView',['../interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html#a9c83a640154391f9020fb2b2e27be87e',1,'VoxelBusters::NativePlugins::IShareView']]],
   ['issupported',['IsSupported',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#aac565c8f85bf3d210bf93698dc1700b3',1,'VoxelBusters::NativePlugins::Billing']]],
+  ['istwittershareserviceavailable',['IsTwitterShareServiceAvailable',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a443d765f60999582a8a8bed0c2e32758',1,'VoxelBusters::NativePlugins::Sharing']]],
   ['isverified',['IsVerified',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html#a56786d050e742ceab749ee116da69c24',1,'VoxelBusters::NativePlugins::TwitterUser']]],
   ['iswhatsappserviceavailable',['IsWhatsAppServiceAvailable',['../class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a26a9c7408fead70cecf3a383d8fec9ae',1,'VoxelBusters::NativePlugins::Sharing']]]
 ];

@@ -96,50 +96,58 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html" title="MailShareComposer object provides interface to send a mail. ">MailShareComposer</a> object provides interface to send a mail.  
+<p>Provides an interface to compose and send email messages.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a3174a5d8db3f28935760bf7bdb2c35b3">AttachImage</a> (Texture2D _texture)</td></tr>
-<tr class="memdesc:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attachs a image to mail.  <a href="#a3174a5d8db3f28935760bf7bdb2c35b3">More...</a><br /></td></tr>
+<tr class="memdesc:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds specified image as an attachment of the email.  <a href="#a3174a5d8db3f28935760bf7bdb2c35b3">More...</a><br /></td></tr>
 <tr class="separator:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a326f070dac7e7aaad2c7bcb387d1bdea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a326f070dac7e7aaad2c7bcb387d1bdea">AddAttachmentAtPath</a> (string _attachmentPath, string _MIMEType)</td></tr>
-<tr class="memdesc:a326f070dac7e7aaad2c7bcb387d1bdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the attachment at path.  <a href="#a326f070dac7e7aaad2c7bcb387d1bdea">More...</a><br /></td></tr>
+<tr class="memdesc:a326f070dac7e7aaad2c7bcb387d1bdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds specified file as an attachment of the email.  <a href="#a326f070dac7e7aaad2c7bcb387d1bdea">More...</a><br /></td></tr>
 <tr class="separator:a326f070dac7e7aaad2c7bcb387d1bdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d0e3d2d39fdc04786a496c3d52c45b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a4d0e3d2d39fdc04786a496c3d52c45b8">AddAttachment</a> (byte[] _attachmentData, string _attachmentFileName, string _MIMEType)</td></tr>
-<tr class="memdesc:a4d0e3d2d39fdc04786a496c3d52c45b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the attachment.  <a href="#a4d0e3d2d39fdc04786a496c3d52c45b8">More...</a><br /></td></tr>
+<tr class="memdesc:a4d0e3d2d39fdc04786a496c3d52c45b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the specified data as an attachment of the email.  <a href="#a4d0e3d2d39fdc04786a496c3d52c45b8">More...</a><br /></td></tr>
 <tr class="separator:a4d0e3d2d39fdc04786a496c3d52c45b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a00533685efc8eefd6feeae97dd0cc491"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a00533685efc8eefd6feeae97dd0cc491">Subject</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a00533685efc8eefd6feeae97dd0cc491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the subject of message.  <a href="#a00533685efc8eefd6feeae97dd0cc491">More...</a><br /></td></tr>
+<tr class="memdesc:a00533685efc8eefd6feeae97dd0cc491"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text that appears in the subject line of the email.  <a href="#a00533685efc8eefd6feeae97dd0cc491">More...</a><br /></td></tr>
 <tr class="separator:a00533685efc8eefd6feeae97dd0cc491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22a174fd7f5d080c4e4714fd0dde308"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308">Body</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa22a174fd7f5d080c4e4714fd0dde308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the body of message.  <a href="#aa22a174fd7f5d080c4e4714fd0dde308">More...</a><br /></td></tr>
+<tr class="memdesc:aa22a174fd7f5d080c4e4714fd0dde308"><td class="mdescLeft">&#160;</td><td class="mdescRight">The body text of the email  <a href="#aa22a174fd7f5d080c4e4714fd0dde308">More...</a><br /></td></tr>
 <tr class="separator:aa22a174fd7f5d080c4e4714fd0dde308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5cb621025f2b4319dd1459bbde8209"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a1e5cb621025f2b4319dd1459bbde8209">IsHTMLBody</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a1e5cb621025f2b4319dd1459bbde8209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets a value indicating whether this message body is HTML body.  <a href="#a1e5cb621025f2b4319dd1459bbde8209">More...</a><br /></td></tr>
+<tr class="memdesc:a1e5cb621025f2b4319dd1459bbde8209"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bool value used to identify whether the email body contains HTML content or not.  <a href="#a1e5cb621025f2b4319dd1459bbde8209">More...</a><br /></td></tr>
 <tr class="separator:a1e5cb621025f2b4319dd1459bbde8209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb36e9811a694031f029f59458af532b"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#adb36e9811a694031f029f59458af532b">ToRecipients</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:adb36e9811a694031f029f59458af532b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets to recipients of mail.  <a href="#adb36e9811a694031f029f59458af532b">More...</a><br /></td></tr>
+<tr class="memdesc:adb36e9811a694031f029f59458af532b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recipients to include in the email’s “To” field.  <a href="#adb36e9811a694031f029f59458af532b">More...</a><br /></td></tr>
 <tr class="separator:adb36e9811a694031f029f59458af532b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a006f0b2584488d4e03d8c2756f91156b"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a006f0b2584488d4e03d8c2756f91156b">CCRecipients</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a006f0b2584488d4e03d8c2756f91156b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the CC recipients of mail.  <a href="#a006f0b2584488d4e03d8c2756f91156b">More...</a><br /></td></tr>
+<tr class="memdesc:a006f0b2584488d4e03d8c2756f91156b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recipients to include in the email’s “Cc” field.  <a href="#a006f0b2584488d4e03d8c2756f91156b">More...</a><br /></td></tr>
 <tr class="separator:a006f0b2584488d4e03d8c2756f91156b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14eeb895998bf897ef9d4fed6125220"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#ae14eeb895998bf897ef9d4fed6125220">BCCRecipients</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae14eeb895998bf897ef9d4fed6125220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the BCC recipients of mail.  <a href="#ae14eeb895998bf897ef9d4fed6125220">More...</a><br /></td></tr>
+<tr class="memdesc:ae14eeb895998bf897ef9d4fed6125220"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recipients to include in the email’s “Bcc” field.  <a href="#ae14eeb895998bf897ef9d4fed6125220">More...</a><br /></td></tr>
 <tr class="separator:ae14eeb895998bf897ef9d4fed6125220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa0fd7effdb3535379c4a3e612ee9dfb"><td class="memItemLeft" align="right" valign="top">byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#aaa0fd7effdb3535379c4a3e612ee9dfb">AttachmentData</a><code> [get]</code></td></tr>
-<tr class="memdesc:aaa0fd7effdb3535379c4a3e612ee9dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the attachment data.  <a href="#aaa0fd7effdb3535379c4a3e612ee9dfb">More...</a><br /></td></tr>
+<tr class="memdesc:aaa0fd7effdb3535379c4a3e612ee9dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The raw data of the attachment. (read-only)  <a href="#aaa0fd7effdb3535379c4a3e612ee9dfb">More...</a><br /></td></tr>
 <tr class="separator:aaa0fd7effdb3535379c4a3e612ee9dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad68a10ca01d318ebc086a39b337eeb6d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#ad68a10ca01d318ebc086a39b337eeb6d">AttachmentFileName</a><code> [get]</code></td></tr>
-<tr class="memdesc:ad68a10ca01d318ebc086a39b337eeb6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the attachment file.  <a href="#ad68a10ca01d318ebc086a39b337eeb6d">More...</a><br /></td></tr>
+<tr class="memdesc:ad68a10ca01d318ebc086a39b337eeb6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filename of the data attached in the email. (read-only)  <a href="#ad68a10ca01d318ebc086a39b337eeb6d">More...</a><br /></td></tr>
 <tr class="separator:ad68a10ca01d318ebc086a39b337eeb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60fd10355a0ba590ab36a2aaae02455c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a60fd10355a0ba590ab36a2aaae02455c">MimeType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a60fd10355a0ba590ab36a2aaae02455c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MIME type of the data attached in the email. (read-only)  <a href="#a60fd10355a0ba590ab36a2aaae02455c">More...</a><br /></td></tr>
+<tr class="separator:a60fd10355a0ba590ab36a2aaae02455c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html">IShareView</a></td></tr>
+<tr class="memitem:a9c83a640154391f9020fb2b2e27be87e inherit properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html#a9c83a640154391f9020fb2b2e27be87e">IsReadyToShowView</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9c83a640154391f9020fb2b2e27be87e inherit properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bool value that indicates whether this instance is ready to present composer view. (read-only)  <a href="#a9c83a640154391f9020fb2b2e27be87e">More...</a><br /></td></tr>
+<tr class="separator:a9c83a640154391f9020fb2b2e27be87e inherit properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html" title="MailShareComposer object provides interface to send a mail. ">MailShareComposer</a> object provides interface to send a mail. </p>
+<div class="textblock"><p>Provides an interface to compose and send email messages. </p>
+<p>You can present this view with prepopulated fields such as subject, body, recipients, attachments etc. The user can edit the initial contents you specify and choose to send the email or cancel the operation.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a3174a5d8db3f28935760bf7bdb2c35b3"></a>
 <div class="memitem">
@@ -155,10 +163,10 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Attachs a image to mail. </p>
+<p>Adds specified image as an attachment of the email. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_texture</td><td>texture to consider as image data.</td></tr>
+    <tr><td class="paramname">_texture</td><td>Unity texture object that has to be added as an attachment.</td></tr>
   </table>
   </dd>
 </dl>
@@ -189,11 +197,11 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds the attachment at path. </p>
+<p>Adds specified file as an attachment of the email. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_attachmentPath</td><td>attachment file path.</td></tr>
-    <tr><td class="paramname">_MIMEType</td><td>MIME type.</td></tr>
+    <tr><td class="paramname">_attachmentPath</td><td>Path of the file that has to be added as an attachment.</td></tr>
+    <tr><td class="paramname">_MIMEType</td><td>The MIME type of the file attached in the email.</td></tr>
   </table>
   </dd>
 </dl>
@@ -230,12 +238,12 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds the attachment. </p>
+<p>Adds the specified data as an attachment of the email. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_attachmentData</td><td>attachment data.</td></tr>
-    <tr><td class="paramname">_attachmentFileName</td><td>attachment file name.</td></tr>
-    <tr><td class="paramname">_MIMEType</td><td>MIME type.</td></tr>
+    <tr><td class="paramname">_attachmentData</td><td>Raw data of the file that has to be added as an attachment.</td></tr>
+    <tr><td class="paramname">_attachmentFileName</td><td>The filename of the data attached in the email.</td></tr>
+    <tr><td class="paramname">_MIMEType</td><td>The MIME type of the data attached in the email.</td></tr>
   </table>
   </dd>
 </dl>
@@ -261,8 +269,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets or sets the subject of message. </p>
-<p>The subject.</p>
+<p>The text that appears in the subject line of the email. </p>
 
 </div>
 </div>
@@ -284,8 +291,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets or sets the body of message. </p>
-<p>The body.</p>
+<p>The body text of the email </p>
 
 </div>
 </div>
@@ -307,8 +313,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets or sets a value indicating whether this message body is HTML body. </p>
-<p><code>true</code> if this instance is HTML body; otherwise, <code>false</code>.</p>
+<p>A bool value used to identify whether the email body contains HTML content or not. </p>
+<p><code>true</code> if email body contains HTML content; otherwise, <code>false</code>.</p>
 
 </div>
 </div>
@@ -330,8 +336,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets or sets to recipients of mail. </p>
-<p>To recipients.</p>
+<p>The recipients to include in the email’s “To” field. </p>
 
 </div>
 </div>
@@ -353,8 +358,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets or sets the CC recipients of mail. </p>
-<p>The CC recipients.</p>
+<p>The recipients to include in the email’s “Cc” field. </p>
 
 </div>
 </div>
@@ -376,8 +380,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets or sets the BCC recipients of mail. </p>
-<p>The BCC recipients.</p>
+<p>The recipients to include in the email’s “Bcc” field. </p>
 
 </div>
 </div>
@@ -399,8 +402,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the attachment data. </p>
-<p>The attachment data.</p>
+<p>The raw data of the attachment. (read-only) </p>
 
 </div>
 </div>
@@ -422,8 +424,29 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the name of the attachment file. </p>
-<p>The name of the attachment file.</p>
+<p>The filename of the data attached in the email. (read-only) </p>
+
+</div>
+</div>
+<a class="anchor" id="a60fd10355a0ba590ab36a2aaae02455c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string MimeType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The MIME type of the data attached in the email. (read-only) </p>
 
 </div>
 </div>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Cross Platform Native Plugins: MessageShareComposer Class Reference</title>
+<title>Cross Platform Native Plugins: SocialShareComposerBase Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -83,38 +83,73 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html">MessageShareComposer</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a></li><li class="navelem"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html">SocialShareComposerBase</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer-members.html">List of all members</a>  </div>
+<a href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MessageShareComposer Class Reference</div>  </div>
+<div class="title">SocialShareComposerBase Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Provides an interface to compose and send text messages.  
- <a href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#details">More...</a></p>
+<p>Base class to compose a post and share it on social network.  
+ <a href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#a3174a5d8db3f28935760bf7bdb2c35b3">AttachImage</a> (Texture2D _texture)</td></tr>
+<tr class="memdesc:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the specified image to the post.  <a href="#a3174a5d8db3f28935760bf7bdb2c35b3">More...</a><br /></td></tr>
+<tr class="separator:a3174a5d8db3f28935760bf7bdb2c35b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aa22a174fd7f5d080c4e4714fd0dde308"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308">Body</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa22a174fd7f5d080c4e4714fd0dde308"><td class="mdescLeft">&#160;</td><td class="mdescRight">The initial content of the message.  <a href="#aa22a174fd7f5d080c4e4714fd0dde308">More...</a><br /></td></tr>
-<tr class="separator:aa22a174fd7f5d080c4e4714fd0dde308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb36e9811a694031f029f59458af532b"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#adb36e9811a694031f029f59458af532b">ToRecipients</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:adb36e9811a694031f029f59458af532b"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of strings containing the initial recipients of the message.  <a href="#adb36e9811a694031f029f59458af532b">More...</a><br /></td></tr>
-<tr class="separator:adb36e9811a694031f029f59458af532b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4726c7c06ae41233e679361293b4173"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#ab4726c7c06ae41233e679361293b4173">Text</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab4726c7c06ae41233e679361293b4173"><td class="mdescLeft">&#160;</td><td class="mdescRight">The string contains the text message to be posted.  <a href="#ab4726c7c06ae41233e679361293b4173">More...</a><br /></td></tr>
+<tr class="separator:ab4726c7c06ae41233e679361293b4173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82bacfe5b6faf0534ae06a9540cb886"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#af82bacfe5b6faf0534ae06a9540cb886">URL</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af82bacfe5b6faf0534ae06a9540cb886"><td class="mdescLeft">&#160;</td><td class="mdescRight">The string contains the URL to be posted.  <a href="#af82bacfe5b6faf0534ae06a9540cb886">More...</a><br /></td></tr>
+<tr class="separator:af82bacfe5b6faf0534ae06a9540cb886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ad9636ddcec5bcf35d2915632c25b0"><td class="memItemLeft" align="right" valign="top">byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#ad3ad9636ddcec5bcf35d2915632c25b0">ImageData</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad3ad9636ddcec5bcf35d2915632c25b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The raw data of the image to be posted. (read-only)  <a href="#ad3ad9636ddcec5bcf35d2915632c25b0">More...</a><br /></td></tr>
+<tr class="separator:ad3ad9636ddcec5bcf35d2915632c25b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html">IShareView</a></td></tr>
 <tr class="memitem:a9c83a640154391f9020fb2b2e27be87e inherit properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html#a9c83a640154391f9020fb2b2e27be87e">IsReadyToShowView</a><code> [get]</code></td></tr>
 <tr class="memdesc:a9c83a640154391f9020fb2b2e27be87e inherit properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bool value that indicates whether this instance is ready to present composer view. (read-only)  <a href="#a9c83a640154391f9020fb2b2e27be87e">More...</a><br /></td></tr>
 <tr class="separator:a9c83a640154391f9020fb2b2e27be87e inherit properties_interface_voxel_busters_1_1_native_plugins_1_1_i_share_view"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides an interface to compose and send text messages. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a class="anchor" id="aa22a174fd7f5d080c4e4714fd0dde308"></a>
+<div class="textblock"><p>Base class to compose a post and share it on social network. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3174a5d8db3f28935760bf7bdb2c35b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void AttachImage </td>
+          <td>(</td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>_texture</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds the specified image to the post. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_texture</td><td>Unity texture object that has to be shared.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="ab4726c7c06ae41233e679361293b4173"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -122,7 +157,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string Body</td>
+          <td class="memname">string Text</td>
         </tr>
       </table>
   </td>
@@ -132,11 +167,11 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The initial content of the message. </p>
+<p>The string contains the text message to be posted. </p>
 
 </div>
 </div>
-<a class="anchor" id="adb36e9811a694031f029f59458af532b"></a>
+<a class="anchor" id="af82bacfe5b6faf0534ae06a9540cb886"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -144,7 +179,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string [] ToRecipients</td>
+          <td class="memname">string URL</td>
         </tr>
       </table>
   </td>
@@ -154,7 +189,29 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>An array of strings containing the initial recipients of the message. </p>
+<p>The string contains the URL to be posted. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad3ad9636ddcec5bcf35d2915632c25b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte [] ImageData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The raw data of the image to be posted. (read-only) </p>
 
 </div>
 </div>

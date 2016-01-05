@@ -95,27 +95,71 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Sharing gives access to different forms of sharing. Can share text or image with Social network, Mail, SMS, WhatsApp.  
+<p>Provides cross-platform interface to various sharing services such as posting content to social media sites, sending items via email or SMS, and more.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a46047bbd6bda317f3c3e4c8c65fba62d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a46047bbd6bda317f3c3e4c8c65fba62d">ShowView</a> (<a class="el" href="interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html">IShareView</a> _shareView, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a> _onCompletion)</td></tr>
+<tr class="memdesc:a46047bbd6bda317f3c3e4c8c65fba62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the native view for sharing specified contents.  <a href="#a46047bbd6bda317f3c3e4c8c65fba62d">More...</a><br /></td></tr>
+<tr class="separator:a46047bbd6bda317f3c3e4c8c65fba62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61017c6d51721d2ca6154ffef15a6555"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a> (<a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</td></tr>
-<tr class="memdesc:a61017c6d51721d2ca6154ffef15a6555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when sharing action is done.  <a href="#a61017c6d51721d2ca6154ffef15a6555">More...</a><br /></td></tr>
+<tr class="memdesc:a61017c6d51721d2ca6154ffef15a6555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called after share action is complete.  <a href="#a61017c6d51721d2ca6154ffef15a6555">More...</a><br /></td></tr>
 <tr class="separator:a61017c6d51721d2ca6154ffef15a6555"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11331ae5597cbc82719936e8f37fbd1e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a11331ae5597cbc82719936e8f37fbd1e">IsMailServiceAvailable</a> ()</td></tr>
-<tr class="memdesc:a11331ae5597cbc82719936e8f37fbd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether mail service is available.  <a href="#a11331ae5597cbc82719936e8f37fbd1e">More...</a><br /></td></tr>
+<tr class="memdesc:a11331ae5597cbc82719936e8f37fbd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the current device is able to send email.  <a href="#a11331ae5597cbc82719936e8f37fbd1e">More...</a><br /></td></tr>
 <tr class="separator:a11331ae5597cbc82719936e8f37fbd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cb0c12e4ab7e9a69abc6ed91655390b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a3cb0c12e4ab7e9a69abc6ed91655390b">IsMessagingServiceAvailable</a> ()</td></tr>
-<tr class="memdesc:a3cb0c12e4ab7e9a69abc6ed91655390b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether messaging service is available.  <a href="#a3cb0c12e4ab7e9a69abc6ed91655390b">More...</a><br /></td></tr>
+<tr class="memdesc:a3cb0c12e4ab7e9a69abc6ed91655390b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the current device is able to send text messages.  <a href="#a3cb0c12e4ab7e9a69abc6ed91655390b">More...</a><br /></td></tr>
 <tr class="separator:a3cb0c12e4ab7e9a69abc6ed91655390b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552df48dd3f3ca5bfc75fc32c42625cb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a552df48dd3f3ca5bfc75fc32c42625cb">IsFBShareServiceAvailable</a> ()</td></tr>
+<tr class="memdesc:a552df48dd3f3ca5bfc75fc32c42625cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the current device is able to post contents on Facebook.  <a href="#a552df48dd3f3ca5bfc75fc32c42625cb">More...</a><br /></td></tr>
+<tr class="separator:a552df48dd3f3ca5bfc75fc32c42625cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443d765f60999582a8a8bed0c2e32758"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a443d765f60999582a8a8bed0c2e32758">IsTwitterShareServiceAvailable</a> ()</td></tr>
+<tr class="memdesc:a443d765f60999582a8a8bed0c2e32758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the current device is able to post contents on Twitter.  <a href="#a443d765f60999582a8a8bed0c2e32758">More...</a><br /></td></tr>
+<tr class="separator:a443d765f60999582a8a8bed0c2e32758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26a9c7408fead70cecf3a383d8fec9ae"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a26a9c7408fead70cecf3a383d8fec9ae">IsWhatsAppServiceAvailable</a> ()</td></tr>
-<tr class="memdesc:a26a9c7408fead70cecf3a383d8fec9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether whatsApp service is available.  <a href="#a26a9c7408fead70cecf3a383d8fec9ae">More...</a><br /></td></tr>
+<tr class="memdesc:a26a9c7408fead70cecf3a383d8fec9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the current device is able to share contents on WhatsApp.  <a href="#a26a9c7408fead70cecf3a383d8fec9ae">More...</a><br /></td></tr>
 <tr class="separator:a26a9c7408fead70cecf3a383d8fec9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Sharing gives access to different forms of sharing. Can share text or image with Social network, Mail, SMS, WhatsApp. </p>
+<div class="textblock"><p>Provides cross-platform interface to various sharing services such as posting content to social media sites, sending items via email or SMS, and more. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a46047bbd6bda317f3c3e4c8c65fba62d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShowView </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_voxel_busters_1_1_native_plugins_1_1_i_share_view.html">IShareView</a>&#160;</td>
+          <td class="paramname"><em>_shareView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_sharing.html#a61017c6d51721d2ca6154ffef15a6555">SharingCompletion</a>&#160;</td>
+          <td class="paramname"><em>_onCompletion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shows the native view for sharing specified contents. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_shareView</td><td>The object represents the composer that you want to use for sharing items.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a61017c6d51721d2ca6154ffef15a6555"></a>
 <div class="memitem">
 <div class="memproto">
@@ -130,10 +174,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when sharing action is done. </p>
+<p>Delegate that will be called after share action is complete. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_result</td><td>Status of share action. Currently CLOSED action is only available</td></tr>
+    <tr><td class="paramname">_result</td><td>The result of the user’s action. This value will always be <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dda110ccf2f5d2ff4eda1fd1a494293467d" title="The composer view was closed. ">eShareResult.CLOSED</a>, as its not possible to find out the share action selected by Android user.</td></tr>
   </table>
   </dd>
 </dl>
@@ -161,8 +205,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines whether mail service is available. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if this mail service is available; otherwise, <code>false</code>.</dd></dl>
+<p>Determines whether the current device is able to send email. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the device can send email; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -187,8 +231,60 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines whether messaging service is available. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if this messaging service is available; otherwise, <code>false</code>.</dd></dl>
+<p>Determines whether the current device is able to send text messages. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the device can send text messages; otherwise, <code>false</code>.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a552df48dd3f3ca5bfc75fc32c42625cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool IsFBShareServiceAvailable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines whether the current device is able to post contents on Facebook. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the device can post on Facebook; otherwise, <code>false</code>.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a443d765f60999582a8a8bed0c2e32758"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool IsTwitterShareServiceAvailable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines whether the current device is able to post contents on Twitter. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the device can post on Twitter; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -213,8 +309,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines whether whatsApp service is available. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if whatsApp service is available; otherwise, <code>false</code>.</dd></dl>
+<p>Determines whether the current device is able to share contents on WhatsApp. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the device can share on WhatsApp; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>

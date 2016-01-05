@@ -18,5 +18,6 @@ var searchData=
   ['etoastmessagelength',['eToastMessageLength',['../namespace_voxel_busters_1_1_native_plugins.html#aa7419c122761ca00a86f0dbb0cba8379',1,'VoxelBusters::NativePlugins']]],
   ['etwittercomposerresult',['eTwitterComposerResult',['../namespace_voxel_busters_1_1_native_plugins.html#a6b27d398d97a7d2de511f9aa2244fcc0',1,'VoxelBusters::NativePlugins']]],
   ['evaluatejavascriptfromstring',['EvaluateJavaScriptFromString',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a1b22c98ca88b0b898497aa85cec970bd',1,'VoxelBusters::NativePlugins::WebView']]],
-  ['ewebviewcontroltype',['eWebviewControlType',['../namespace_voxel_busters_1_1_native_plugins.html#a30c9f3d09eec86c955a0f96b781e8cae',1,'VoxelBusters::NativePlugins']]]
+  ['ewebviewcontroltype',['eWebviewControlType',['../namespace_voxel_busters_1_1_native_plugins.html#a30c9f3d09eec86c955a0f96b781e8cae',1,'VoxelBusters::NativePlugins']]],
+  ['excludedshareoptions',['ExcludedShareOptions',['../class_voxel_busters_1_1_native_plugins_1_1_share_sheet.html#af631433fae56a26d316d6d8a7eebeb8f',1,'VoxelBusters::NativePlugins::ShareSheet']]]
 ];

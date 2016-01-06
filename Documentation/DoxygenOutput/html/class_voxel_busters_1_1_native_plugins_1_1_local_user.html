@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Represents the authenticated user running your game on the device.  
+<p>Represents an object that holds information about the authenticated user running your game on the device.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -105,10 +105,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab5617f4e9a13d0b1ebe46c8ba6ba9af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when authentication process is complete.  <a href="#ab5617f4e9a13d0b1ebe46c8ba6ba9af5">More...</a><br /></td></tr>
 <tr class="separator:ab5617f4e9a13d0b1ebe46c8ba6ba9af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93152077e47df7feb11589d20870e458"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html#a93152077e47df7feb11589d20870e458">LoadFriendsCompletion</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html">User</a>[] _users, string _error)</td></tr>
-<tr class="memdesc:a93152077e47df7feb11589d20870e458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents the authenticated user running your game on the device. ">LocalUser</a> friends information is retrieved.  <a href="#a93152077e47df7feb11589d20870e458">More...</a><br /></td></tr>
+<tr class="memdesc:a93152077e47df7feb11589d20870e458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents an object that holds information about the authenticated user running your game on the dev...">LocalUser</a> friends information is retrieved.  <a href="#a93152077e47df7feb11589d20870e458">More...</a><br /></td></tr>
 <tr class="separator:a93152077e47df7feb11589d20870e458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ca33cfdb07ec5aef86ac37bff2e959"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html#a14ca33cfdb07ec5aef86ac37bff2e959">SignOutCompletion</a> (bool _success, string _error)</td></tr>
-<tr class="memdesc:a14ca33cfdb07ec5aef86ac37bff2e959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents the authenticated user running your game on the device. ">LocalUser</a> is signed out of the game service.  <a href="#a14ca33cfdb07ec5aef86ac37bff2e959">More...</a><br /></td></tr>
+<tr class="memdesc:a14ca33cfdb07ec5aef86ac37bff2e959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents an object that holds information about the authenticated user running your game on the dev...">LocalUser</a> is signed out of the game service.  <a href="#a14ca33cfdb07ec5aef86ac37bff2e959">More...</a><br /></td></tr>
 <tr class="separator:a14ca33cfdb07ec5aef86ac37bff2e959"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6efe75be481a8f20a72d5012f4115bf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html#ae6efe75be481a8f20a72d5012f4115bf">Authenticate</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html#ab5617f4e9a13d0b1ebe46c8ba6ba9af5">AuthenticationCompletion</a> _onCompletion)</td></tr>
 <tr class="memdesc:ae6efe75be481a8f20a72d5012f4115bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authenticates the local user on the device.  <a href="#ae6efe75be481a8f20a72d5012f4115bf">More...</a><br /></td></tr>
@@ -133,7 +133,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:a8f4e8fd8494bf8c2c81bbb0f56381c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bool value that indicates whether a local user is currently signed in to game service. (read-only)  <a href="#a8f4e8fd8494bf8c2c81bbb0f56381c04">More...</a><br /></td></tr>
 <tr class="separator:a8f4e8fd8494bf8c2c81bbb0f56381c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acce00fbaf6ec34f02004ef4de1b85837"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html">User</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html#acce00fbaf6ec34f02004ef4de1b85837">Friends</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:acce00fbaf6ec34f02004ef4de1b85837"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="Provides information about a user playing your game. ">User</a> objects, that are friends of the local user. (read-only)  <a href="#acce00fbaf6ec34f02004ef4de1b85837">More...</a><br /></td></tr>
+<tr class="memdesc:acce00fbaf6ec34f02004ef4de1b85837"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="Represents an object that holds information about a user playing your game. ">User</a> objects, that are friends of the local user. (read-only)  <a href="#acce00fbaf6ec34f02004ef4de1b85837">More...</a><br /></td></tr>
 <tr class="separator:acce00fbaf6ec34f02004ef4de1b85837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_voxel_busters_1_1_native_plugins_1_1_user"><td colspan="2" onclick="javascript:toggleInherit('properties_class_voxel_busters_1_1_native_plugins_1_1_user')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html">User</a></td></tr>
 <tr class="memitem:a3e44d1bd1025981aab25479699e04c41 inherit properties_class_voxel_busters_1_1_native_plugins_1_1_user"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html#a3e44d1bd1025981aab25479699e04c41">Identifier</a><code> [get, protected set]</code></td></tr>
@@ -144,7 +144,7 @@ Properties</h2></td></tr>
 <tr class="separator:a1cb60fe8f660e3c64c630215704c6bc7 inherit properties_class_voxel_busters_1_1_native_plugins_1_1_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Represents the authenticated user running your game on the device. </p>
+<div class="textblock"><p>Represents an object that holds information about the authenticated user running your game on the device. </p>
 <p>At any given time, only one user may be authenticated on the device, this user must log out before another user can log in.  </p>
 <dl class="section note"><dt>Note</dt><dd>Your game must authenticate the local user before using any features. </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -207,10 +207,10 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents the authenticated user running your game on the device. ">LocalUser</a> friends information is retrieved. </p>
+<p>Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents an object that holds information about the authenticated user running your game on the dev...">LocalUser</a> friends information is retrieved. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_users</td><td>An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="Provides information about a user playing your game. ">User</a> objects, that are friends of the local user.</td></tr>
+    <tr><td class="paramname">_users</td><td>An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="Represents an object that holds information about a user playing your game. ">User</a> objects, that are friends of the local user.</td></tr>
     <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
@@ -242,7 +242,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents the authenticated user running your game on the device. ">LocalUser</a> is signed out of the game service. </p>
+<p>Delegate that will be called when <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_local_user.html" title="Represents an object that holds information about the authenticated user running your game on the dev...">LocalUser</a> is signed out of the game service. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_success</td><td>A bool value used to indicate operation status.</td></tr>
@@ -385,7 +385,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="Provides information about a user playing your game. ">User</a> objects, that are friends of the local user. (read-only) </p>
+<p>An array of <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html" title="Represents an object that holds information about a user playing your game. ">User</a> objects, that are friends of the local user. (read-only) </p>
 
 </div>
 </div>

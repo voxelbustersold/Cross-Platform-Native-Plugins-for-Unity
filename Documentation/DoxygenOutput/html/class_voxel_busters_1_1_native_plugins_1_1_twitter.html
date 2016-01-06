@@ -95,86 +95,87 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Provides support for sending Twitter requests on behalf of the user and for composing and sending tweets.  
+<p>Provides cross-platform interface to Twitter login and sending requests on the behalf of the user. Additionally, it includes methods to compose and send Tweet messages.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4e3c5461c1a4a09efc1e31540d4c1faa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4e3c5461c1a4a09efc1e31540d4c1faa">Initialise</a> ()</td></tr>
-<tr class="memdesc:a4e3c5461c1a4a09efc1e31540d4c1faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise Twitter feature.  <a href="#a4e3c5461c1a4a09efc1e31540d4c1faa">More...</a><br /></td></tr>
+<tr class="memdesc:a4e3c5461c1a4a09efc1e31540d4c1faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises the SDK with the credentials set in NPSettings.  <a href="#a4e3c5461c1a4a09efc1e31540d4c1faa">More...</a><br /></td></tr>
 <tr class="separator:a4e3c5461c1a4a09efc1e31540d4c1faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9949714add72302695128d30d824f7a7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a9949714add72302695128d30d824f7a7">Login</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a34f959f59508d1442e3d921bbfe45cd5">TWTRLoginCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a9949714add72302695128d30d824f7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers user authentication with Twitter.  <a href="#a9949714add72302695128d30d824f7a7">More...</a><br /></td></tr>
+<tr class="memdesc:a9949714add72302695128d30d824f7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authenticates the app user with Twitter.  <a href="#a9949714add72302695128d30d824f7a7">More...</a><br /></td></tr>
 <tr class="separator:a9949714add72302695128d30d824f7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f9678ea9f85d72d78bdd288d989d8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a49f9678ea9f85d72d78bdd288d989d8e">Logout</a> ()</td></tr>
-<tr class="memdesc:a49f9678ea9f85d72d78bdd288d989d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the local Twitter user session from this app.  <a href="#a49f9678ea9f85d72d78bdd288d989d8e">More...</a><br /></td></tr>
+<tr class="memdesc:a49f9678ea9f85d72d78bdd288d989d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the Twitter user session from this app.  <a href="#a49f9678ea9f85d72d78bdd288d989d8e">More...</a><br /></td></tr>
 <tr class="separator:a49f9678ea9f85d72d78bdd288d989d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefcb0d34ecb87897b685fc737f64b68c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#aefcb0d34ecb87897b685fc737f64b68c">IsLoggedIn</a> ()</td></tr>
-<tr class="memdesc:aefcb0d34ecb87897b685fc737f64b68c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether user is logged in or not.  <a href="#aefcb0d34ecb87897b685fc737f64b68c">More...</a><br /></td></tr>
+<tr class="memdesc:aefcb0d34ecb87897b685fc737f64b68c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether user is currently logged in to Twitter.  <a href="#aefcb0d34ecb87897b685fc737f64b68c">More...</a><br /></td></tr>
 <tr class="separator:aefcb0d34ecb87897b685fc737f64b68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1adce748fac02f3ccaea0ee1f104e6c"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#af1adce748fac02f3ccaea0ee1f104e6c">GetAuthToken</a> ()</td></tr>
-<tr class="memdesc:af1adce748fac02f3ccaea0ee1f104e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the authorization token. Returns NULL if user isnt logged in.  <a href="#af1adce748fac02f3ccaea0ee1f104e6c">More...</a><br /></td></tr>
+<tr class="memdesc:af1adce748fac02f3ccaea0ee1f104e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the authorization token of the current user session.  <a href="#af1adce748fac02f3ccaea0ee1f104e6c">More...</a><br /></td></tr>
 <tr class="separator:af1adce748fac02f3ccaea0ee1f104e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0e464281e402f2aeecdf542ec1cb68"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a4f0e464281e402f2aeecdf542ec1cb68">GetAuthTokenSecret</a> ()</td></tr>
-<tr class="memdesc:a4f0e464281e402f2aeecdf542ec1cb68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the authorization token secret. Returns NULL if user isnt logged in.  <a href="#a4f0e464281e402f2aeecdf542ec1cb68">More...</a><br /></td></tr>
+<tr class="memdesc:a4f0e464281e402f2aeecdf542ec1cb68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the authorization token secret of the current user session.  <a href="#a4f0e464281e402f2aeecdf542ec1cb68">More...</a><br /></td></tr>
 <tr class="separator:a4f0e464281e402f2aeecdf542ec1cb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade45ff64f7c0b82b94219df5767db8f5"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ade45ff64f7c0b82b94219df5767db8f5">GetUserID</a> ()</td></tr>
-<tr class="memdesc:ade45ff64f7c0b82b94219df5767db8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the user ID of twitter user. Returns NULL if user isnt logged in.  <a href="#ade45ff64f7c0b82b94219df5767db8f5">More...</a><br /></td></tr>
+<tr class="memdesc:ade45ff64f7c0b82b94219df5767db8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the user ID associated with the access token.  <a href="#ade45ff64f7c0b82b94219df5767db8f5">More...</a><br /></td></tr>
 <tr class="separator:ade45ff64f7c0b82b94219df5767db8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e99e0a5863f109ff85a2f57a105505a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a1e99e0a5863f109ff85a2f57a105505a">GetUserName</a> ()</td></tr>
-<tr class="memdesc:a1e99e0a5863f109ff85a2f57a105505a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the twitter user. Returns NULL if user isnt logged in.  <a href="#a1e99e0a5863f109ff85a2f57a105505a">More...</a><br /></td></tr>
+<tr class="memdesc:a1e99e0a5863f109ff85a2f57a105505a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the username associated with the access token.  <a href="#a1e99e0a5863f109ff85a2f57a105505a">More...</a><br /></td></tr>
 <tr class="separator:a1e99e0a5863f109ff85a2f57a105505a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79de75394508b2e9564b831a74e45f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a79de75394508b2e9564b831a74e45f88">ShowTweetComposerWithMessage</a> (string _message, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986">TWTRTweetCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a79de75394508b2e9564b831a74e45f88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presents composer to tweet text.  <a href="#a79de75394508b2e9564b831a74e45f88">More...</a><br /></td></tr>
+<tr class="memdesc:a79de75394508b2e9564b831a74e45f88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a view to compose and send Tweet message.  <a href="#a79de75394508b2e9564b831a74e45f88">More...</a><br /></td></tr>
 <tr class="separator:a79de75394508b2e9564b831a74e45f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a128d7714f79e801e7a09b8edacf8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a48a128d7714f79e801e7a09b8edacf8e">ShowTweetComposerWithScreenshot</a> (string _message, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986">TWTRTweetCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a48a128d7714f79e801e7a09b8edacf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presents composer to tweet text along with screenshot.  <a href="#a48a128d7714f79e801e7a09b8edacf8e">More...</a><br /></td></tr>
+<tr class="memdesc:a48a128d7714f79e801e7a09b8edacf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a view to compose and send Tweet message.  <a href="#a48a128d7714f79e801e7a09b8edacf8e">More...</a><br /></td></tr>
 <tr class="separator:a48a128d7714f79e801e7a09b8edacf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c85b7565e0f020adabee3ff7bb17308"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a7c85b7565e0f020adabee3ff7bb17308">ShowTweetComposerWithImage</a> (string _message, Texture2D _texture, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986">TWTRTweetCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a7c85b7565e0f020adabee3ff7bb17308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presents composer to tweet text along with attached image.  <a href="#a7c85b7565e0f020adabee3ff7bb17308">More...</a><br /></td></tr>
+<tr class="memdesc:a7c85b7565e0f020adabee3ff7bb17308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a view to compose and send Tweet message.  <a href="#a7c85b7565e0f020adabee3ff7bb17308">More...</a><br /></td></tr>
 <tr class="separator:a7c85b7565e0f020adabee3ff7bb17308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a302299a78c702ca3910f63f7afc2edfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a302299a78c702ca3910f63f7afc2edfe">ShowTweetComposerWithLink</a> (string _message, string _URL, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986">TWTRTweetCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a302299a78c702ca3910f63f7afc2edfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presents composer to tweet text along with URL.  <a href="#a302299a78c702ca3910f63f7afc2edfe">More...</a><br /></td></tr>
+<tr class="memdesc:a302299a78c702ca3910f63f7afc2edfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a view to compose and send Tweet message.  <a href="#a302299a78c702ca3910f63f7afc2edfe">More...</a><br /></td></tr>
 <tr class="separator:a302299a78c702ca3910f63f7afc2edfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa7380eea4791587c171d201b79a6567"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#aaa7380eea4791587c171d201b79a6567">ShowTweetComposer</a> (string _message, string _URL, byte[] _imgByteArray, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986">TWTRTweetCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:aaa7380eea4791587c171d201b79a6567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presents composer to tweet text along with URL and image.  <a href="#aaa7380eea4791587c171d201b79a6567">More...</a><br /></td></tr>
+<tr class="memdesc:aaa7380eea4791587c171d201b79a6567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a view to compose and send Tweet message.  <a href="#aaa7380eea4791587c171d201b79a6567">More...</a><br /></td></tr>
 <tr class="separator:aaa7380eea4791587c171d201b79a6567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b89da6d5f00af4292bcab518f3a33f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ac8b89da6d5f00af4292bcab518f3a33f">RequestAccountDetails</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a547ee925356415ce1472068ed1011ce3">TWTRAccountDetailsCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:ac8b89da6d5f00af4292bcab518f3a33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends request to load users account details.  <a href="#ac8b89da6d5f00af4292bcab518f3a33f">More...</a><br /></td></tr>
+<tr class="memdesc:ac8b89da6d5f00af4292bcab518f3a33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests access to the current Twitter user account details.  <a href="#ac8b89da6d5f00af4292bcab518f3a33f">More...</a><br /></td></tr>
 <tr class="separator:ac8b89da6d5f00af4292bcab518f3a33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a791224d4484a3d54d96092c3f91d8404"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a791224d4484a3d54d96092c3f91d8404">RequestEmailAccess</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ae65acbb90b23780b10cc2881d1739bb7">TWTREmailAccessCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a791224d4484a3d54d96092c3f91d8404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests user to provide access to his email address.  <a href="#a791224d4484a3d54d96092c3f91d8404">More...</a><br /></td></tr>
+<tr class="memdesc:a791224d4484a3d54d96092c3f91d8404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests access to the email address associated with current Twitter user.  <a href="#a791224d4484a3d54d96092c3f91d8404">More...</a><br /></td></tr>
 <tr class="separator:a791224d4484a3d54d96092c3f91d8404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbc52d6ceac20cb210f6b6e0224259c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a2fbc52d6ceac20cb210f6b6e0224259c">GetURLRequest</a> (string _URL, IDictionary _parameters, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65">TWTRResonse</a> _onCompletion)</td></tr>
-<tr class="memdesc:a2fbc52d6ceac20cb210f6b6e0224259c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a Twitter GET request.  <a href="#a2fbc52d6ceac20cb210f6b6e0224259c">More...</a><br /></td></tr>
+<tr class="memdesc:a2fbc52d6ceac20cb210f6b6e0224259c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a signed Twitter Get request.  <a href="#a2fbc52d6ceac20cb210f6b6e0224259c">More...</a><br /></td></tr>
 <tr class="separator:a2fbc52d6ceac20cb210f6b6e0224259c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24e6281b9778b4dcfb6b35b5522013ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a24e6281b9778b4dcfb6b35b5522013ad">PostURLRequest</a> (string _URL, IDictionary _parameters, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65">TWTRResonse</a> _onCompletion)</td></tr>
-<tr class="memdesc:a24e6281b9778b4dcfb6b35b5522013ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a Twitter POST request.  <a href="#a24e6281b9778b4dcfb6b35b5522013ad">More...</a><br /></td></tr>
+<tr class="memdesc:a24e6281b9778b4dcfb6b35b5522013ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a signed Twitter Post request.  <a href="#a24e6281b9778b4dcfb6b35b5522013ad">More...</a><br /></td></tr>
 <tr class="separator:a24e6281b9778b4dcfb6b35b5522013ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe9cc3d9c200534cfec99ffd6e521798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afe9cc3d9c200534cfec99ffd6e521798">PutURLRequest</a> (string _URL, IDictionary _parameters, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65">TWTRResonse</a> _onCompletion)</td></tr>
-<tr class="memdesc:afe9cc3d9c200534cfec99ffd6e521798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a Twitter PUT request.  <a href="#afe9cc3d9c200534cfec99ffd6e521798">More...</a><br /></td></tr>
+<tr class="memdesc:afe9cc3d9c200534cfec99ffd6e521798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a signed Twitter Put request.  <a href="#afe9cc3d9c200534cfec99ffd6e521798">More...</a><br /></td></tr>
 <tr class="separator:afe9cc3d9c200534cfec99ffd6e521798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60a173d7e40567cf4c848f458f63e23d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a60a173d7e40567cf4c848f458f63e23d">DeleteURLRequest</a> (string _URL, IDictionary _parameters, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65">TWTRResonse</a> _onCompletion)</td></tr>
-<tr class="memdesc:a60a173d7e40567cf4c848f458f63e23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a Twitter DELETE request.  <a href="#a60a173d7e40567cf4c848f458f63e23d">More...</a><br /></td></tr>
+<tr class="memdesc:a60a173d7e40567cf4c848f458f63e23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a signed Twitter Delete request.  <a href="#a60a173d7e40567cf4c848f458f63e23d">More...</a><br /></td></tr>
 <tr class="separator:a60a173d7e40567cf4c848f458f63e23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34f959f59508d1442e3d921bbfe45cd5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a34f959f59508d1442e3d921bbfe45cd5">TWTRLoginCompletion</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html">TwitterSession</a> _session, string _error)</td></tr>
-<tr class="memdesc:a34f959f59508d1442e3d921bbfe45cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when user login succeeds or fails.  <a href="#a34f959f59508d1442e3d921bbfe45cd5">More...</a><br /></td></tr>
+<tr class="memdesc:a34f959f59508d1442e3d921bbfe45cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when authentication process is complete.  <a href="#a34f959f59508d1442e3d921bbfe45cd5">More...</a><br /></td></tr>
 <tr class="separator:a34f959f59508d1442e3d921bbfe45cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6b9ce57f190495125926ab9a0a2986"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986">TWTRTweetCompletion</a> (<a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a6b27d398d97a7d2de511f9aa2244fcc0">eTwitterComposerResult</a> _result)</td></tr>
-<tr class="memdesc:afc6b9ce57f190495125926ab9a0a2986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the user finishes composing a Tweet.  <a href="#afc6b9ce57f190495125926ab9a0a2986">More...</a><br /></td></tr>
+<tr class="memdesc:afc6b9ce57f190495125926ab9a0a2986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when Tweet composer is dismissed.  <a href="#afc6b9ce57f190495125926ab9a0a2986">More...</a><br /></td></tr>
 <tr class="separator:afc6b9ce57f190495125926ab9a0a2986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a547ee925356415ce1472068ed1011ce3"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a547ee925356415ce1472068ed1011ce3">TWTRAccountDetailsCompletion</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html">TwitterUser</a> _user, string _error)</td></tr>
-<tr class="memdesc:a547ee925356415ce1472068ed1011ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when load user details request succeeds or fails.  <a href="#a547ee925356415ce1472068ed1011ce3">More...</a><br /></td></tr>
+<tr class="memdesc:a547ee925356415ce1472068ed1011ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when user account details are retrieved.  <a href="#a547ee925356415ce1472068ed1011ce3">More...</a><br /></td></tr>
 <tr class="separator:a547ee925356415ce1472068ed1011ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae65acbb90b23780b10cc2881d1739bb7"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ae65acbb90b23780b10cc2881d1739bb7">TWTREmailAccessCompletion</a> (string _email, string _error)</td></tr>
-<tr class="memdesc:ae65acbb90b23780b10cc2881d1739bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the user accepts or denies access to their email address.  <a href="#ae65acbb90b23780b10cc2881d1739bb7">More...</a><br /></td></tr>
+<tr class="memdesc:ae65acbb90b23780b10cc2881d1739bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when email access request completes.  <a href="#ae65acbb90b23780b10cc2881d1739bb7">More...</a><br /></td></tr>
 <tr class="separator:ae65acbb90b23780b10cc2881d1739bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affc195ddd4be528977b77208774fdb65"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65">TWTRResonse</a> (object _responseData, string _error)</td></tr>
-<tr class="memdesc:affc195ddd4be528977b77208774fdb65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the network request succeeds or fails.  <a href="#affc195ddd4be528977b77208774fdb65">More...</a><br /></td></tr>
+<tr class="memdesc:affc195ddd4be528977b77208774fdb65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called when Twitter request completes.  <a href="#affc195ddd4be528977b77208774fdb65">More...</a><br /></td></tr>
 <tr class="separator:affc195ddd4be528977b77208774fdb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides support for sending Twitter requests on behalf of the user and for composing and sending tweets. </p>
+<div class="textblock"><p>Provides cross-platform interface to Twitter login and sending requests on the behalf of the user. Additionally, it includes methods to compose and send Tweet messages. </p>
+<p>You will need a consumer key and a consumer secret to use Twitter SDK within your application. And for this, please follow the instructions provided by <a href="https://docs.fabric.io/ios/twitter/configure-twitter-app.html">Twitter</a> and set it in NPSettings.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a4e3c5461c1a4a09efc1e31540d4c1faa"></a>
 <div class="memitem">
@@ -197,8 +198,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Initialise Twitter feature. </p>
-<p>Make sure this is called before using twitter functions. Returns true on proper initialisation.  </p>
+<p>Initialises the SDK with the credentials set in NPSettings. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if SDK got initialised; otherwise, <code>false</code>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You need to call this method, before using any features. This method requires that you have set up your consumerKey and consumerSecret in NPSettings. </dd></dl>
 
 </div>
 </div>
@@ -224,15 +226,37 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Triggers user authentication with Twitter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Authenticates the app user with Twitter. </p>
+<p>This method falls back to presenting an OAuth flow, if it fails to find saved login credentials.  </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate after authentication is successful or if there is an error.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
-<p>This method will present UI to allow the user to log in if there are no saved Twitter login credentials.  </p>
-
+<dl class="section note"><dt>Note</dt><dd>User authentication is required for API requests that require a user context, for example: Tweeting or following other users. </dd></dl>
+<p>The following code shows how to use login method. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a9949714add72302695128d30d824f7a7">Login</a> ()</div>
+<div class="line">    {</div>
+<div class="line">        NPBinding.Twitter.Login(LoginFinished);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnLoginFinished (TwitterSession _session, <span class="keywordtype">string</span> _error)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (_error == null)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Logged in successfully</span></div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Login failed</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a49f9678ea9f85d72d78bdd288d989d8e"></a>
@@ -256,7 +280,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Deletes the local Twitter user session from this app. </p>
+<p>Deletes the Twitter user session from this app. </p>
 
 </div>
 </div>
@@ -281,8 +305,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines whether user is logged in or not. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if user is logged in; otherwise, <code>false</code>.</dd></dl>
+<p>Determines whether user is currently logged in to Twitter. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if user is currently logged into Twitter; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -307,8 +331,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the authorization token. Returns NULL if user isnt logged in. </p>
+<p>Returns the authorization token of the current user session. </p>
 <dl class="section return"><dt>Returns</dt><dd>The authorization token.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Returns <code>null</code> if there is no logged in user. </dd></dl>
 
 </div>
 </div>
@@ -333,8 +358,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the authorization token secret. Returns NULL if user isnt logged in. </p>
+<p>Returns the authorization token secret of the current user session. </p>
 <dl class="section return"><dt>Returns</dt><dd>The authorization token secret.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Returns <code>null</code> if there is no logged in user. </dd></dl>
 
 </div>
 </div>
@@ -359,8 +385,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the user ID of twitter user. Returns NULL if user isnt logged in. </p>
-<dl class="section return"><dt>Returns</dt><dd>The user I.</dd></dl>
+<p>Returns the user ID associated with the access token. </p>
+<dl class="section return"><dt>Returns</dt><dd>The user ID associated with the access token.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Returns <code>null</code> if there is no logged in user. </dd></dl>
 
 </div>
 </div>
@@ -385,8 +412,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the name of the twitter user. Returns NULL if user isnt logged in. </p>
-<dl class="section return"><dt>Returns</dt><dd>The user name.</dd></dl>
+<p>Returns the username associated with the access token. </p>
+<dl class="section return"><dt>Returns</dt><dd>The username associated with the access token.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Returns <code>null</code> if there is no logged in user. </dd></dl>
 
 </div>
 </div>
@@ -414,11 +442,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Presents composer to tweet text. </p>
+<p>Shows a view to compose and send Tweet message. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_message</td><td>The text to tweet.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when the user finished or cancelled the Tweet composition.</td></tr>
+    <tr><td class="paramname">_message</td><td>The initial text for the Tweet.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -449,11 +477,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Presents composer to tweet text along with screenshot. </p>
+<p>Shows a view to compose and send Tweet message. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_message</td><td>The text to tweet.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when the user finished or cancelled the Tweet composition.</td></tr>
+    <tr><td class="paramname">_message</td><td>The initial text for the Tweet.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -490,12 +518,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Presents composer to tweet text along with attached image. </p>
+<p>Shows a view to compose and send Tweet message. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_message</td><td>The text to tweet.</td></tr>
-    <tr><td class="paramname">_texture</td><td>The image to attached along with tweet message.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when the user finished or cancelled the Tweet composition.</td></tr>
+    <tr><td class="paramname">_message</td><td>The initial text for the Tweet.</td></tr>
+    <tr><td class="paramname">_texture</td><td>Unity texture object that has to be shared in the Tweet.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -532,12 +560,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Presents composer to tweet text along with URL. </p>
+<p>Shows a view to compose and send Tweet message. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_message</td><td>The text to tweet.</td></tr>
-    <tr><td class="paramname">_URL</td><td>URL to be shared.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when the user finished or cancelled the Tweet composition.</td></tr>
+    <tr><td class="paramname">_message</td><td>The initial text for the Tweet.</td></tr>
+    <tr><td class="paramname">_URL</td><td>URL that has to be shared in the Tweet.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -588,13 +616,13 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Presents composer to tweet text along with URL and image. </p>
+<p>Shows a view to compose and send Tweet message. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_message</td><td>The text to tweet.</td></tr>
-    <tr><td class="paramname">_URL</td><td>URL to be shared.</td></tr>
-    <tr><td class="paramname">_imgByteArray</td><td>The image data to be attached along with the tweet.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when the user finished or cancelled the Tweet composition.</td></tr>
+    <tr><td class="paramname">_message</td><td>The initial text for the Tweet.</td></tr>
+    <tr><td class="paramname">_URL</td><td>URL that has to be shared in the Tweet.</td></tr>
+    <tr><td class="paramname">_texture</td><td>Raw image data that has to be shared in the Tweet.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -623,14 +651,36 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sends request to load users account details. </p>
+<p>Requests access to the current Twitter user account details. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when load user details request succeeds or fails.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code snippet shows how to fetch account details of current user. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> FetchAccountDetails ()</div>
+<div class="line">    {</div>
+<div class="line">        NPBinding.Twitter.RequestAccountDetails(OnRequestFinished);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnRequestFinished (TwitterUser _user, <span class="keywordtype">string</span> _error)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (_error == null)</div>
+<div class="line">        {</div>
+<div class="line">            Debug.Log(<span class="stringliteral">&quot;Logged in user name is: &quot;</span> + _user.Name);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Something went wrong</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a791224d4484a3d54d96092c3f91d8404"></a>
@@ -655,14 +705,36 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Requests user to provide access to his email address. </p>
+<p>Requests access to the email address associated with current Twitter user. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when user either accepts or denies access to their email address.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code snippet shows how to fetch email address of current user. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> FetchEmailAddress ()</div>
+<div class="line">    {</div>
+<div class="line">        NPBinding.Twitter.RequestEmailAccess(OnRequestFinished);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnRequestFinished (<span class="keywordtype">string</span> _email, <span class="keywordtype">string</span> _error)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (_error == null)</div>
+<div class="line">        {</div>
+<div class="line">            Debug.Log(<span class="stringliteral">&quot;Email id: &quot;</span> + _email);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Something went wrong</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a2fbc52d6ceac20cb210f6b6e0224259c"></a>
@@ -695,16 +767,46 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sends a Twitter GET request. </p>
+<p>Sends a signed Twitter Get request. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_URL</td><td>Request URL. This is the full Twitter API URL. E.g. <a href="https://api.twitter.com/1.1/statuses/user_timeline.json">https://api.twitter.com/1.1/statuses/user_timeline.json</a>.</td></tr>
     <tr><td class="paramname">_parameters</td><td>Request parameters.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate on response.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code shows how to send request to Twitter. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections.Generic;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> SendRequest ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">string</span>      _URL    = <span class="stringliteral">&quot;https://api.twitter.com/1.1/statuses/show.json&quot;</span>;</div>
+<div class="line">        IDictionary _params = <span class="keyword">new</span> Dictionary&lt;string, string&gt;(){</div>
+<div class="line">            {<span class="stringliteral">&quot;id&quot;</span>, <span class="stringliteral">&quot;20&quot;</span>}</div>
+<div class="line">        };</div>
+<div class="line"></div>
+<div class="line">        NPBinding.Twitter.GetURLRequest(_URL, _params, OnRequestFinished);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnRequestFinished (<span class="keywordtype">object</span> _responseData, <span class="keywordtype">string</span> _error)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (_error == null)</div>
+<div class="line">        {</div>
+<div class="line">            IDictionary _JSONDict   = (IDictionary)_responseData;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Extract values from JSON object</span></div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Something went wrong</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a24e6281b9778b4dcfb6b35b5522013ad"></a>
@@ -737,12 +839,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sends a Twitter POST request. </p>
+<p>Sends a signed Twitter Post request. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_URL</td><td>Request URL. This is the full Twitter API URL. E.g. <a href="https://api.twitter.com/1.1/statuses/user_timeline.json">https://api.twitter.com/1.1/statuses/user_timeline.json</a>.</td></tr>
     <tr><td class="paramname">_parameters</td><td>Request parameters.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate on response.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -779,12 +881,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sends a Twitter PUT request. </p>
+<p>Sends a signed Twitter Put request. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_URL</td><td>Request URL. This is the full Twitter API URL. E.g. <a href="https://api.twitter.com/1.1/statuses/user_timeline.json">https://api.twitter.com/1.1/statuses/user_timeline.json</a>.</td></tr>
     <tr><td class="paramname">_parameters</td><td>Request parameters.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate on response.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -821,12 +923,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sends a Twitter DELETE request. </p>
+<p>Sends a signed Twitter Delete request. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_URL</td><td>Request URL. This is the full Twitter API URL. E.g. <a href="https://api.twitter.com/1.1/statuses/user_timeline.json">https://api.twitter.com/1.1/statuses/user_timeline.json</a>.</td></tr>
     <tr><td class="paramname">_parameters</td><td>Request parameters.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate on response.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -857,11 +959,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when user login succeeds or fails. </p>
+<p>Delegate that will be called when authentication process is complete. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_session</td><td>Contains the OAuth tokens and minimal information associated with the logged in user or nil.</td></tr>
-    <tr><td class="paramname">_error</td><td>Error that will be non nil if the authentication request failed.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
 </dl>
@@ -882,7 +984,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when the user finishes composing a Tweet. </p>
+<p>Delegate that will be called when Tweet composer is dismissed. </p>
 
 </div>
 </div>
@@ -910,11 +1012,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when load user details request succeeds or fails. </p>
+<p>Delegate that will be called when user account details are retrieved. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_user</td><td>The Twitter User.</td></tr>
-    <tr><td class="paramname">_error</td><td>Error that will be set if the API request failed.</td></tr>
+    <tr><td class="paramname">_user</td><td>The logged in Twitter user.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
 </dl>
@@ -945,11 +1047,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when the user accepts or denies access to their email address. </p>
+<p>Delegate that will be called when email access request completes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_email</td><td>The user's email address. This will be nil if the user does not grant access to their email address or your application is not allowed to request email addresses.</td></tr>
-    <tr><td class="paramname">_error</td><td>An error that details why a user's email address could not be provided.</td></tr>
+    <tr><td class="paramname">_email</td><td>The logged in Twitter user's email address. This value is <code>null</code> if the user does not grant access to their email address or your application is not allowed to request email addresses.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is <code>null</code>; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
 </dl>
@@ -980,11 +1082,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when the network request succeeds or fails. </p>
+<p>Delegate that will be called when Twitter request completes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_responseData</td><td>Contents of response as JSON object.</td></tr>
-    <tr><td class="paramname">_error</td><td>Describes the network error that occurred.</td></tr>
+    <tr><td class="paramname">_responseData</td><td>Response to a Twitter request.</td></tr>
+    <tr><td class="paramname">_error</td><td>If the operation was successful, this value is nil; otherwise, this parameter holds the description of the problem that occurred.</td></tr>
   </table>
   </dd>
 </dl>

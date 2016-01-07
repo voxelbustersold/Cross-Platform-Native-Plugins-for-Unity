@@ -95,47 +95,47 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Provides interface for Native UI system.  
+<p>Provides a cross-platform interface for creating and presenting native user interfaces.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a640efb5f4583b0e5a104ea26dff47c26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a640efb5f4583b0e5a104ea26dff47c26">ShowAlertDialogWithSingleButton</a> (string _title, string _message, string _button, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a13f3f1e52779c188248ff0f1db247fb5">AlertDialogCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a640efb5f4583b0e5a104ea26dff47c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the alert dialog with single button.  <a href="#a640efb5f4583b0e5a104ea26dff47c26">More...</a><br /></td></tr>
+<tr class="memdesc:a640efb5f4583b0e5a104ea26dff47c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows an alert dialog with single button.  <a href="#a640efb5f4583b0e5a104ea26dff47c26">More...</a><br /></td></tr>
 <tr class="separator:a640efb5f4583b0e5a104ea26dff47c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3d280e08154cd2348e104392a24af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a7c3d280e08154cd2348e104392a24af9">ShowAlertDialogWithMultipleButtons</a> (string _title, string _message, string[] _buttonsList, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a13f3f1e52779c188248ff0f1db247fb5">AlertDialogCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:a7c3d280e08154cd2348e104392a24af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the alert dialog with multiple buttons.  <a href="#a7c3d280e08154cd2348e104392a24af9">More...</a><br /></td></tr>
+<tr class="memdesc:a7c3d280e08154cd2348e104392a24af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows an alert dialog with multiple buttons.  <a href="#a7c3d280e08154cd2348e104392a24af9">More...</a><br /></td></tr>
 <tr class="separator:a7c3d280e08154cd2348e104392a24af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13f3f1e52779c188248ff0f1db247fb5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a13f3f1e52779c188248ff0f1db247fb5">AlertDialogCompletion</a> (string _buttonPressed)</td></tr>
-<tr class="memdesc:a13f3f1e52779c188248ff0f1db247fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the user clicks a button on an alert dialog.  <a href="#a13f3f1e52779c188248ff0f1db247fb5">More...</a><br /></td></tr>
+<tr class="memdesc:a13f3f1e52779c188248ff0f1db247fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called after user clicks a button from alert dialog.  <a href="#a13f3f1e52779c188248ff0f1db247fb5">More...</a><br /></td></tr>
 <tr class="separator:a13f3f1e52779c188248ff0f1db247fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcae2e29200b139b6148839c4f59d05e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#adcae2e29200b139b6148839c4f59d05e">ShowToast</a> (string _message, <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#aa7419c122761ca00a86f0dbb0cba8379">eToastMessageLength</a> _length)</td></tr>
 <tr class="memdesc:adcae2e29200b139b6148839c4f59d05e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the toast. A toast is a view containing a quick little message for the user.  <a href="#adcae2e29200b139b6148839c4f59d05e">More...</a><br /></td></tr>
 <tr class="separator:adcae2e29200b139b6148839c4f59d05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeae37ed3111f972cab7cc2f95fe8020a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#aeae37ed3111f972cab7cc2f95fe8020a">SetPopoverPoint</a> (Vector2 _position)</td></tr>
-<tr class="memdesc:aeae37ed3111f972cab7cc2f95fe8020a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets position of popover controller to given position. Popover controllers are used to Pick Media and to present Share options in iPad. Default position is set to (0.0, 0.0). Note that this is iOS only feature. On Android this call has no effect.  <a href="#aeae37ed3111f972cab7cc2f95fe8020a">More...</a><br /></td></tr>
+<tr class="memdesc:aeae37ed3111f972cab7cc2f95fe8020a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets position of popover controller to specified position.  <a href="#aeae37ed3111f972cab7cc2f95fe8020a">More...</a><br /></td></tr>
 <tr class="separator:aeae37ed3111f972cab7cc2f95fe8020a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd0bc0253cdf398318892a9bc72e156"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a6bd0bc0253cdf398318892a9bc72e156">SetPopoverPointAtLastTouchPosition</a> ()</td></tr>
-<tr class="memdesc:a6bd0bc0253cdf398318892a9bc72e156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets position of popover controller to last touch position. Popover controllers are used to Pick Media and to present Share options in iPad. Default position is set to (0.0, 0.0). Note that this is iOS only feature. On Android this call has no effect.  <a href="#a6bd0bc0253cdf398318892a9bc72e156">More...</a><br /></td></tr>
+<tr class="memdesc:a6bd0bc0253cdf398318892a9bc72e156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets position of popover controller to last touch position.  <a href="#a6bd0bc0253cdf398318892a9bc72e156">More...</a><br /></td></tr>
 <tr class="separator:a6bd0bc0253cdf398318892a9bc72e156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad78010ddfdb7303a095989f561dd895f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ad78010ddfdb7303a095989f561dd895f">ShowSingleFieldPromptDialogWithPlainText</a> (string _title, string _message, string _placeholder, string[] _buttonsList, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ab0a0d009b7dbdc669cedc932da72e0ea">SingleFieldPromptCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:ad78010ddfdb7303a095989f561dd895f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prompt dialog that allows the user to enter text.  <a href="#ad78010ddfdb7303a095989f561dd895f">More...</a><br /></td></tr>
+<tr class="memdesc:ad78010ddfdb7303a095989f561dd895f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a prompt dialog that allows the user to enter text.  <a href="#ad78010ddfdb7303a095989f561dd895f">More...</a><br /></td></tr>
 <tr class="separator:ad78010ddfdb7303a095989f561dd895f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8376c30acf9b24dc8c4209a8b093b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ad8376c30acf9b24dc8c4209a8b093b36">ShowSingleFieldPromptDialogWithSecuredText</a> (string _title, string _message, string _placeholder, string[] _buttonsList, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ab0a0d009b7dbdc669cedc932da72e0ea">SingleFieldPromptCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:ad8376c30acf9b24dc8c4209a8b093b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prompt dialog that allows the user to enter text. The text field is obscured.  <a href="#ad8376c30acf9b24dc8c4209a8b093b36">More...</a><br /></td></tr>
+<tr class="memdesc:ad8376c30acf9b24dc8c4209a8b093b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a prompt dialog that allows the user to enter obscure text.  <a href="#ad8376c30acf9b24dc8c4209a8b093b36">More...</a><br /></td></tr>
 <tr class="separator:ad8376c30acf9b24dc8c4209a8b093b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfc8e5d3fc0d3a42a8e04112c90c98e5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#abfc8e5d3fc0d3a42a8e04112c90c98e5">ShowLoginPromptDialog</a> (string _title, string _message, string _usernamePlaceHolder, string _passwordPlaceHolder, string[] _buttonsList, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a8f84064901adeb069478fb7946e5f573">LoginPromptCompletion</a> _onCompletion)</td></tr>
-<tr class="memdesc:abfc8e5d3fc0d3a42a8e04112c90c98e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prompt dialog that allows the user to enter login identifier and password.  <a href="#abfc8e5d3fc0d3a42a8e04112c90c98e5">More...</a><br /></td></tr>
+<tr class="memdesc:abfc8e5d3fc0d3a42a8e04112c90c98e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a prompt dialog that allows the user to enter login details.  <a href="#abfc8e5d3fc0d3a42a8e04112c90c98e5">More...</a><br /></td></tr>
 <tr class="separator:abfc8e5d3fc0d3a42a8e04112c90c98e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0a0d009b7dbdc669cedc932da72e0ea"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ab0a0d009b7dbdc669cedc932da72e0ea">SingleFieldPromptCompletion</a> (string _buttonPressed, string _inputText)</td></tr>
-<tr class="memdesc:ab0a0d009b7dbdc669cedc932da72e0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the user clicks a button on single field prompt dialog.  <a href="#ab0a0d009b7dbdc669cedc932da72e0ea">More...</a><br /></td></tr>
+<tr class="memdesc:ab0a0d009b7dbdc669cedc932da72e0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called after user clicks a button from prompt dialog.  <a href="#ab0a0d009b7dbdc669cedc932da72e0ea">More...</a><br /></td></tr>
 <tr class="separator:ab0a0d009b7dbdc669cedc932da72e0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f84064901adeb069478fb7946e5f573"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a8f84064901adeb069478fb7946e5f573">LoginPromptCompletion</a> (string _buttonPressed, string _usernameText, string _passwordText)</td></tr>
-<tr class="memdesc:a8f84064901adeb069478fb7946e5f573"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this delegate type to get callback when the user clicks a button on login prompt dialog.  <a href="#a8f84064901adeb069478fb7946e5f573">More...</a><br /></td></tr>
+<tr class="memdesc:a8f84064901adeb069478fb7946e5f573"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate that will be called after user clicks a button from login prompt dialog.  <a href="#a8f84064901adeb069478fb7946e5f573">More...</a><br /></td></tr>
 <tr class="separator:a8f84064901adeb069478fb7946e5f573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides interface for Native UI system. </p>
+<div class="textblock"><p>Provides a cross-platform interface for creating and presenting native user interfaces. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a640efb5f4583b0e5a104ea26dff47c26"></a>
 <div class="memitem">
@@ -173,13 +173,13 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Shows the alert dialog with single button. </p>
+<p>Shows an alert dialog with single button. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_title</td><td>Text that appears in title bar.</td></tr>
-    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details.</td></tr>
+    <tr><td class="paramname">_title</td><td>The string that appears in the title bar.</td></tr>
+    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details than the title.</td></tr>
     <tr><td class="paramname">_button</td><td>Title of action button.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when action button is pressed.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -222,13 +222,13 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Shows the alert dialog with multiple buttons. </p>
+<p>Shows an alert dialog with multiple buttons. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_title</td><td>Text that appears in title bar.</td></tr>
-    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details.</td></tr>
-    <tr><td class="paramname">_buttonsList</td><td>Title of action buttons.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when action button is pressed.</td></tr>
+    <tr><td class="paramname">_title</td><td>The string that appears in the title bar.</td></tr>
+    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details than the title.</td></tr>
+    <tr><td class="paramname">_buttonsList</td><td>An array of string values, used as title of action buttons.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -249,7 +249,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when the user clicks a button on an alert dialog. </p>
+<p>Delegate that will be called after user clicks a button from alert dialog. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_buttonPressed</td><td>Title of the button that was pressed.</td></tr>
@@ -295,10 +295,11 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_message</td><td>The text message in a Toast view.</td></tr>
-    <tr><td class="paramname">_length</td><td>Toast view show duration time length.</td></tr>
+    <tr><td class="paramname">_length</td><td>Toast view show duration length.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>This is an Android only feature. On iOS, this call has no effect. </dd></dl>
 
 </div>
 </div>
@@ -324,13 +325,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets position of popover controller to given position. Popover controllers are used to Pick Media and to present Share options in iPad. Default position is set to (0.0, 0.0). Note that this is iOS only feature. On Android this call has no effect. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Sets position of popover controller to specified position. </p>
+<p>Popover controllers are used to Pick Media and to present Share options in iPad. And by default, popover controllers are set to (0.0, 0.0) position.  </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_position</td><td>Screen position where popover is displayed.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>This is an iOS only feature. On Android, this call has no effect. </dd></dl>
 
 </div>
 </div>
@@ -347,7 +349,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets position of popover controller to last touch position. Popover controllers are used to Pick Media and to present Share options in iPad. Default position is set to (0.0, 0.0). Note that this is iOS only feature. On Android this call has no effect. </p>
+<p>Sets position of popover controller to last touch position. </p>
+<p>Popover controllers are used to Pick Media and to present Share options in iPad. And by default, popover controllers are set to (0.0, 0.0) position.  </p>
+<dl class="section note"><dt>Note</dt><dd>This is an iOS only feature. On Android, this call has no effect. </dd></dl>
 
 </div>
 </div>
@@ -393,14 +397,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Prompt dialog that allows the user to enter text. </p>
+<p>Shows a prompt dialog that allows the user to enter text. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_title</td><td>Text that appears in title bar.</td></tr>
-    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details.</td></tr>
-    <tr><td class="paramname">_placeholder</td><td>String that is displayed when there is no other text in the textfield.</td></tr>
-    <tr><td class="paramname">_buttonsList</td><td>Title of action buttons.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when action button is pressed.</td></tr>
+    <tr><td class="paramname">_title</td><td>The string that appears in the title bar.</td></tr>
+    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details than the title.</td></tr>
+    <tr><td class="paramname">_placeholder</td><td>The string that is displayed when there is no other text in the textfield.</td></tr>
+    <tr><td class="paramname">_buttonsList</td><td>An array of string values, used as title of action buttons.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -449,14 +453,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Prompt dialog that allows the user to enter text. The text field is obscured. </p>
+<p>Shows a prompt dialog that allows the user to enter obscure text. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_title</td><td>Text that appears in title bar.</td></tr>
-    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details.</td></tr>
-    <tr><td class="paramname">_placeholder</td><td>String that is displayed when there is no other text in the textfield.</td></tr>
-    <tr><td class="paramname">_buttonsList</td><td>Title of action buttons.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when action button is pressed.</td></tr>
+    <tr><td class="paramname">_title</td><td>The string that appears in the title bar.</td></tr>
+    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details than the title.</td></tr>
+    <tr><td class="paramname">_placeholder</td><td>The string that is displayed when there is no other text in the textfield.</td></tr>
+    <tr><td class="paramname">_buttonsList</td><td>An array of string values, used as title of action buttons.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -519,15 +523,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Prompt dialog that allows the user to enter login identifier and password. </p>
+<p>Shows a prompt dialog that allows the user to enter login details. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_title</td><td>Text that appears in title bar.</td></tr>
-    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details.</td></tr>
-    <tr><td class="paramname">_usernamePlaceHolder</td><td>String that is displayed when there is no other text in the username textfield.</td></tr>
-    <tr><td class="paramname">_passwordPlaceHolder</td><td>String that is displayed when there is no other text in the password textfield.</td></tr>
-    <tr><td class="paramname">_buttonsList</td><td>Title of action buttons.</td></tr>
-    <tr><td class="paramname">_onCompletion</td><td>Calls the delegate when action button is pressed.</td></tr>
+    <tr><td class="paramname">_title</td><td>The string that appears in the title bar.</td></tr>
+    <tr><td class="paramname">_message</td><td>Descriptive text that provides more details than the title.</td></tr>
+    <tr><td class="paramname">_usernamePlaceHolder</td><td>The string that is displayed when there is no other text in the username textfield.</td></tr>
+    <tr><td class="paramname">_passwordPlaceHolder</td><td>The string that is displayed when there is no other text in the password textfield.</td></tr>
+    <tr><td class="paramname">_buttonsList</td><td>An array of string values, used as title of action buttons.</td></tr>
+    <tr><td class="paramname">_onCompletion</td><td>Callback that will be called after operation is completed.</td></tr>
   </table>
   </dd>
 </dl>
@@ -558,7 +562,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when the user clicks a button on single field prompt dialog. </p>
+<p>Delegate that will be called after user clicks a button from prompt dialog. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_buttonPressed</td><td>Title of the button that was pressed.</td></tr>
@@ -599,11 +603,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use this delegate type to get callback when the user clicks a button on login prompt dialog. </p>
+<p>Delegate that will be called after user clicks a button from login prompt dialog. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_buttonPressed</td><td>Title of the button that was pressed.</td></tr>
-    <tr><td class="paramname">_usernameText</td><td>Text contents of login textfield.</td></tr>
+    <tr><td class="paramname">_usernameText</td><td>Text contents of username textfield.</td></tr>
     <tr><td class="paramname">_passwordText</td><td>Text contents of password textfield.</td></tr>
   </table>
   </dd>

@@ -179,7 +179,7 @@ Events</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>It is recommended that you call this method before you schedule any local notifications or register with the push notification service. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>It is recommended that you call this method before you schedule any local notifications or register with the push notification service. Multiple types can be combined together using the <code>|</code> operator. </dd></dl>
 
 </div>
 </div>
@@ -434,6 +434,7 @@ Events</h2></td></tr>
 <p>After you call the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534" title="Register to receive remote notifications via Push Notification service. ">RegisterForRemoteNotifications</a> method, the app calls this method when device registration completes successfully or when there is an error in the registration process. When registration completes successfully, connect with your push notification server and give the device token to it. Push notification server pushes notifications only to the device represented by the token.  </p>
 <p>The following code example demonstrates how to use registration event. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
@@ -485,6 +486,7 @@ Events</h2></td></tr>
 <p>Event that will be called when your app was launched as a result of local notification. </p>
 <p>The following code example demonstrates how to use launched with local notification event. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
@@ -529,6 +531,7 @@ Events</h2></td></tr>
 <p>Event that will be called when your app was launched as a result of remote notification. </p>
 <p>The following code example demonstrates how to use launched with remote notification event. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
@@ -574,6 +577,7 @@ Events</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This notifies about the notification received when your app is running. </dd></dl>
 <p>The following code example demonstrates how to use local notification received event. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
@@ -619,6 +623,7 @@ Events</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This notifies about the notification received when your app is running. </dd></dl>
 <p>The following code example demonstrates how to use remote notification received event. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>

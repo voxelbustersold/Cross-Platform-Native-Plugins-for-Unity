@@ -236,6 +236,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>User authentication is required for API requests that require a user context, for example: Tweeting or following other users. </dd></dl>
 <p>The following code shows how to use login method. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
@@ -660,12 +661,13 @@ Public Member Functions</h2></td></tr>
 </dl>
 <p>The following code snippet shows how to fetch account details of current user. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> FetchAccountDetails ()</div>
 <div class="line">    {</div>
-<div class="line">        NPBinding.Twitter.RequestAccountDetails(OnRequestFinished);</div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html">Twitter</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ac8b89da6d5f00af4292bcab518f3a33f">RequestAccountDetails</a>(OnRequestFinished);</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnRequestFinished (TwitterUser _user, <span class="keywordtype">string</span> _error)</div>
@@ -714,12 +716,13 @@ Public Member Functions</h2></td></tr>
 </dl>
 <p>The following code snippet shows how to fetch email address of current user. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> FetchEmailAddress ()</div>
 <div class="line">    {</div>
-<div class="line">        NPBinding.Twitter.RequestEmailAccess(OnRequestFinished);</div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html">Twitter</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a791224d4484a3d54d96092c3f91d8404">RequestEmailAccess</a>(OnRequestFinished);</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnRequestFinished (<span class="keywordtype">string</span> _email, <span class="keywordtype">string</span> _error)</div>
@@ -779,6 +782,7 @@ Public Member Functions</h2></td></tr>
 <p>The following code shows how to send request to Twitter. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections.Generic;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
 <div class="line">{</div>
@@ -789,7 +793,7 @@ Public Member Functions</h2></td></tr>
 <div class="line">            {<span class="stringliteral">&quot;id&quot;</span>, <span class="stringliteral">&quot;20&quot;</span>}</div>
 <div class="line">        };</div>
 <div class="line"></div>
-<div class="line">        NPBinding.Twitter.GetURLRequest(_URL, _params, OnRequestFinished);</div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html">Twitter</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a2fbc52d6ceac20cb210f6b6e0224259c">GetURLRequest</a>(_URL, _params, OnRequestFinished);</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnRequestFinished (<span class="keywordtype">object</span> _responseData, <span class="keywordtype">string</span> _error)</div>

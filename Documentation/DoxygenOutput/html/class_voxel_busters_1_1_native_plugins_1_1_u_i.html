@@ -183,7 +183,23 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code example demonstrates how to show alert dialog with single button. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShowAlertDialog ()</div>
+<div class="line">    {</div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html">UI</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a640efb5f4583b0e5a104ea26dff47c26">ShowAlertDialogWithSingleButton</a>(<span class="stringliteral">&quot;Test&quot;</span>, <span class="stringliteral">&quot;This is a sample message.&quot;</span>, <span class="stringliteral">&quot;Ok&quot;</span>, OnButtonPressed);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnButtonPressed (<span class="keywordtype">string</span> _buttonPressed)</div>
+<div class="line">    {</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Button pressed: &quot;</span> + _buttonPressed);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a7c3d280e08154cd2348e104392a24af9"></a>
@@ -232,7 +248,28 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code example demonstrates how to show alert dialog with 2 action buttons. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShowAlertDialog ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">string</span>[]    _buttons    = <span class="keyword">new</span> <span class="keywordtype">string</span>[] {</div>
+<div class="line">            <span class="stringliteral">&quot;Ok&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Cancel&quot;</span></div>
+<div class="line">        };</div>
+<div class="line"></div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html">UI</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#a7c3d280e08154cd2348e104392a24af9">ShowAlertDialogWithMultipleButtons</a>(<span class="stringliteral">&quot;Test&quot;</span>, <span class="stringliteral">&quot;This is a sample message.&quot;</span>, _buttons, OnButtonPressed);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnButtonPressed (<span class="keywordtype">string</span> _buttonPressed)</div>
+<div class="line">    {</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Button pressed: &quot;</span> + _buttonPressed);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a13f3f1e52779c188248ff0f1db247fb5"></a>
@@ -299,7 +336,18 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>This is an Android only feature. On iOS, this call has no effect. </dd></dl>
+<p>The following code example demonstrates how to show a short toast message. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShowToastMessage ()</div>
+<div class="line">    {</div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html">UI</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#adcae2e29200b139b6148839c4f59d05e">ShowToast</a>(<span class="stringliteral">&quot;This is a sample message.&quot;</span>, <a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#aa7419c122761ca00a86f0dbb0cba8379">eToastMessageLength</a>.SHORT);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>This is an Android only feature. On iOS, this call has no effect. </dd></dl>
 
 </div>
 </div>
@@ -408,7 +456,29 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code example demonstrates how to prompt user to enter profile name. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShowPromptDialog ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">string</span>[]    _buttons    = <span class="keyword">new</span> <span class="keywordtype">string</span>[] {</div>
+<div class="line">            <span class="stringliteral">&quot;Ok&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Cancel&quot;</span></div>
+<div class="line">        };</div>
+<div class="line"></div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html">UI</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ad78010ddfdb7303a095989f561dd895f">ShowSingleFieldPromptDialogWithPlainText</a>(<span class="stringliteral">&quot;Profile&quot;</span>, <span class="stringliteral">&quot;Please enter a profile name to store your game progress.&quot;</span>, <span class="stringliteral">&quot;username&quot;</span>, _buttons, OnButtonPressed);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnButtonPressed (<span class="keywordtype">string</span> _buttonPressed, <span class="keywordtype">string</span> _inputText)</div>
+<div class="line">    {</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Button pressed: &quot;</span> + _buttonPressed);</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Input text: &quot;</span> + _inputText);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="ad8376c30acf9b24dc8c4209a8b093b36"></a>
@@ -535,7 +605,30 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<p>The following code example demonstrates how to prompt user to enter login details. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShowLoginDialog ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">string</span>[]    _buttons    = <span class="keyword">new</span> <span class="keywordtype">string</span>[] {</div>
+<div class="line">            <span class="stringliteral">&quot;Ok&quot;</span>,</div>
+<div class="line">            <span class="stringliteral">&quot;Cancel&quot;</span></div>
+<div class="line">        };</div>
+<div class="line"></div>
+<div class="line">        NPBinding.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html">UI</a>.<a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_u_i.html#ad78010ddfdb7303a095989f561dd895f">ShowSingleFieldPromptDialogWithPlainText</a>(<span class="stringliteral">&quot;Example Game&quot;</span>, <span class="stringliteral">&quot;Please enter login details.&quot;</span>, <span class="stringliteral">&quot;username&quot;</span>, <span class="stringliteral">&quot;password&quot;</span>, _buttons, OnButtonPressed);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnButtonPressed (<span class="keywordtype">string</span> _buttonPressed, <span class="keywordtype">string</span> _usernameText, <span class="keywordtype">string</span> _passwordText)</div>
+<div class="line">    {</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Button pressed: &quot;</span> + _buttonPressed);</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Input username is: &quot;</span> + _usernameText);</div>
+<div class="line">        Debug.Log(<span class="stringliteral">&quot;Input password is: &quot;</span> + _passwordText);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="ab0a0d009b7dbdc669cedc932da72e0ea"></a>

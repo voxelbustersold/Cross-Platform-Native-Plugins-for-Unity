@@ -2,6 +2,7 @@ var searchData=
 [
   ['rank',['Rank',['../class_voxel_busters_1_1_native_plugins_1_1_score.html#ad2815942e88f0a7909b2e1e6e0e283dd',1,'VoxelBusters::NativePlugins::Score']]],
   ['ratemyapp',['RateMyApp',['../class_voxel_busters_1_1_native_plugins_1_1_rate_my_app.html',1,'VoxelBusters::NativePlugins']]],
+  ['ratemyapp',['RateMyApp',['../class_voxel_busters_1_1_native_plugins_1_1_utility.html#ad2f36c7ae27d41ae31c5f1efca1757fc',1,'VoxelBusters::NativePlugins::Utility']]],
   ['rawpurchasedata',['RawPurchaseData',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a9f54539b03d439560c70298048d48d5d',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
   ['readcontacts',['ReadContacts',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#aef1504d298308659d62e9e7ffd7bdfd4',1,'VoxelBusters::NativePlugins::AddressBook']]],
   ['readcontactscompletion',['ReadContactsCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1',1,'VoxelBusters::NativePlugins::AddressBook']]],

@@ -9,5 +9,6 @@ var searchData=
   ['billingtransaction',['BillingTransaction',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html',1,'VoxelBusters::NativePlugins']]],
   ['body',['Body',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308',1,'VoxelBusters.NativePlugins.MailShareComposer.Body()'],['../class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#aa22a174fd7f5d080c4e4714fd0dde308',1,'VoxelBusters.NativePlugins.MessageShareComposer.Body()']]],
   ['both',['BOTH',['../namespace_voxel_busters_1_1_native_plugins.html#a7c22ee0fa98a425137dcfc6463ddfc2ca6328e5e3186c227a021ef2ff77e40197',1,'VoxelBusters::NativePlugins']]],
-  ['buyproduct',['BuyProduct',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a1232f7b71e94e1d3ccac71b82ffb0097',1,'VoxelBusters::NativePlugins::Billing']]]
+  ['buyproduct',['BuyProduct',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#ac2bb95033fa4dbcd7dad15736605e3bf',1,'VoxelBusters::NativePlugins::Billing']]],
+  ['buyproductcompletion',['BuyProductCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#ae74a228d4f095dffd6561c4c687a5d22',1,'VoxelBusters::NativePlugins::Billing']]]
 ];

@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83e1d708241a024ce3994443c3d30d78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a83e1d708241a024ce3994443c3d30d78">RegisterNotificationTypes</a> (<a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a25a31a4bdc02a0d0adb743e26dd14ba9">NotificationType</a> _notificationTypes)</td></tr>
 <tr class="memdesc:a83e1d708241a024ce3994443c3d30d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers your preferred options for notifying the user.  <a href="#a83e1d708241a024ce3994443c3d30d78">More...</a><br /></td></tr>
 <tr class="separator:a83e1d708241a024ce3994443c3d30d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60ea0f7daff1aa86e483091d0fbf383"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a25a31a4bdc02a0d0adb743e26dd14ba9">NotificationType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab60ea0f7daff1aa86e483091d0fbf383">EnabledNotificationTypes</a> ()</td></tr>
+<tr class="memdesc:ab60ea0f7daff1aa86e483091d0fbf383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the types of notifications currently enabled for the app.  <a href="#ab60ea0f7daff1aa86e483091d0fbf383">More...</a><br /></td></tr>
+<tr class="separator:ab60ea0f7daff1aa86e483091d0fbf383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eaf2bbfef786a88b9556e881c61ecd"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab8eaf2bbfef786a88b9556e881c61ecd">ScheduleLocalNotification</a> (<a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html">CrossPlatformNotification</a> _notification)</td></tr>
 <tr class="memdesc:ab8eaf2bbfef786a88b9556e881c61ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Schedules a local notification for delivery at specified date and time.  <a href="#ab8eaf2bbfef786a88b9556e881c61ecd">More...</a><br /></td></tr>
 <tr class="separator:ab8eaf2bbfef786a88b9556e881c61ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,7 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a68885259422119ac6697a12190e1970a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discards all the received notifications.  <a href="#a68885259422119ac6697a12190e1970a">More...</a><br /></td></tr>
 <tr class="separator:a68885259422119ac6697a12190e1970a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d332cef9e48924c9b4c10e8a3bf534"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534">RegisterForRemoteNotifications</a> ()</td></tr>
-<tr class="memdesc:ab0d332cef9e48924c9b4c10e8a3bf534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register to receive remote notifications via Push Notification service.  <a href="#ab0d332cef9e48924c9b4c10e8a3bf534">More...</a><br /></td></tr>
+<tr class="memdesc:ab0d332cef9e48924c9b4c10e8a3bf534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers to receive remote notifications via Push Notification service.  <a href="#ab0d332cef9e48924c9b4c10e8a3bf534">More...</a><br /></td></tr>
 <tr class="separator:ab0d332cef9e48924c9b4c10e8a3bf534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f4ecad241e4f2dd070aa56e62e08ca1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a6f4ecad241e4f2dd070aa56e62e08ca1">UnregisterForRemoteNotifications</a> ()</td></tr>
 <tr class="memdesc:a6f4ecad241e4f2dd070aa56e62e08ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister for all remote notifications received via Push Notification service.  <a href="#a6f4ecad241e4f2dd070aa56e62e08ca1">More...</a><br /></td></tr>
@@ -180,6 +183,32 @@ Events</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>It is recommended that you call this method before you schedule any local notifications or register with the push notification service. Multiple types can be combined together using the <code>|</code> operator. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab60ea0f7daff1aa86e483091d0fbf383"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#a25a31a4bdc02a0d0adb743e26dd14ba9">NotificationType</a> EnabledNotificationTypes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the types of notifications currently enabled for the app. </p>
+<p>The values in the returned bit mask are first set when the app calls <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a83e1d708241a024ce3994443c3d30d78" title="Registers your preferred options for notifying the user. ">RegisterNotificationTypes</a> method. Thereafter the user may modify these notification types from system preference.  </p><dl class="section return"><dt>Returns</dt><dd>The bit mask indicate the types of notifications currently enabled for the app.</dd></dl>
 
 </div>
 </div>
@@ -320,7 +349,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Register to receive remote notifications via Push Notification service. </p>
+<p>Registers to receive remote notifications via Push Notification service. </p>
 <p>Call this method to initiate the registration process with Push Notification service. When registration process completes, <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a6c46acbf61e90252864bf46037c8a42b" title="Event that will be called when your app completes registration with Push Notification service...">DidFinishRegisterForRemoteNotificationEvent</a> is fired. If registration succeeds, then you should pass device token to the server you use to generate remote notifications.  </p>
 <dl class="section note"><dt>Note</dt><dd>If you want your app’s remote notifications to display alerts, play sounds etc you must call the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a83e1d708241a024ce3994443c3d30d78" title="Registers your preferred options for notifying the user. ">RegisterNotificationTypes</a> method before registering for remote notifications. </dd></dl>
 
@@ -404,7 +433,7 @@ Events</h2></td></tr>
 <p>Delegate that will be called when your app receives a notification. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">_notification</td><td>Received notification.</td></tr>
+    <tr><td class="paramname">_notification</td><td>The <code>CrossPlatformNotification</code> object holds information about received notification.</td></tr>
   </table>
   </dd>
 </dl>
@@ -431,7 +460,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Event that will be called when your app completes registration with Push Notification service. </p>
-<p>After you call the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534" title="Register to receive remote notifications via Push Notification service. ">RegisterForRemoteNotifications</a> method, the app calls this method when device registration completes successfully or when there is an error in the registration process. When registration completes successfully, connect with your push notification server and give the device token to it. Push notification server pushes notifications only to the device represented by the token.  </p>
+<p>After you call the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534" title="Registers to receive remote notifications via Push Notification service. ">RegisterForRemoteNotifications</a> method, the app calls this method when device registration completes successfully or when there is an error in the registration process. When registration completes successfully, connect with your push notification server and give the device token to it. Push notification server pushes notifications only to the device represented by the token.  </p>
 <p>The following code example demonstrates how to use registration event. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
 <div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>

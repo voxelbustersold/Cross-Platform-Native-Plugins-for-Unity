@@ -1,8 +1,27 @@
 var searchData=
 [
-  ['nativeplugins',['NativePlugins',['../namespace_voxel_busters_1_1_native_plugins.html',1,'VoxelBusters']]],
-  ['validateusingserverurl',['ValidateUsingServerURL',['../class_voxel_busters_1_1_native_plugins_1_1_billing_settings_1_1i_o_s_settings.html#ab08555b9531853cae78f724a1967a09b',1,'VoxelBusters::NativePlugins::BillingSettings::iOSSettings']]],
-  ['value',['Value',['../class_voxel_busters_1_1_native_plugins_1_1_score.html#a90126868659f1ca3cff71f1fd3ecbd7d',1,'VoxelBusters::NativePlugins::Score']]],
-  ['verificationstate',['VerificationState',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#ae25e822a1c56729c96fc4aa128af3364',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
-  ['voxelbusters',['VoxelBusters',['../namespace_voxel_busters.html',1,'']]]
+  ['tag',['Tag',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#a121d9cb485fa9e23380cb8c883e46c9c',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]],
+  ['text',['Text',['../class_voxel_busters_1_1_native_plugins_1_1_social_share_composer_base.html#ab4726c7c06ae41233e679361293b4173',1,'VoxelBusters.NativePlugins.SocialShareComposerBase.Text()'],['../class_voxel_busters_1_1_native_plugins_1_1_whats_app_share_composer.html#ab4726c7c06ae41233e679361293b4173',1,'VoxelBusters.NativePlugins.WhatsAppShareComposer.Text()'],['../class_voxel_busters_1_1_native_plugins_1_1_share_sheet.html#ab4726c7c06ae41233e679361293b4173',1,'VoxelBusters.NativePlugins.ShareSheet.Text()']]],
+  ['tickertext',['TickerText',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#a6d4fb03d4d91f7e3745ed7835cae3439',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]],
+  ['timescope',['TimeScope',['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#a0b4c0b78f67e4f7e8e952bdc53b22bbe',1,'VoxelBusters::NativePlugins::Leaderboard']]],
+  ['title',['Title',['../class_voxel_busters_1_1_native_plugins_1_1_achievement_description.html#ab0fb263eb63b65394de9a19297401d6a',1,'VoxelBusters.NativePlugins.AchievementDescription.Title()'],['../class_voxel_busters_1_1_native_plugins_1_1_leaderboard.html#ab0fb263eb63b65394de9a19297401d6a',1,'VoxelBusters.NativePlugins.Leaderboard.Title()']]],
+  ['today',['TODAY',['../namespace_voxel_busters_1_1_native_plugins.html#ae5c129a8ead001eb046f6eec1ef277cda03219b11d6170520cd434a165300cbde',1,'VoxelBusters::NativePlugins']]],
+  ['toolbar',['TOOLBAR',['../namespace_voxel_busters_1_1_native_plugins.html#a30c9f3d09eec86c955a0f96b781e8caeacf4b2ed50ec6bdf4d8e85e76e22f89fb',1,'VoxelBusters::NativePlugins']]],
+  ['torecipients',['ToRecipients',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#adb36e9811a694031f029f59458af532b',1,'VoxelBusters.NativePlugins.MailShareComposer.ToRecipients()'],['../class_voxel_busters_1_1_native_plugins_1_1_message_share_composer.html#adb36e9811a694031f029f59458af532b',1,'VoxelBusters.NativePlugins.MessageShareComposer.ToRecipients()']]],
+  ['transactiondatelocal',['TransactionDateLocal',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a0c921c1ebad1e4660a034dfd05b33baa',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
+  ['transactiondateutc',['TransactionDateUTC',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#aafb5a2bf337c66d069096a9b575b70b0',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
+  ['transactionidentifier',['TransactionIdentifier',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#aa4e1d3a040d4acf83bf860c79d34c05b',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
+  ['transactionreceipt',['TransactionReceipt',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#ad0f9bdbf147f11815849a829035b6378',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
+  ['transactionstate',['TransactionState',['../class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a19bbd3b049d8d17a9ce4336540931e84',1,'VoxelBusters::NativePlugins::BillingTransaction']]],
+  ['twitter',['Twitter',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html',1,'VoxelBusters::NativePlugins']]],
+  ['twitter',['TWITTER',['../namespace_voxel_busters_1_1_native_plugins.html#a96ecd12080e18bce52fed6a15bee7367a86581d12931346ccfd9ac5ee5eb9e98b',1,'VoxelBusters::NativePlugins']]],
+  ['twittersession',['TwitterSession',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_session.html',1,'VoxelBusters::NativePlugins']]],
+  ['twittersharecomposer',['TwitterShareComposer',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer.html#af87797cbf3520e61c4b9e83df4778b98',1,'VoxelBusters::NativePlugins::TwitterShareComposer']]],
+  ['twittersharecomposer',['TwitterShareComposer',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_share_composer.html',1,'VoxelBusters::NativePlugins']]],
+  ['twitteruser',['TwitterUser',['../class_voxel_busters_1_1_native_plugins_1_1_twitter_user.html',1,'VoxelBusters::NativePlugins']]],
+  ['twtraccountdetailscompletion',['TWTRAccountDetailsCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a547ee925356415ce1472068ed1011ce3',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['twtremailaccesscompletion',['TWTREmailAccessCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ae65acbb90b23780b10cc2881d1739bb7',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['twtrlogincompletion',['TWTRLoginCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a34f959f59508d1442e3d921bbfe45cd5',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['twtrresonse',['TWTRResonse',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#affc195ddd4be528977b77208774fdb65',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['twtrtweetcompletion',['TWTRTweetCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afc6b9ce57f190495125926ab9a0a2986',1,'VoxelBusters::NativePlugins::Twitter']]]
 ];

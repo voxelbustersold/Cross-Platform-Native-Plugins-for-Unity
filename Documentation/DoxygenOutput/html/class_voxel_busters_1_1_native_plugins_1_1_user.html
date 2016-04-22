@@ -114,8 +114,11 @@ Properties</h2></td></tr>
 <tr class="memdesc:a3e44d1bd1025981aab25479699e04c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string assigned by game service to uniquely identify a user. (read-only)  <a href="#a3e44d1bd1025981aab25479699e04c41">More...</a><br /></td></tr>
 <tr class="separator:a3e44d1bd1025981aab25479699e04c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cb60fe8f660e3c64c630215704c6bc7"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html#a1cb60fe8f660e3c64c630215704c6bc7">Name</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a1cb60fe8f660e3c64c630215704c6bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string chosen by the player to identify themselves to other players. (read-only)  <a href="#a1cb60fe8f660e3c64c630215704c6bc7">More...</a><br /></td></tr>
+<tr class="memdesc:a1cb60fe8f660e3c64c630215704c6bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string to display for the user. (read-only)  <a href="#a1cb60fe8f660e3c64c630215704c6bc7">More...</a><br /></td></tr>
 <tr class="separator:a1cb60fe8f660e3c64c630215704c6bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93d180db752ec55ea74040c17f9eb98"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html#aa93d180db752ec55ea74040c17f9eb98">Alias</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aa93d180db752ec55ea74040c17f9eb98"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string chosen by the user to identify themselves to other users. (read-only)  <a href="#aa93d180db752ec55ea74040c17f9eb98">More...</a><br /></td></tr>
+<tr class="separator:aa93d180db752ec55ea74040c17f9eb98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents an object that holds information about a user playing your game. </p>
@@ -228,7 +231,31 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A string chosen by the player to identify themselves to other players. (read-only) </p>
+<p>A string to display for the user. (read-only) </p>
+<p>If the user is a friend of the local user, then the value returned is the actual name of the user. And incase if he is not a friend, then user’s alias will be returned.  </p>
+
+</div>
+</div>
+<a class="anchor" id="aa93d180db752ec55ea74040c17f9eb98"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string Alias</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A string chosen by the user to identify themselves to other users. (read-only) </p>
+<p>This property is used when a user is not a friend of the local user. For displaying name on user interface, use the <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_user.html#a1cb60fe8f660e3c64c630215704c6bc7" title="A string to display for the user. (read-only) ">Name</a> property.  </p>
 
 </div>
 </div>

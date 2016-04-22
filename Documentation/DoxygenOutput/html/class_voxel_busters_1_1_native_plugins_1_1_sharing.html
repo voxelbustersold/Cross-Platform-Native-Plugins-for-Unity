@@ -124,7 +124,198 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides cross-platform interface to various sharing services such as posting content to social media sites, sending items via email or SMS, and more. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p>The following code example shows how to compose mail with screenshot as attachment. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaEmail ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsMailServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            MailShareComposer   _composer   = <span class="keyword">new</span> MailShareComposer();</div>
+<div class="line">            _composer.Subject               = <span class="stringliteral">&quot;Sample email&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Adding screenshot as attachment</span></div>
+<div class="line">            _composer.AttachScreenShot();</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, OnFinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support sending emails</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <p>The following code example shows how to compose text message. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaMessage ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsMessagingServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            MessageShareComposer    _composer   = <span class="keyword">new</span> MessageShareComposer();</div>
+<div class="line">            _composer.Body                      = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, OnFinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support sending messages</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <p>The following code example shows how to compose a post with a URL. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaFB ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsFBShareServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            FBShareComposer _composer   = <span class="keyword">new</span> FBShareComposer();</div>
+<div class="line">            _composer.URL               = <span class="stringliteral">&quot;www.voxelbusters.com&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, FinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support posting on FB</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <p>The following code example shows how to compose a tweet message. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaTwitter ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsTwitterShareServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            TwitterShareComposer _composer  = <span class="keyword">new</span> TwitterShareComposer();</div>
+<div class="line">            _composer.Text                  = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, FinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support posting on Twitter</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <p>The following code example shows how to compose a text message for sharing on WhatsApp. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaWhatsApp ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (NPBinding.Sharing.IsWhatsAppServiceAvailable())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">            WhatsAppShareComposer _composer = <span class="keyword">new</span> WhatsAppShareComposer();</div>
+<div class="line">            _composer.Text                  = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">            <span class="comment">// Show composer</span></div>
+<div class="line">            NPBinding.Sharing.ShowView(_composer, FinishedSharing);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// Device doesn&#39;t support sharing on WhatsApp</span></div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <p>The following code example demonstrates how to use share sheet. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaShareSheet ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">        ShareSheet _shareSheet  = <span class="keyword">new</span> ShareSheet(); </div>
+<div class="line">        _shareSheet.Text        = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// On iPad, popover view is used to show share sheet. So we need to set its position</span></div>
+<div class="line">        NPBinding.UI.SetPopoverPointAtLastTouchPosition();</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// Show composer</span></div>
+<div class="line">        NPBinding.Sharing.ShowView(_shareSheet, FinishedSharing);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <p>The following code example demonstrates how to use share sheet with social network services only. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> ShareViaShareSheet ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Create new instance and populate fields</span></div>
+<div class="line">        SocialShareSheet _shareSheet    = <span class="keyword">new</span> SocialShareSheet();</div>
+<div class="line">        _shareSheet.Text                = <span class="stringliteral">&quot;This is a test message.&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// On iPad, popover view is used to show share sheet. So we need to set its position</span></div>
+<div class="line">        NPBinding.UI.SetPopoverPointAtLastTouchPosition();</div>
+<div class="line"></div>
+<div class="line">        <span class="comment">// Show composer</span></div>
+<div class="line">        NPBinding.Sharing.ShowView(_shareSheet, FinishedSharing);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnFinishedSharing (<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dd">eShareResult</a> _result)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Insert your code</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a46047bbd6bda317f3c3e4c8c65fba62d"></a>
 <div class="memitem">
 <div class="memproto">

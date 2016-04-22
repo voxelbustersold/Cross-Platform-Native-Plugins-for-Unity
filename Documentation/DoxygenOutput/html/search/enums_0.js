@@ -3,6 +3,7 @@ var searchData=
   ['eabauthorizationstatus',['eABAuthorizationStatus',['../namespace_voxel_busters_1_1_native_plugins.html#a52e7845cde15260bea7e2d269fd8711c',1,'VoxelBusters::NativePlugins']]],
   ['ebillingtransactionstate',['eBillingTransactionState',['../namespace_voxel_busters_1_1_native_plugins.html#a1b545f54cd8f7e04410c379e01ff27f2',1,'VoxelBusters::NativePlugins']]],
   ['ebillingtransactionverificationstate',['eBillingTransactionVerificationState',['../namespace_voxel_busters_1_1_native_plugins.html#adebe7e13622c835cd0cd075be41b2003',1,'VoxelBusters::NativePlugins']]],
+  ['eclouddatastorevaluechangereason',['eCloudDataStoreValueChangeReason',['../namespace_voxel_busters_1_1_native_plugins.html#a569fe3ebcbf8012948261d1eb3e5bc4d',1,'VoxelBusters::NativePlugins']]],
   ['eimagesource',['eImageSource',['../namespace_voxel_busters_1_1_native_plugins.html#a7c22ee0fa98a425137dcfc6463ddfc2c',1,'VoxelBusters::NativePlugins']]],
   ['eleaderboardpagedirection',['eLeaderboardPageDirection',['../namespace_voxel_busters_1_1_native_plugins.html#ab683d5911c440800eab753bb77b2039e',1,'VoxelBusters::NativePlugins']]],
   ['eleaderboardtimescope',['eLeaderboardTimeScope',['../namespace_voxel_busters_1_1_native_plugins.html#ae5c129a8ead001eb046f6eec1ef277cd',1,'VoxelBusters::NativePlugins']]],

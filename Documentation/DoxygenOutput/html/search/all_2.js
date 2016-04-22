@@ -6,11 +6,13 @@ var searchData=
   ['cancelled',['CANCELLED',['../namespace_voxel_busters_1_1_native_plugins.html#a827272a4a290f79aec1c1634fcb15ab0a9f935beb31030ad0d4d26126c0f39bf2',1,'VoxelBusters.NativePlugins.CANCELLED()'],['../namespace_voxel_busters_1_1_native_plugins.html#a461fe22d94c9553cd71a869b628c698da9f935beb31030ad0d4d26126c0f39bf2',1,'VoxelBusters.NativePlugins.CANCELLED()'],['../namespace_voxel_busters_1_1_native_plugins.html#a6b27d398d97a7d2de511f9aa2244fcc0a9f935beb31030ad0d4d26126c0f39bf2',1,'VoxelBusters.NativePlugins.CANCELLED()']]],
   ['cancellocalnotification',['CancelLocalNotification',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a6ec99b73a3dc7fbdd9069eec0bfc961c',1,'VoxelBusters::NativePlugins::NotificationService']]],
   ['canhide',['CanHide',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a9fa37801c0689332b27d03fef9bcb87d',1,'VoxelBusters::NativePlugins::WebView']]],
+  ['canmakepayments',['CanMakePayments',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a7fd00d6e2cd718bf188e852d9f182b6c',1,'VoxelBusters::NativePlugins::Billing']]],
   ['ccrecipients',['CCRecipients',['../class_voxel_busters_1_1_native_plugins_1_1_mail_share_composer.html#a006f0b2584488d4e03d8c2756f91156b',1,'VoxelBusters::NativePlugins::MailShareComposer']]],
   ['clearcache',['ClearCache',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#aea2a8b1459158c87bd97b2541537126a',1,'VoxelBusters::NativePlugins::WebView']]],
   ['clearnotifications',['ClearNotifications',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a68885259422119ac6697a12190e1970a',1,'VoxelBusters::NativePlugins::NotificationService']]],
   ['close_5fbutton',['CLOSE_BUTTON',['../namespace_voxel_busters_1_1_native_plugins.html#a30c9f3d09eec86c955a0f96b781e8caea5f5b0ec811202aec49b10bc69762bbd1',1,'VoxelBusters::NativePlugins']]],
   ['closed',['CLOSED',['../namespace_voxel_busters_1_1_native_plugins.html#ac2d9045086d3df4f9c057613fe7702dda110ccf2f5d2ff4eda1fd1a494293467d',1,'VoxelBusters::NativePlugins']]],
+  ['cloudservices',['CloudServices',['../class_voxel_busters_1_1_native_plugins_1_1_cloud_services.html',1,'VoxelBusters::NativePlugins']]],
   ['completed',['Completed',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#af4267b6df32c1da3e79ccd7392225a75',1,'VoxelBusters::NativePlugins::Achievement']]],
   ['contenttitle',['ContentTitle',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#aa7bd716fb69112a36b5f076ac54d97a8',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]],
   ['controltype',['ControlType',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a87726ccf24b5b5a27414f2817639eb0a',1,'VoxelBusters::NativePlugins::WebView']]],
@@ -22,6 +24,5 @@ var searchData=
   ['crossplatformnotification',['CrossPlatformNotification',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification.html',1,'VoxelBusters::NativePlugins']]],
   ['currencycode',['CurrencyCode',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#abe822cd9f8d3e3a1be28a5cc4d43a5a5',1,'VoxelBusters::NativePlugins::BillingProduct']]],
   ['currencysymbol',['CurrencySymbol',['../class_voxel_busters_1_1_native_plugins_1_1_billing_product.html#a8d7ecbc6e3a28a321a1d94f130dca0a8',1,'VoxelBusters::NativePlugins::BillingProduct']]],
-  ['customsound',['CustomSound',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#adbaec104b1ad5294cbd457112e35ce4e',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]],
-  ['customverificationfinished',['CustomVerificationFinished',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#afcce8e38d572018183652ee39623d3bd',1,'VoxelBusters::NativePlugins::Billing']]]
+  ['customsound',['CustomSound',['../class_voxel_busters_1_1_native_plugins_1_1_cross_platform_notification_1_1_android_specific_properties.html#adbaec104b1ad5294cbd457112e35ce4e',1,'VoxelBusters::NativePlugins::CrossPlatformNotification::AndroidSpecificProperties']]]
 ];

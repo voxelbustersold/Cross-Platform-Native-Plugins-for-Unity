@@ -1,22 +1,13 @@
 var searchData=
 [
-  ['readcontacts',['ReadContacts',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#aef1504d298308659d62e9e7ffd7bdfd4',1,'VoxelBusters::NativePlugins::AddressBook']]],
-  ['readcontactscompletion',['ReadContactsCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_address_book.html#a0556c7cb8692eea8cedddd0ff11108c1',1,'VoxelBusters::NativePlugins::AddressBook']]],
-  ['receivednotificationresponse',['ReceivedNotificationResponse',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#abbbb745d69a5113b081d85f4b4660890',1,'VoxelBusters::NativePlugins::NotificationService']]],
-  ['registerforremotenotificationcompletion',['RegisterForRemoteNotificationCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ae68c46f5013c239b682e24ec68638aa6',1,'VoxelBusters::NativePlugins::NotificationService']]],
-  ['registerforremotenotifications',['RegisterForRemoteNotifications',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#ab0d332cef9e48924c9b4c10e8a3bf534',1,'VoxelBusters::NativePlugins::NotificationService']]],
-  ['registernotificationtypes',['RegisterNotificationTypes',['../class_voxel_busters_1_1_native_plugins_1_1_notification_service.html#a83e1d708241a024ce3994443c3d30d78',1,'VoxelBusters::NativePlugins::NotificationService']]],
-  ['reload',['Reload',['../class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a7c6d9cfe80065438024b2055c8cf0a04',1,'VoxelBusters::NativePlugins::WebView']]],
-  ['reportprogress',['ReportProgress',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#ac80ef9b0aeaa8ebc1a3deb1f66fa9441',1,'VoxelBusters::NativePlugins::Achievement']]],
-  ['reportprogresscompletion',['ReportProgressCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_achievement.html#aabd8ce9b46fa9fe6e0eb8f679022910f',1,'VoxelBusters::NativePlugins::Achievement']]],
-  ['reportprogresswithglobalid',['ReportProgressWithGlobalID',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#a3eea17fc8af4c477b42ff04cf3569883',1,'VoxelBusters::NativePlugins::GameServices']]],
-  ['reportprogresswithid',['ReportProgressWithID',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#aec561564d45582bd86355d03b5cf7ea6',1,'VoxelBusters::NativePlugins::GameServices']]],
-  ['reportscore',['ReportScore',['../class_voxel_busters_1_1_native_plugins_1_1_score.html#a56c6cca84528fa1eea918a884eb33e78',1,'VoxelBusters::NativePlugins::Score']]],
-  ['reportscorecompletion',['ReportScoreCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_score.html#ac7167d274bac6b424779fc7931b1e60b',1,'VoxelBusters::NativePlugins::Score']]],
-  ['reportscorewithglobalid',['ReportScoreWithGlobalID',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#ac6ae88d85c92a211a094ffb338eadd11',1,'VoxelBusters::NativePlugins::GameServices']]],
-  ['reportscorewithid',['ReportScoreWithID',['../class_voxel_busters_1_1_native_plugins_1_1_game_services.html#a25c0abfa3c50133902694245fb26a8ab',1,'VoxelBusters::NativePlugins::GameServices']]],
-  ['requestaccountdetails',['RequestAccountDetails',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#ac8b89da6d5f00af4292bcab518f3a33f',1,'VoxelBusters::NativePlugins::Twitter']]],
-  ['requestemailaccess',['RequestEmailAccess',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a791224d4484a3d54d96092c3f91d8404',1,'VoxelBusters::NativePlugins::Twitter']]],
-  ['requestforbillingproducts',['RequestForBillingProducts',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a9ec0bef0d6595c14494c402420678428',1,'VoxelBusters::NativePlugins::Billing']]],
-  ['restorecompletedtransactions',['RestoreCompletedTransactions',['../class_voxel_busters_1_1_native_plugins_1_1_billing.html#a2897cb978428d90065b0c9b1fbf36200',1,'VoxelBusters::NativePlugins::Billing']]]
+  ['pickimage',['PickImage',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#abbccbd69133420708fd4d61d720e2a71',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['pickimagecompletion',['PickImageCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a95dd54d80020c5ba3c14361984b098c7',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['pickvideocompletion',['PickVideoCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a693a7a3dd11e94e64de370bc78e23b45',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['playembeddedvideo',['PlayEmbeddedVideo',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#afecbbc321f2903974c5f65f31b4622fa',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['playvideocompletion',['PlayVideoCompletion',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#abdb2811c23515fd8ac3335152b5a8951',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['playvideofromgallery',['PlayVideoFromGallery',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#aa2544dbf89d6b643672a8439e0b21566',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['playvideofromurl',['PlayVideoFromURL',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a73aa1ce9546df342b6b407e762d10d98',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['playyoutubevideo',['PlayYoutubeVideo',['../class_voxel_busters_1_1_native_plugins_1_1_media_library.html#a34913dd531622ffa0eeb8a41c610844f',1,'VoxelBusters::NativePlugins::MediaLibrary']]],
+  ['posturlrequest',['PostURLRequest',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#a24e6281b9778b4dcfb6b35b5522013ad',1,'VoxelBusters::NativePlugins::Twitter']]],
+  ['puturlrequest',['PutURLRequest',['../class_voxel_busters_1_1_native_plugins_1_1_twitter.html#afe9cc3d9c200534cfec99ffd6e521798',1,'VoxelBusters::NativePlugins::Twitter']]]
 ];

@@ -95,25 +95,79 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>WebViewMessage is a wrapped data which is sent from <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view.html" title="Provides interface to embed web content in your application. ">WebView</a> to Unity.  
+<p>Represents an immutable object, that holds information about a message sent from native webview.  
  <a href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a81484dfa953b028480e92f49ae8b1680"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#a81484dfa953b028480e92f49ae8b1680">SchemeName</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a81484dfa953b028480e92f49ae8b1680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scheme name.  <a href="#a81484dfa953b028480e92f49ae8b1680">More...</a><br /></td></tr>
-<tr class="separator:a81484dfa953b028480e92f49ae8b1680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82bacfe5b6faf0534ae06a9540cb886"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#af82bacfe5b6faf0534ae06a9540cb886">URL</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:af82bacfe5b6faf0534ae06a9540cb886"><td class="mdescLeft">&#160;</td><td class="mdescRight">The custom URL that holds information about the web view message. (read-only)  <a href="#af82bacfe5b6faf0534ae06a9540cb886">More...</a><br /></td></tr>
+<tr class="separator:af82bacfe5b6faf0534ae06a9540cb886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99edc42f93bb3229d4b64e8ac7b07ff7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#a99edc42f93bb3229d4b64e8ac7b07ff7">Scheme</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a99edc42f93bb3229d4b64e8ac7b07ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scheme name of the web view message. (read-only)  <a href="#a99edc42f93bb3229d4b64e8ac7b07ff7">More...</a><br /></td></tr>
+<tr class="separator:a99edc42f93bb3229d4b64e8ac7b07ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd5d02452d0753592d3ade6268727de8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#abd5d02452d0753592d3ade6268727de8">Host</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:abd5d02452d0753592d3ade6268727de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the host name.  <a href="#abd5d02452d0753592d3ade6268727de8">More...</a><br /></td></tr>
+<tr class="memdesc:abd5d02452d0753592d3ade6268727de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host name of the web view message. (read-only)  <a href="#abd5d02452d0753592d3ade6268727de8">More...</a><br /></td></tr>
 <tr class="separator:abd5d02452d0753592d3ade6268727de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77915caf0a62515434e69449dd74cb8a"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#a77915caf0a62515434e69449dd74cb8a">Arguments</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a77915caf0a62515434e69449dd74cb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the arguments. Each key-value pair represents name and value of the argument  <a href="#a77915caf0a62515434e69449dd74cb8a">More...</a><br /></td></tr>
+<tr class="memdesc:a77915caf0a62515434e69449dd74cb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The arguments of the web view message. (read-only)  <a href="#a77915caf0a62515434e69449dd74cb8a">More...</a><br /></td></tr>
 <tr class="separator:a77915caf0a62515434e69449dd74cb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>WebViewMessage is a wrapped data which is sent from <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view.html" title="Provides interface to embed web content in your application. ">WebView</a> to Unity. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a class="anchor" id="a81484dfa953b028480e92f49ae8b1680"></a>
+<div class="textblock"><p>Represents an immutable object, that holds information about a message sent from native webview. </p>
+<p>When a webpage with registered scheme starts loading, webview raises <code>WebView.DidReceiveMessageEvent</code> along with <code>WebViewMessage</code> object. Using <code>WebViewMessage</code> object, you can get additional information about URL such as host, scheme and arguments. </p>
+<p>You can register your own scheme, by calling <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_web_view.html#a5c932feb4051efbaae21ac57f7024555" title="Registers the specified scheme, after which web view will start to listen for custom URL...">WebView.AddNewURLSchemeName</a> before starting load request.  </p>
+<p>Please check following code sample, for easy understanding about scheme registeration and handling messages. </p><div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_unity_engine.html">UnityEngine</a>;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections;</div>
+<div class="line"><span class="keyword">using</span> <a class="code" href="namespace_voxel_busters.html">VoxelBusters</a>.<a class="code" href="namespace_voxel_busters_1_1_native_plugins.html">NativePlugins</a>;</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>ExampleClass : MonoBehaviour </div>
+<div class="line">{   </div>
+<div class="line">    [SerializeField]</div>
+<div class="line">    <span class="keyword">private</span>         WebView     m_webview;</div>
+<div class="line">    <span class="keyword">private</span>         <span class="keywordtype">string</span>      m_url       = <span class="stringliteral">&quot;unity://action?val1=1&amp;val2=2&quot;</span>;</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> Start ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Registering scheme of loading url</span></div>
+<div class="line">        m_webview.AddNewURLSchemeName(<span class="stringliteral">&quot;unity&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnEnable ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Registering for event</span></div>
+<div class="line">        WebView.DidReceiveMessageEvent  += OnDidReceiveMessage;</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnDisable ()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Unregistering event</span></div>
+<div class="line">        WebView.DidReceiveMessageEvent  -= OnDidReceiveMessage;</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> LoadRequest ()</div>
+<div class="line">    {</div>
+<div class="line">        m_webview.LoadRequest(m_url);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnDidReceiveMessage (WebView _webview, WebViewMessage _message)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (_webview == this.m_webview)</div>
+<div class="line">        {</div>
+<div class="line">            Debug.Log(<span class="stringliteral">&quot;Scheme: &quot;</span> + _webview.SchemeName);</div>
+<div class="line">            Debug.Log(<span class="stringliteral">&quot;Host: &quot;</span> + _webview.Host);</div>
+<div class="line"></div>
+<div class="line">            <span class="keywordflow">foreach</span> (<span class="keywordtype">string</span> _argKey <span class="keywordflow">in</span> _message.Arguments.Keys)</div>
+<div class="line">                Debug.Log(<span class="stringliteral">&quot;Arg key: &quot;</span> + _argKey + <span class="stringliteral">&quot;value: &quot;</span> + _message.Arguments[_argKey]);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> Output </p><div class="fragment"><div class="line"><a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#a99edc42f93bb3229d4b64e8ac7b07ff7">Scheme</a>: unity</div>
+<div class="line"><a class="code" href="class_voxel_busters_1_1_native_plugins_1_1_web_view_message.html#abd5d02452d0753592d3ade6268727de8">Host</a>: action</div>
+<div class="line">Arg key: val1 value: 1</div>
+<div class="line">Arg key: val2 value: 2 </div>
+</div><!-- fragment --> </div><h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="af82bacfe5b6faf0534ae06a9540cb886"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -121,7 +175,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string SchemeName</td>
+          <td class="memname">string URL</td>
         </tr>
       </table>
   </td>
@@ -131,8 +185,29 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the scheme name. </p>
-<p>The scheme name.</p>
+<p>The custom URL that holds information about the web view message. (read-only) </p>
+
+</div>
+</div>
+<a class="anchor" id="a99edc42f93bb3229d4b64e8ac7b07ff7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Scheme</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The scheme name of the web view message. (read-only) </p>
 
 </div>
 </div>
@@ -154,8 +229,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the host name. </p>
-<p>The host name.</p>
+<p>The host name of the web view message. (read-only) </p>
 
 </div>
 </div>
@@ -177,8 +251,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the arguments. Each key-value pair represents name and value of the argument </p>
-<p>The arguments.</p>
+<p>The arguments of the web view message. (read-only) </p>
+<p>Each key-value pair in dictionary represents argument name and its corresponding value.  </p>
 
 </div>
 </div>

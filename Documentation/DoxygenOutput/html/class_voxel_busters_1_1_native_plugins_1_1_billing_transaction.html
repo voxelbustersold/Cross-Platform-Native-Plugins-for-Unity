@@ -101,9 +101,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9a0eef67454adca910a80c145450cb35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a9a0eef67454adca910a80c145450cb35">UpdateVerificationState</a> (<a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#adebe7e13622c835cd0cd075be41b2003">eBillingTransactionVerificationState</a> _newState)</td></tr>
-<tr class="memdesc:a9a0eef67454adca910a80c145450cb35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this method to manually update the state, after custom receipt verfication is completed.  <a href="#a9a0eef67454adca910a80c145450cb35">More...</a><br /></td></tr>
-<tr class="separator:a9a0eef67454adca910a80c145450cb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9554f39bfe9ed3b0267cc76c2183ff6f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing_transaction.html#a9554f39bfe9ed3b0267cc76c2183ff6f">OnCustomVerificationFinished</a> (<a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#adebe7e13622c835cd0cd075be41b2003">eBillingTransactionVerificationState</a> _newState)</td></tr>
+<tr class="memdesc:a9554f39bfe9ed3b0267cc76c2183ff6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this method to update state, after custom receipt verfication is completed.  <a href="#a9554f39bfe9ed3b0267cc76c2183ff6f">More...</a><br /></td></tr>
+<tr class="separator:a9554f39bfe9ed3b0267cc76c2183ff6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -138,28 +138,36 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents an object that holds transaction information of the purchased product. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9a0eef67454adca910a80c145450cb35"></a>
+<a class="anchor" id="a9554f39bfe9ed3b0267cc76c2183ff6f"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void UpdateVerificationState </td>
+          <td class="memname">virtual void OnCustomVerificationFinished </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_voxel_busters_1_1_native_plugins.html#adebe7e13622c835cd0cd075be41b2003">eBillingTransactionVerificationState</a>&#160;</td>
           <td class="paramname"><em>_newState</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Call this method to manually update the state, after custom receipt verfication is completed. </p>
+<p>Call this method to update state, after custom receipt verfication is completed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">_newState</td><td>The new state for this transaction.</td></tr>
   </table>
   </dd>
 </dl>
-<p>Note that, calling this method will cause product purchase inventory to be updated and followed by <a class="el" href="class_voxel_busters_1_1_native_plugins_1_1_billing.html#aaf553efbb9a105dc48aa14f55c13b9f5" title="Event that will be called when billing product payment response is received. ">Billing.DidReceiveTransactionInfoEvent</a> is raised.  </p>
+<p>Note that, calling this method will update product purchase inventory and followed by resends transaction event.  </p>
 
 </div>
 </div>

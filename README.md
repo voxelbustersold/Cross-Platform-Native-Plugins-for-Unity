@@ -1,6 +1,13 @@
 # Cross-Platform-Native-Plugins-for-Unity
 Provides an unique way to access native features from Unity3D
 
+>Features 
+
+Address Book, Billing, Cloud Services, Game Services, Media Library, Network Connectivity, Notification Service, 
+Rate My App, Sharing, Twitter SDK, UI Dialogs, WebView
+
+Addons : Soomla Grow and OneSignal Support
+
 Usage : 
         Once you import the package, drag NPSettings prefab. Thats it!
         Now you can access the features through NPBinding class.

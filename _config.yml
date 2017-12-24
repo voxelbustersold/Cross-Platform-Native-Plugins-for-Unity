@@ -1,0 +1,8 @@
+title: Cross-platform-native-plugins-for-unity
+description: Provides an unique way to access native features from Unity3D
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions

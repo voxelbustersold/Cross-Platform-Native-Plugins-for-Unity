@@ -1,5 +1,3 @@
-# Cross-Platform-Native-Plugins-for-Unity
-
 [](#cross-platform-native-plugins-for-unity)Cross-Platform-Native-Plugins-for-Unity
 ===================================================================================
 

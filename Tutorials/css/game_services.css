@@ -1,0 +1,37 @@
+.nav-bg-color {
+	background: #000000;
+}#nav-logo-menu .nav-bg {
+	background: #000000;
+	opacity: 1;
+}
+#benefit-3col-2row-2 {
+	background: linear-gradient(135deg, #ffc409, #ff0000);
+}
+
+
+
+
+#action-center-text-btn {
+    background: #e9fbff;
+}
+
+#action-center-text-btn .bg {
+    background-image: url('../images/bg-13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}#desc-img-tabs {
+	background: #222222;
+}#desc-img-accordion .bg {
+	background-image: url('../images/bg-scene-2.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5;
+}#benefit-5col-2row {
+    background: #000000;
+}#footer-text-icon-share {
+	background: linear-gradient(135deg, #00c0ff, #01fee7);
+}

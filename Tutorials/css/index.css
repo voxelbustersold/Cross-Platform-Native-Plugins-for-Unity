@@ -1,0 +1,44 @@
+.nav-bg-color {
+	background: #000000;
+}.off-canvas-active .off-canvas-overlay {
+	background: #000000;
+}#nav-fluid-canvas-3 {
+    background: transparent;
+}
+
+.off-canvas-overlay {
+    background: linear-gradient(135deg, #7977FF, #BE5EFF);
+    background: -webkit-linear-gradient(315deg, #7977FF, #BE5EFF);
+}#navbar {
+	background: #000000;
+}#nav-fluid-canvas-3 .nav-bg {
+	background: #000000;
+	opacity: 1;
+}#header-img-slogan-btn-img {
+	background: linear-gradient(135deg, #00c0ff, #01fee7);
+}
+
+#header-img-slogan-btn-img .bg {
+	opacity: 0.15;
+}
+
+
+#benefit-3col {
+	background: #eeeeee;
+}
+
+
+
+
+
+
+#counter-4col {
+	background: linear-gradient(135deg, #01fee7, #00c0ff);
+}#action-text-btn-img .bg {
+    background-image: url('../images/bg-10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.15;
+}#footer-text-icon-share {
+	background: linear-gradient(135deg, #00c0ff, #01fee7);
+}

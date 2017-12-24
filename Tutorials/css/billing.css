@@ -1,0 +1,63 @@
+
+.nav-bg-color {
+	background: linear-gradient(135deg, #ff2c76, #ffd900);
+}
+
+#nav-logo-menu .nav-bg {
+	background: linear-gradient(135deg, #ff2c76, #ffd900);
+	opacity: 1;
+}
+
+#benefit-3col-2row-2 {
+	background: linear-gradient(135deg, #ff2c76, #ffd900);
+}
+#desc-center-img-anim-text-btn {
+	background: #eeeeee;
+}#action-text-btn-2 {
+	background: #444444;
+}
+
+#action-text-btn-2 .bg {
+	background-image: url('../images/bg-13.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.07;
+}
+#text-3col {
+	background: #eeeeee;
+}
+#desc-tabs--0 {
+	background: #444444;
+}#desc-img-tabs {
+	background: #eeeeee;
+}#desc-img-tabs--0 {
+	background: #444444;
+}#desc-tabs--1 {
+	background: #f8f9fb;
+}#desc-accordion-2col {
+	background: #222222;
+}
+
+#desc-accordion-2col .bg {
+	background-image: url('../images/bg-nature-5.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.1;
+}
+#popup-center-img-text .modal-content {
+	background: #000000;
+}
+
+
+#footer-text-icon-share {
+	background: linear-gradient(135deg, #ff2c76, #ffd900);
+}
+#footer-logo-share {
+    background: #222222;
+}

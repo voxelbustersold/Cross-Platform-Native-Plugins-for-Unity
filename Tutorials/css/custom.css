@@ -1,0 +1,460 @@
+/* --------------- Color Style ------------------ */
+section.dark, .nav-bg.dark, .bg-test.dark, .nb-off-canvas.dark, header.dark, .dark .sub-menu, footer.dark, .modal-content.dark, .dark .mega-menu-container, .off-canvas-overlay.dark {
+background-color: #353b4a;
+}
+.light .dark .dropdown-menu, .dark .dropdown-menu {
+background-color: #353b4a;
+}
+.dark-page #preloader {
+background-color: #353b4a;
+}
+.dark-page {
+background-color: #353b4a;
+}
+.dark-page #preloader > div, .dark-page #preloader > div > *, .dark-page #preloader > div:before, .dark-page #preloader > div:after {
+border-color: #f3f3f3;
+background-color: #f3f3f3;
+}
+section.light, .nav-bg.light, .bg-test.light, .nb-off-canvas.light, header.light, .light .sub-menu, footer.light, .modal-content.light, .light .mega-menu-container, .off-canvas-overlay.light {
+background-color: #ffffff;
+}
+.dark .light .dropdown-menu, .light .dropdown-menu {
+background-color: #ffffff;
+}
+.light-page #preloader {
+background-color: #ffffff;
+}
+.light-page {
+background-color: #ffffff;
+}
+.light-page #preloader > div, .light-page #preloader > div > *, .light-page #preloader > div:before, .light-page #preloader > div:after {
+border-color: #888888;
+background-color: #888888;
+}
+.light .dark , .dark  {
+color: #ffffff!important;
+}
+.light .dark mark, .dark mark {
+color: #000000;
+}
+.light .dark mark, .dark mark {
+background-color: #00c0ff;
+}
+.light .dark h1, .dark h1 {
+color: #ffffff;
+}
+.light .dark h2, .dark h2 {
+color: #ffffff;
+}
+.light .dark h3, .dark h3 {
+color: #ffffff;
+}
+.light .dark h4, .dark h4 {
+color: #ffffff;
+}
+.light .dark.sep-b:after, .dark.sep-b:after {
+border-color: #777777;
+}
+.light .dark.sep-full-b:after, .dark.sep-full-b:after {
+border-color: #777777;
+}
+.light .dark hr, .dark hr {
+border-color: #777777;
+}
+.light .dark .border-box, .dark .border-box {
+border-color: #777777;
+}
+.light .dark .text-icon-list.text-icon-list-sep li, .dark .text-icon-list.text-icon-list-sep li {
+border-color: #777777;
+}
+.light .dark .nav-tabs, .dark .nav-tabs {
+border-color: #777777;
+}
+.light .dark .step-line-ltc, .dark .step-line-ltc {
+border-color: #edf8ff;
+}
+.light .dark .step-line-rtc, .dark .step-line-rtc {
+border-color: #edf8ff;
+}
+.light .dark .step-line-ctl, .dark .step-line-ctl {
+border-color: #edf8ff;
+}
+.light .dark .step-line-ctr, .dark .step-line-ctr {
+border-color: #edf8ff;
+}
+.light .dark  .step-line-start:before, .dark  .step-line-start:before {
+border-color: #edf8ff;
+}
+.light .dark  .step-line-end:before, .dark  .step-line-end:before {
+border-color: #edf8ff;
+}
+.light .dark a:not(.btn):not(.gallery-box):not(.goodshare), .dark a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #ffffff;
+}
+.light .dark a.btn-link, .dark a.btn-link {
+color: #ffffff;
+}
+.light .dark a:not(.btn):not(.gallery-box):not(.goodshare):hover, .dark a:not(.btn):not(.gallery-box):not(.goodshare):hover {
+color: #f4f4f4;
+}
+.light .dark li.active > a:not(.btn):not(.gallery-box):not(.goodshare), .dark li.active > a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #f4f4f4;
+}
+.light .dark li.active > div.buttons-control > a:not(.btn):not(.gallery-box):not(.goodshare), .dark li.active > div.buttons-control > a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #f4f4f4;
+}
+.light .dark .btn-primary, .dark .btn-primary {
+color: #ffffff;
+}
+.light .dark .btn-primary, .dark .btn-primary {
+background-color: #00c0ff;
+border-color: #00c0ff;
+}
+.light .dark .btn-primary:hover, .dark .btn-primary:hover {
+color: #ffffff;
+}
+.light .dark .btn-primary:hover, .dark .btn-primary:hover {
+background-color: #039dd0;
+border-color: #039dd0;
+}
+.light .dark .btn-default, .dark .btn-default {
+color: #ffffff;
+}
+.light .dark .btn-default, .dark .btn-default {
+border-color: #ffffff;
+}
+.light .dark .btn-default:hover, .dark .btn-default:hover {
+color: #eeeeee;
+}
+.light .dark .btn-default:hover, .dark .btn-default:hover {
+border-color: #eeeeee;
+}
+.light .dark i.icon-color, .dark i.icon-color {
+color: #ffffff;
+}
+.light .dark .owl-next, .dark .owl-next {
+border-color: #ffffff;
+}
+.light .dark .owl-prev, .dark .owl-prev {
+border-color: #ffffff;
+}
+.light .dark .owl-dot, .dark .owl-dot {
+border-color: #ffffff;
+}
+.light .dark .gallery-box, .dark .gallery-box {
+background: #353b4a;
+}
+.light .dark .card-img-overlay-bg:before, .dark .card-img-overlay-bg:before {
+background: #353b4a;
+}
+.light .dark .gallery-box, .dark .gallery-box {
+color: #ffffff;
+}
+.light .dark .card-img-overlay-bg, .dark .card-img-overlay-bg {
+color: #ffffff;
+}
+.light .dark .checkbox .lbl::before, .dark .checkbox .lbl::before {
+background: #ffffff;
+}
+.light .dark .radio .lbl::before, .dark .radio .lbl::before {
+background: #ffffff;
+}
+.light .dark .form-control, .dark .form-control {
+background: #ffffff;
+}
+.light .dark .form-inline .btn.btn-link, .dark .form-inline .btn.btn-link {
+background: #ffffff;
+}
+.light .dark .form-group input, .dark .form-group input {
+color: #222222;
+}
+.light .dark .form-group select, .dark .form-group select {
+color: #222222;
+}
+.light .dark .input-group input, .dark .input-group input {
+color: #222222;
+}
+.light .dark .form-group textarea, .dark .form-group textarea {
+color: #222222;
+}
+.light .dark .form-inline .btn.btn-link, .dark .form-inline .btn.btn-link {
+color: #222222;
+}
+.light .dark .checkbox .lbl::before, .dark .checkbox .lbl::before {
+border-color: #eeeeee;
+}
+.light .dark .radio .lbl::before, .dark .radio .lbl::before {
+border-color: #eeeeee;
+}
+.light .dark .form-control, .dark .form-control {
+border-color: #eeeeee;
+}
+.light .dark .form-inline .btn.btn-link, .dark .form-inline .btn.btn-link {
+border-color: #eeeeee;
+}
+.light .dark .checkbox .lbl::after, .dark .checkbox .lbl::after {
+background: #00c0ff;
+}
+.light .dark .radio .lbl::after, .dark .radio .lbl::after {
+background: #00c0ff;
+}
+.light .dark .form-control::-webkit-input-placeholder, .dark .form-control::-webkit-input-placeholder {
+color: #999999;
+}
+.light .dark .form-control::-moz-placeholder, .dark .form-control::-moz-placeholder {
+color: #999999;
+}
+.light .dark .form-control:-ms-input-placeholder, .dark .form-control:-ms-input-placeholder {
+color: #999999;
+}
+.light .dark .select-group:before, .dark .select-group:before {
+color: #999999;
+}
+.light .dark .datepicker-group:before, .dark .datepicker-group:before {
+color: #999999;
+}
+.light .dark .file-group:before, .dark .file-group:before {
+color: #999999;
+}
+.light .dark .radio .label-name, .dark .radio .label-name {
+color: #999999;
+}
+.dark .light , .light  {
+color: #444444!important;
+}
+.dark .light mark, .light mark {
+color: #444444;
+}
+.dark .light mark, .light mark {
+background-color: #ffd12c;
+}
+.dark .light h1, .light h1 {
+color: #222222;
+}
+.dark .light h2, .light h2 {
+color: #444444;
+}
+.dark .light h3, .light h3 {
+color: #444444;
+}
+.dark .light h4, .light h4 {
+color: #555555;
+}
+.dark .light.sep-b:after, .light.sep-b:after {
+border-color: #dddddd;
+}
+.dark .light.sep-full-b:after, .light.sep-full-b:after {
+border-color: #dddddd;
+}
+.dark .light hr, .light hr {
+border-color: #dddddd;
+}
+.dark .light .border-box, .light .border-box {
+border-color: #dddddd;
+}
+.dark .light .text-icon-list.text-icon-list-sep li, .light .text-icon-list.text-icon-list-sep li {
+border-color: #dddddd;
+}
+.dark .light .nav-tabs, .light .nav-tabs {
+border-color: #dddddd;
+}
+.dark .light .step-line-ltc, .light .step-line-ltc {
+border-color: #72c9ff;
+}
+.dark .light .step-line-rtc, .light .step-line-rtc {
+border-color: #72c9ff;
+}
+.dark .light .step-line-ctl, .light .step-line-ctl {
+border-color: #72c9ff;
+}
+.dark .light .step-line-ctr, .light .step-line-ctr {
+border-color: #72c9ff;
+}
+.dark .light  .step-line-start:before, .light  .step-line-start:before {
+border-color: #72c9ff;
+}
+.dark .light  .step-line-end:before, .light  .step-line-end:before {
+border-color: #72c9ff;
+}
+.dark .light a:not(.btn):not(.gallery-box):not(.goodshare), .light a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #222222;
+}
+.dark .light a.btn-link, .light a.btn-link {
+color: #222222;
+}
+.dark .light a:not(.btn):not(.gallery-box):not(.goodshare):hover, .light a:not(.btn):not(.gallery-box):not(.goodshare):hover {
+color: #00a7ff;
+}
+.dark .light li.active > a:not(.btn):not(.gallery-box):not(.goodshare), .light li.active > a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #00a7ff;
+}
+.dark .light li.active > div.buttons-control > a:not(.btn):not(.gallery-box):not(.goodshare), .light li.active > div.buttons-control > a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #00a7ff;
+}
+.dark .light .btn-primary, .light .btn-primary {
+color: #ffffff;
+}
+.dark .light .btn-primary, .light .btn-primary {
+background-color: #07bcf7;
+border-color: #07bcf7;
+}
+.dark .light .btn-primary:hover, .light .btn-primary:hover {
+color: #ffffff;
+}
+.dark .light .btn-primary:hover, .light .btn-primary:hover {
+background-color: #039dd0;
+border-color: #039dd0;
+}
+.dark .light .btn-default, .light .btn-default {
+color: #555555;
+}
+.dark .light .btn-default, .light .btn-default {
+border-color: #555555;
+}
+.dark .light .btn-default:hover, .light .btn-default:hover {
+color: #222222;
+}
+.dark .light .btn-default:hover, .light .btn-default:hover {
+border-color: #222222;
+}
+.dark .light i.icon-color, .light i.icon-color {
+color: #aaaaaa;
+}
+.dark .light .owl-next, .light .owl-next {
+border-color: #444444;
+}
+.dark .light .owl-prev, .light .owl-prev {
+border-color: #444444;
+}
+.dark .light .owl-dot, .light .owl-dot {
+border-color: #444444;
+}
+.dark .light .gallery-box, .light .gallery-box {
+background: #ffffff;
+}
+.dark .light .card-img-overlay-bg:before, .light .card-img-overlay-bg:before {
+background: #ffffff;
+}
+.dark .light .gallery-box, .light .gallery-box {
+color: #222222;
+}
+.dark .light .card-img-overlay-bg, .light .card-img-overlay-bg {
+color: #222222;
+}
+.dark .light .checkbox .lbl::before, .light .checkbox .lbl::before {
+background: #ffffff;
+}
+.dark .light .radio .lbl::before, .light .radio .lbl::before {
+background: #ffffff;
+}
+.dark .light .form-control, .light .form-control {
+background: #ffffff;
+}
+.dark .light .form-inline .btn.btn-link, .light .form-inline .btn.btn-link {
+background: #ffffff;
+}
+.dark .light .form-group input, .light .form-group input {
+color: #222222;
+}
+.dark .light .form-group select, .light .form-group select {
+color: #222222;
+}
+.dark .light .input-group input, .light .input-group input {
+color: #222222;
+}
+.dark .light .form-group textarea, .light .form-group textarea {
+color: #222222;
+}
+.dark .light .form-inline .btn.btn-link, .light .form-inline .btn.btn-link {
+color: #222222;
+}
+.dark .light .checkbox .lbl::before, .light .checkbox .lbl::before {
+border-color: #eeeeee;
+}
+.dark .light .radio .lbl::before, .light .radio .lbl::before {
+border-color: #eeeeee;
+}
+.dark .light .form-control, .light .form-control {
+border-color: #eeeeee;
+}
+.dark .light .form-inline .btn.btn-link, .light .form-inline .btn.btn-link {
+border-color: #eeeeee;
+}
+.dark .light .checkbox .lbl::after, .light .checkbox .lbl::after {
+background: #00c0ff;
+}
+.dark .light .radio .lbl::after, .light .radio .lbl::after {
+background: #00c0ff;
+}
+.dark .light .form-control::-webkit-input-placeholder, .light .form-control::-webkit-input-placeholder {
+color: #999999;
+}
+.dark .light .form-control::-moz-placeholder, .light .form-control::-moz-placeholder {
+color: #999999;
+}
+.dark .light .form-control:-ms-input-placeholder, .light .form-control:-ms-input-placeholder {
+color: #999999;
+}
+.dark .light .select-group:before, .light .select-group:before {
+color: #999999;
+}
+.dark .light .datepicker-group:before, .light .datepicker-group:before {
+color: #999999;
+}
+.dark .light .file-group:before, .light .file-group:before {
+color: #999999;
+}
+.dark .light .radio .label-name, .light .radio .label-name {
+color: #999999;
+}
+
+/* ------------------ Typography --------------------- */
+body, .datepicker {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-style: inherit;
+	font-weight: 400;
+	text-transform: inherit;
+}
+h1 {
+	font-family: 'Roboto';
+	font-size: 72px;
+	font-style: initial;
+	font-weight: 100;
+	text-transform: inherit;
+}
+h2 {
+	font-family: 'Nunito Sans';
+	font-size: 36px;
+	font-style: inherit;
+	font-weight: 200;
+	text-transform: inherit;
+}
+h3 {
+	font-family: 'Nunito Sans';
+	font-size: 26px;
+	font-style: inherit;
+	font-weight: 300;
+	text-transform: inherit;
+}
+h4 {
+	font-family: 'Nunito Sans';
+	font-size: 20px;
+	font-style: inherit;
+	font-weight: 300;
+	text-transform: inherit;
+}
+.navbar-nav, aside#navbar .nav {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-style: inherit;
+	font-weight: 400;
+	text-transform: inherit;
+}
+.btn {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-style: inherit;
+	font-weight: 400;
+	text-transform: inherit;
+}

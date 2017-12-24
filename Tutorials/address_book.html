@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Address Book</title>
+		
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+		<script src="js/fonts.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/icons.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/aos.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="css/address_book.css" />
+	</head>
+    <body class="light-page">
+<nav id="nav-logo-menu" class="navbar dark navbar-fixed-top nav-start-hide-bg" style="">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <div class="navbar-brand"><a href="home.html#nav-fluid-canvas-3" target="_self" class="smooth"><img src="images/Cross_Platform_Native_Plugins.png" srcset="images/Cross_Platform_Native_Plugins@2x.png 2x" alt="Your logo" class=""></a></div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse in" aria-expanded="true" style="">
+            <ul class="nav navbar-nav navbar-right" style="">
+                <li class=""><a target="_self" class="smooth" href="#text-5col"><i class="icon-briefcase icon-position-left"></i><span style="">Initialisation</span></a></li>
+                <li class=""><a target="_self" class="smooth" href="#desc-text-btn-img-anim-2"><i class="icon-code icon-position-left"></i><span style="">Implementation</span></a></li>
+                
+                <li class=""><a href="#desc-accordion" target="_self" class="smooth"><i class="icon-bubble-question icon-position-left"></i><span>FAQ</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav-bg dark"></div>
+</nav>		<div id="wrap">
+			<section id="benefit-3col-2row-2" class="pt-100 pb-150 dark text-left">
+    			<div class="container" style="">
+        			<h1 style="" class="text-center">Address Book</h1>
+        			<h4 class="text-center mb-75 dark" style="">This feature allows you to access <b>contact</b> information from the <b>Address Book</b>.</h4>
+        			<div class="row">
+            			<div class="col-md-4">
+                			<div class="card card-row" data-aos="fade-up" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0">
+                    			<i class="card-icon icon-size-m icon-man icon-color"></i>
+                    			<div class="card-block" style="">
+                        			<h3 class="" style="">Auth Status</h3>
+                        			<p class="" style="">Check if Address Book access is authorised</p>
+                    			</div>
+                			</div>
+                
+            			</div>
+            			<div class="col-md-4">
+                			<div class="card card-row" data-aos="fade-up" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0">
+                    			<i class="card-icon icon-size-m icon-news icon-color"></i>
+                    			<div class="card-block" style="">
+                        			<h3 class="" style="">Read Contacts</h3>
+                        			<p class="" style="">Get list of users contacts with details such as Name, Picture, Email, etc.</p>
+                    			</div>
+                			</div>
+                
+            			</div>
+            			<div class="col-md-4">
+                			<div class="card card-row" data-aos="fade-up" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0">
+                    			<i class="card-icon icon-size-m icon-screen icon-color"></i>
+                    			<div class="card-block" style="">
+                        			<h3 class="" style="">Editor Simulation</h3>
+                        			<p class="" style="">Simulate Address Book behaviour on Editor to ease development process&nbsp;</p>
+                    			</div>
+                			</div>
+                
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg parallax-bg" data-top-bottom="transform:translate3d(0px, 25%, 0px)" data-bottom-top="transform:translate3d(0px, -25%, 0px)"></div>
+			</section><section id="text-5col" class="light pt-50 pb-50 text-left">
+    			<div class="container" style="">
+        			<h2 class="mb-30" style=""><strong>Initialisation</strong></h2>
+        			<h4 class="mb-60" style="">Follow below steps in order to use this feature</h4>
+        			<div class="row">
+            			<div class="col-md-20" style="">
+                			<h3 class="" style="">1. Check Authorization</h3>
+                
+            			</div>
+            			<div class="col-md-20" style="">
+                			<h3 class="" style="">2. Read Contacts</h3>
+                
+            			</div>
+            			<div class="col-md-20">
+                
+                
+            			</div>
+            			<div class="col-md-20">
+                
+                
+            			</div>
+            			<div class="col-md-20">
+                
+                
+            			</div>
+        			</div>
+        			<a class="btn btn-default btn-lg mt-75 smooth" style="" target="_self" href="#desc-text-btn-img-anim-2"><span style="">Next</span><i class="icon-arrow-right icon-position-right"></i></a>
+    			</div>
+    			<div class="bg"></div>
+			</section><section id="desc-text-btn-img-anim-2" class="dark pt-50 pb-50 text-left">
+    			<div class="container">
+        			<div class="row flex-md-vmiddle">
+            			<div class="col-md-5" style="">
+                			<h2 class="mb-50" style="">Check Authorization Status</h2>
+                			<p class="mb-50" style="">This method will let you know if you have the permission to access Address Book.<br><br>Make sure you call this method to check for access status and then start on reading contacts.&nbsp;<br><br>On iOS platform, this call will show an Alert to let user to give access.&nbsp;<br></p><p class="mb-50" style=""></p><pre>NPBinding.AddressBook.GetAuthorizationStatus();</pre><p></p>
+                			<a class="btn btn-info btn-lg smooth" style="" href="#text-1col-center-3" target="_self"><span style="">Code Sample</span><i class="icon-arrow-right icon-position-right"></i></a>
+            			</div>
+            			<div class="col-md-6 col-md-offset-1">
+                			<div class="anim-box" style="padding-right: 7%; padding-top: 7%">
+                    			<img src="https://ssd.eff.org/files/2016/04/26/permission-contacts.png" srcset="" alt="Screen" class="screen" data-aos="fade-left" data-aos-easing="ease-out-back" data-aos-duration="800" data-aos-delay="0" style="position:relative; z-index:2;">
+                    
+                    
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</section><section id="desc-text-btn-img-anim-2--0" class="pt-50 pb-50 light text-left">
+    			<div class="container">
+        			<div class="row flex-md-vmiddle">
+            			<div class="col-md-5" style="">
+                			<h2 class="mb-50" style="">Read Contacts</h2>
+              	 			<pre>NPBinding.AddressBook.ReadContacts(OnReceivingContacts);<br></pre><p class="mb-50" style="">This takes a callback which will get triggered once reading contacts is finished.<br><br>Callback returns an array of AddressBookContact instances and authorization status.<br></p><p class="mb-50" style=""></p>
+                
+                			<a class="btn btn-info btn-lg smooth" style="" href="#text-1col-center-3" target="_self"><span style="">Code Sample</span><i class="icon-arrow-right icon-position-right"></i></a>
+            			</div>
+            			<div class="col-md-6 col-md-offset-1">
+                			<div class="anim-box" style="padding-right: 7%; padding-top: 7%">
+                    			<img src="https://www.safaribooksonline.com/library/view/ios-8-swift/9781491908969/images/ispc_1301.png" srcset="" alt="Screen" class="screen" data-aos="fade-left" data-aos-easing="ease-out-back" data-aos-duration="800" data-aos-delay="0" style="position:relative; z-index:2;">
+                    
+                    
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</section><section id="text-1col-center-3" class="dark pt-50 pb-50 text-left sep-b">
+    			<div class="container">
+          			</div>
+
+            			<div class="col-md-6 col-md-offset-3" style="">
+               			<h3 style="" class="mb-50"><strong>Implementation Example</strong></h3>
+                
+              			<pre>               
+using UnityEngine;
+using System.Collections;
+using VoxelBusters.NativePlugins;
+public class ExampleClass : MonoBehaviour 
+{      
+    public bool GetAuthorisationStatus()
+    {
+       	bool _status = NPBinding.AddressBook.GetAuthorizationStatus();
+        return _status;
+    }
+    public void ReadContacts ()
+    {
+        NPBinding.AddressBook.ReadContacts(OnReadContactsFinished); 
+    }
+    private void OnReadContactsFinished (eABAuthorizationStatus _authorizationStatus, AddressBookContact[] _contactList)
+    {
+        if (_authorizationStatus == eABAuthorizationStatus.AUTHORIZED)
+        {
+            // Insert your code to handle contact info
+        }
+        else
+        {
+            // Something went wrong
+        }
+    }
+}
+               			</pre>
+                
+            			</div>
+        
+ 
+    			<div class="bg"></div>
+			</section><section id="desc-text-btn-img-anim-2--1" class="light pt-50 pb-50 text-left">
+    			<div class="container">
+        			<div class="row flex-md-vmiddle">
+            			<div class="col-md-5" style="">
+                			<h2 class="mb-50" style="">Editor Simulation</h2>
+                			<p class="mb-50" style="">Address Book editor simulation provides optional functionality to test your code on Unity Editor.
+                			</p><p class="mb-50" style="">Access Address Book Simulation from<br>Window- &gt;Voxel Busters -&gt; Native Plugins - &gt; Editor Simulation - &gt; Select Address Book.</p><p class="mb-50" style="">Tip<em>&nbsp;</em>:<em> Try setting different Authorization Status and make sure your code handles all possible invalid cases when deployed on target device.</em></p>
+                
+            			</div>
+            			<div class="col-md-6 col-md-offset-1">
+                			<div class="anim-box" style="padding-right: 7%; padding-top: 7%">
+                    			<img src="https://tutorials.cpnp.voxelbusters.com/Resources/AddressBookSimulation.png" srcset="images/mockup-imac@2x.png 2x" alt="Screen" class="screen" data-aos="fade-left" data-aos-easing="ease-out-back" data-aos-duration="800" data-aos-delay="0" style="position:relative; z-index:2;">
+                    
+                    
+                			</div>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</section><section id="desc-accordion" class="pt-125 pb-125 light text-left">
+    			<div class="container">
+        			<h2 class="mb-50 light" style="">FAQ</h2>
+        			<div class="row">
+            			<div class="col-md-12 accordion" id="desc_accordion_0-accordion" role="tablist" aria-multiselectable="true">
+                
+                			<div class="panel">
+                    			<a class="panel-heading collapsed" data-toggle="collapse" role="button" data-parent="#desc_accordion_0-accordion" aria-expanded="false" style="" href="#desc_accordion_0--1"><h4 class="light" style=""><em>Where I can use this feature?</em></h4></a>
+                    			<div id="desc_accordion_0--1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                        			<div class="panel-body" style="">
+                            			<p class="light" style="">If you need to access address book of your player to get contacts.</p>
+                        			</div>
+                    			</div>
+                			</div><div class="panel">
+                    			<a class="panel-heading collapsed" data-toggle="collapse" role="button" data-parent="#desc_accordion_0-accordion" aria-expanded="false" style="" href="#desc_accordion_0--2"><h4 class="" style=""><em>What details I get from each contact?</em></h4></a>
+                    			<div id="desc_accordion_0--2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                        			<div class="panel-body" style="">
+                            			<p class="" style="">First Name, Last Name, Phone Number List, Email ID List, Image (Which can be accessed with GetImageAsync method).</p>
+                        			</div>
+                    			</div>
+                			</div>
+                
+                
+                
+                
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</section><footer id="footer-text-icon-share" class="pt-50 pb-50 dark">
+    			<div class="container">
+        			<div class="row flex-md-vmiddle">
+            			<div class="col-md-5" style="">
+                			<p class="" style="">© Voxel Busters Interactive LLP&nbsp;<br>All rights reserved.</p>
+            			</div>
+            			<div class="col-md-2 text-center">
+                			<a href="#" class="icon-arrow-up icon-size-l icon-color"><i></i></a>
+            			</div>
+            			<div class="col-md-5 text-md-right">
+                			<ul class="share-list">
+                    			<li class="">
+                        			<a class="goodshare" data-type="fb" href="#"><i class="icon-facebook"></i><span>Share</span><span data-counter="fb">0</span></a>
+                    			</li><li class="">
+                        			<a class="goodshare" data-type="tw" href="#"><i class="icon-twitter"></i><span>Tweet</span><span data-counter="tw"></span></a>
+                    			</li><li>
+                        			<a class="goodshare" data-type="gp" href="#"><i class="icon-google-plus"></i><span>Share</span><span data-counter="gp">0</span></a>
+                    			</li><li>
+                        			<a class="goodshare" data-type="li" href="#"><i class="icon-linkedin"></i><span>Share</span><span data-counter="li">0</span></a>
+                    			</li>
+                			</ul>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</footer>
+		</div>
+		<footer></footer>
+		<div class="modal-container"></div>
+		
+		
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.vide.min.js"></script>
+		<script src="js/jquery.smooth-scroll.min.js"></script>
+		<script src="js/skrollr.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/countUp-jquery.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCByts0vn5uAYat3aXEeK0yWL7txqfSMX8"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.goodshare.js/3.2.8/goodshare.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/address_book.js"></script>
+	</body>
+</html>

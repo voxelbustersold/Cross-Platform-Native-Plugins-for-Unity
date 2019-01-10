@@ -1,5 +1,5 @@
 {
-  "version": "1.5.2.0",
+  "version": "1.5.7",
   "version_comment":"Version will be of x.x.x format. Incase if we need to force alert users for any update, append .x (Ex: 1.5.6.1)",
   "description": "New update available on asset store. Get more information from NPSettings",
   "news": {

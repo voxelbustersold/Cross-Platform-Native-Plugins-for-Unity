@@ -1,0 +1,19 @@
+{
+  "version":"1.5.7",
+  "update-index":0,
+  "version_comment":"Update index can be increased to update news to the user for same version.",
+  "description": "We have a new update available on asset store. Get more information from \n Window->VoxelBusters->Native Plugins->NPSettings",
+  "news": {
+    "Cross Platform Native Plugins": 
+    {
+      "link":"https://assetstore.unity3d.com/en/#!/content/31086",
+      "description": "New update 2.0 available which has massive performance boost"
+    },
+    "Cross Platform Replay Kit": 
+    {
+      "link":"https://assetstore.unity3d.com/en/#!/content/31086",
+      "description": "New update 2.0 available which has massive performance boost"
+    },
+    "Alert":"Make sure you upgrade to latest version soon"
+  }
+}

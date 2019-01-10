@@ -1,7 +1,7 @@
 {
-  "version": "1.5.7",
+  "version": "1.5.6.10",
   "version_comment":"Version will be of x.x.x format. Incase if we need to force alert users for any update, append .x (Ex: 1.5.6.1)",
-  "description": "We have a new update available on asset store. Get more information from Window->VoxelBusters->Native Plugins->NPSettings",
+  "description": "We have a new update available on asset store. Get more information from \n Window->VoxelBusters->Native Plugins->NPSettings",
   "news": {
     "Cross Platform Native Plugins": "New update 2.0 available which has massive performance boost",
     "Cross Platform Replay Kit": "New plugin released. Upgrade from Native Plugins at a lower price"

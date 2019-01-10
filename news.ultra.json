@@ -1,12 +1,6 @@
 {
-  "ultra": {
-   "version":"1.5.7",
-   "update-index":0,
-  },
-  "lite":{
   "version":"1.5.7",
   "update-index":0,
-  },
   "version_comment":"Update index can be increased to update news to the user for same version.",
   "description": "We have a new update available on asset store. Get more information from \n Window->VoxelBusters->Native Plugins->NPSettings",
   "news": {

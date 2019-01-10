@@ -1,7 +1,13 @@
 {
-  "version": "1.5.7.01",
-  "version-lite":"1.5.7",
-  "version_comment":"Version will be of x.x.x format. Incase if we need to force alert users for any update, append .xx (Ex: 1.5.6.01)",
+  "ultra": {
+   "version":"1.5.7",
+   "update-index":0,
+  },
+  "lite":{
+  "version":"1.5.7",
+  "update-index":0,
+  },
+  "version_comment":"Update index can be increased to update news to the user for same version.",
   "description": "We have a new update available on asset store. Get more information from \n Window->VoxelBusters->Native Plugins->NPSettings",
   "news": {
     "Cross Platform Native Plugins": "New update 2.0 available which has massive performance boost",

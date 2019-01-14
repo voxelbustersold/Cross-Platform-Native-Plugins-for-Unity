@@ -7,6 +7,13 @@
   "version_comment":"Update index can be increased to update news to the user for same version.",
   "description": "We have a new update available on asset store. Get more information from \n Window->VoxelBusters->Native Plugins->NPSettings",
   "news": [
+    {
+             "Cross Platform Easy Save": 
+                {
+                  "link":"http://u3d.as/bV0",
+                  "description": "Access all features from Ultra Pack. Grab now at the best price available!"
+                }
+              },
               {
                 "Cross Platform Easy Save": 
                 {

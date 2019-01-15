@@ -22,7 +22,11 @@
                 }
               },
               {
-                "Cross Platform Story Kit":"Upcoming plugin which can be used to share stories along with stickers on Facebook, Instagram and Snapchat!"
+                "Cross Platform Story Kit" :
+                {
+                  "link" : "http://u3d.as/1pMn",
+                  "description":"This plugin can be used to share stories along with stickers on Instagram. Facebook and Snapchat platforms in the upcoming version!"
+                }                
               }
         ]
 }
